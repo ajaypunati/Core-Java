@@ -651,6 +651,10 @@ Array Creation:-(For Creating an array we need to follow four steps they are: De
 ---> for(int i=0;i<size;i++){
        A[i] = sc.nextInt();
    }
+//for-each loop or enhanced for loop
+-->for(int i : A){
+    System.out.println(i);
+   }
 =================================================================================================================================================================
 JAVA STRINGS:-
 ====================
