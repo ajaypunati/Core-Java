@@ -647,6 +647,10 @@ Array Creation:-(For Creating an array we need to follow four steps they are: De
    }
 -->The Maximum Range of Array is : Integer maximum value(2147483647).
 -->We can create and intialize an array in a single line by using "{}".
+//Reading the elements from console using scanner clas..
+---> for(int i=0;i<size;i++){
+       A[i] = sc.nextInt();
+   }
 =================================================================================================================================================================
 JAVA STRINGS:-
 ====================
