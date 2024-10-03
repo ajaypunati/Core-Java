@@ -661,6 +661,8 @@ Array Creation:-(For Creating an array we need to follow four steps they are: De
 Whenever you want to represent rows and columns we need to go for 2Dimensional arrays.
 synatx:-
 -->int[][] A = new int[3][3];
+          (or)
+-->int[] A[] = new int[3][3];
 for(int i=0;i<A.length;i++){
   for(int j=0;j<A[i].length;j++){
      System.oout.println(A[i][j]);
