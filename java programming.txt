@@ -682,6 +682,36 @@ JAGGED ARRAY:-
   int[][] A = new int[2][];
    A[0] = new int[4];
    A[1] = new int[3];
+
+Example program for prime Number:-
+-----------------------------------
+import java.util.Scanner;
+public class M{
+   public static void main(String args[]){
+       scanner sc =new  Scanner(System.in);
+       System.out.println("Enter the size:");
+       int s = sc.nextInt();
+       int[] A = new int[s];
+       System.out.println("Plz enter the array elements:");
+       for(int i=0;i<s;i++)
+       {
+             A[i]=sc.nextInt();
+        }
+        System.out.println("Prime Numbers for the Array are:");
+        for(int i=0;i<s;i++){
+          boolean flag = true;
+          for(int j=2;j<A[i];j++){
+                if(A[i]%j==0){
+                    flag = false;
+                    break;
+                }
+           }
+           if(flag){
+              System.out.println(A[i]);
+           }
+         }
+   }
+}
 =================================================================================================================================================================
 JAVA STRINGS:-
 ====================
