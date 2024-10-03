@@ -666,6 +666,20 @@ for(int i=0;i<A.length;i++){
      System.oout.println(A[i][j]);
   }
 }
+-->for(int[] n1 : A){ //for -each loop for 2D array.-->first convet 2D to 1D array and then 1D to normal Number.
+      for(int n : n1){
+         System.out.print(n+" ");
+      }
+  }
+
+
+JAGGED ARRAY:-
+===============
+-->Array of Arrays is called as jagged array.
+ synatx:-
+  int[][] A = new int[2][];
+   A[0] = new int[4];
+   A[1] = new int[3];
 =================================================================================================================================================================
 JAVA STRINGS:-
 ====================
