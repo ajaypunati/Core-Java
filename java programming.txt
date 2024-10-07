@@ -719,12 +719,13 @@ Time Complexity: o(n^2) -->Worst time complexity
 Space complexity : o(1)
 
 Example program:-
+---------------------
 class Main{
   public static void main(String args[]){
        int[] A = {39,19,15,12,5,6};
        int tmp=0;
        for(int i=0;i<A.length;i++){
-        int flag =09;
+        int flag =0;
          for(int j=0;j<A.length-1;j++){
              if(A[j] > A[j+1]){
                 tmp=A[j];
@@ -740,6 +741,20 @@ class Main{
           System.out.println(c);
      }
 =================================================================================================================================================================
+ARRAYS CLASS:-
+==================
+  -->Arrays class is a built-in class in java that provides variuos utility methods for working with Arrays.
+   Methods:-
+        import java.uitl.Arrays;
+        int[] Array={1,4,2,5,3,6,9};
+       1) Arrays.sort(Array_name);   //sort the elements of the array in ascending order.
+       2)int[] index=Arrays.binarySearch(Array_name,value); //search for specific element inthe array using binary search algorithm.
+       3)boolean[] equal = Arrays.equals(Array1,Array2); //compares to Arrays for eqaulity.
+       4)var list=Arrays.asList(Array_name);  //converts given array into the list.
+       5)int[] copy=Arrays.copyOfRange(Array_name,value1,value2); //copies the specified range of Array elements to another Array.
+       6)Arrays.fill(Array_name,value); //Fills specific value in to the array.
+       7)Arrays.toString(Array_name)
+==============================================================================================================================================================
 JAVA STRINGS:-
 ====================
 -->Strings are the type of objects that can store the character of values. A string acts the same as an array of characters in Java.
@@ -823,20 +838,6 @@ import java.io.*;
 -->Math.abs(x); //returns the absolute value.
 -->(int)Math.random()*10; //return the random values.
 ===============================================================================================================================================================
-ARRAYS CLASS:-
-==================
-  -->Arrays class is a built-in class in java that provides variuos utility methods for working with Arrays.
-   Methods:-
-        import java.uitl.Arrays;
-        int[] Array={1,4,2,5,3,6,9};
-       1) Arrays.sort(Array_name);   //sort the elements of the array in ascending order.
-       2)int[] index=Arrays.binarySearch(Array_name,value); //search for specific element inthe array using binary search algorithm.
-       3)boolean[] equal = Arrays.equals(Array1,Array2); //compares to Arrays for eqaulity.
-       4)var list=Arrays.asList(Array_name);  //converts given array into the list.
-       5)int[] copy=Arrays.copyOfRange(Array_name,value1,value2); //copies the specified range of Array elements to another Array.
-       6)Arrays.fill(Array_name,value); //Fills specific value in to the array.
-       7)Arrays.toString(Array_name)
-==============================================================================================================================================================
 JAVA RECURSION:-
 ====================
 -->Recursion is the technique of making a function call itself. This Technique provides a way to break down complicated problems into simple problems which are easier to solve.
