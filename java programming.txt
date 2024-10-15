@@ -770,6 +770,8 @@ public class Array{
 
 3Dimensional Array:-
 ====================
+* Patterns:-
+=============
 
 =================================================================================================================================================================
 ARRAYS CLASS:-
@@ -785,7 +787,7 @@ ARRAYS CLASS:-
        5)int[] copy=Arrays.copyOfRange(Array_name,value1,value2); //copies the specified range of Array elements to another Array.
        6)Arrays.fill(Array_name,value); //Fills specific value in to the array.
        7)Arrays.toString(Array_name)
-==============================================================================================================================================================
+=================================================================================================================================================================
 JAVA STRINGS:-
 ====================
 -->Strings are the type of objects that can store the character of values. A string acts the same as an array of characters in Java.
