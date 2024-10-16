@@ -115,7 +115,15 @@ ADVANTAGES OF JAVA:-
               -->static means direct access to the jvm(Java virtual machine)  but without creating any object.
               -->void means where as main function does not return anything.
               -->main means, it is callable environment to the java programs  where we can call user defined and pre-defined functions.
-              -->As we taking String args[] as arugment it accepts any type of any number of arguments.
+              -->why "String args[]"(String array arguements)? :- if you want to send arguments through command line then we need togo for "String[] args".
+-->We can give "synchronized, strictfp, final" keywords for main method other than static..
+-->CLA(Command Line arguements)
+-->sop(System.out.println):-
+-----------------------------
+-->"System" is a predefined class from Java.lang Package.
+-->"out" is a static variable in system class and refering printstream class.
+-->"println" is a method from printStream class.
+-->We have total 10 println methods with all primitive data types and object datatypes as arguements.
 =================================================================================================================================================================
 DIFFERENCE BETWEEN C++ AND JAVA:-
 =======================================================
@@ -201,7 +209,6 @@ PRINTING OUTPUT:-
 -->1.System.out.println("HELLO WORLD");
 -->2.System.out.print(x);
 -->3.System.out.printf("THE VALUE OF x IS :"+x);
--->"System" is a prdefined Class, "Out" is a static variabel in System Class and refering PrintStream Class, "println()" is a Method in printStream Class.
 -->while printing the floating point numbers after decimal point print only 2 digits.
 float pi=3.142345f;
 System.out.println(pi);
