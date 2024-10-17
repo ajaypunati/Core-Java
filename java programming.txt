@@ -902,6 +902,8 @@ JAVA STRINGS:-
     23) IntStream.rangeClosed(ele1 , ele2)
              .filter(num->num%2==0)
              .foreach(System.out:println)
+   24) "Character.toUpperCase(ch);"
+   25) "Character.toLowerCase(ch);"
 ================================================================================================================================================================
 STRING BUFFER && STRING BUILDER IN JAVA:-
 =========================================================
