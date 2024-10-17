@@ -597,27 +597,6 @@ backspace    ---> \b
 backslash    ---> \\
 -->While loop is called entry Controlled Loop or sentinel Loop and Do while loop is called exit controlled loop.
 =================================================================================================================================================================
-JAVA OPERATORS:-
-===================
--->Binary Arithmetic Operators:-(+,-,*,%,/)
--->unary  Arithmetic  operators:-(-,+,++(pre,post),--(pre,post));
--->Relational opeartors:-(>,<,>=,<=,==,!=)
--->Logical operators:-(&&,||,!)
--->Assignment operators:-(variable=value, = ,+=,-=,/=,*=,%=,&=,|=,^=,<<=,>>=)
--->Ternary operator:-(condition?if true:if false)
--->Bitwise operators:-(&,|,^,>>(right shift),<<(left shift))
-     -->right shfiting is nothing division by 2 and left is nothing but multiplication by2.
--->Literals are used to store binary data or hexadecimal data or all type of binary values.
-Operators Preceedence and Associativity:-
- ========================================
- 1.unary operators have high preceedence(+,-,++,--)
- 2.  (.) -->paranthesis are having Second highest priority.
- 3. *,/,% -->are having third highest priority.
- 4. +(Addition) , -(Subtraction) -->are having fourth highest priority.
-If we have same preceedence operators in the equation:
-  then for(*,/, %) the Associativity will be Left to Right.
-  then for(+,-) the Associativity will be from Right to Left.
-=================================================================================================================================================================
 JAVA ARRAYS:-
 =================
 Why wee need Arrays?
@@ -840,6 +819,66 @@ ARRAYS CLASS:-
        5)int[] copy=Arrays.copyOfRange(Array_name,value1,value2); //copies the specified range of Array elements to another Array.
        6)Arrays.fill(Array_name,value); //Fills specific value in to the array.
        7)Arrays.toString(Array_name)
+=================================================================================================================================================================
+JAVA LOGICAL STATEMENTS AND OPERATORS:-
+=========================================
+1)"if" and "else":-
+--------------------
+syntax:-
+  if(condition){//true
+       //block of statements
+  }//if we are not taking curly braces to the if block then it is going to take only one statement.
+ else{//fasle
+    //block of statements
+ }
+
+2)"Nested if":-
+----------------
+synatx:-
+ if(condition1){
+     //block of statements
+     if(condition2){
+        //block of statements
+        if(condition3){
+           //block of statements
+        }
+     }
+}
+
+3)"Nested if-else":-
+--------------------
+if(condition1){
+   //block of statements
+   if(condition2){
+      //block of statements
+  }
+}
+else{
+   if(condition 3){
+        //block of statements
+  }
+}
+
+OPERATORS:-
+===========================================================
+-->Binary Arithmetic Operators:-(+,-,*,%,/)
+-->unary  Arithmetic  operators:-(-,+,++(pre,post),--(pre,post));
+-->Relational opeartors:-(>,<,>=,<=,==,!=)
+-->Logical operators:-(&&,||,!)
+-->Assignment operators:-(variable=value, = ,+=,-=,/=,*=,%=,&=,|=,^=,<<=,>>=)
+-->Ternary operator:-(condition?if true:if false)
+-->Bitwise operators:-(&,|,^,>>(right shift),<<(left shift))
+     -->right shfiting is nothing but division by 2 and left is nothing but multiplication by2.
+
+Operators Preceedence and Associativity:-
+ ========================================
+ 1.unary operators have high preceedence(+,-,++,--)
+ 2.  (.) -->paranthesis are having Second highest priority.
+ 3. *,/,% -->are having third highest priority.
+ 4. +(Addition) , -(Subtraction) -->are having fourth highest priority.
+If we have same preceedence operators in the equation:
+  then for(*,/, %) the Associativity will be Left to Right.
+  then for(+,-) the Associativity will be from Right to Left.
 =================================================================================================================================================================
 JAVA STRINGS:-
 ====================
