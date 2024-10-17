@@ -852,11 +852,30 @@ if(condition1){
    if(condition2){
       //block of statements
   }
+  else{
+     //block of statements
+ }
 }
 else{
    if(condition 3){
         //block of statements
   }
+  else{
+   //block of statements
+  }
+}
+
+4)"if-else-if":-
+----------------
+syntax:-
+if(condition1){
+    //block of statements
+}
+else if(condition2){
+   //block of statements
+}
+else if(condition3){
+  //block of statements
 }
 
 OPERATORS:-
