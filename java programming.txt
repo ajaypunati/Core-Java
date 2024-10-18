@@ -27,7 +27,17 @@ CREATION OF JAVA:-
 -->James Ghosling is also known as Father of the java.
 -->Intially, James Ghosling call it as "GreenTalk" with the file extension as ".gt"
 -->Later on it is renamed as "OAK" and again it is renamed as "java" in the year 1995 , because "oak" is already a trademark by the "oak Technologies".
--->"java is a island in indonesia where a first coffee is produced."
+-->"java is a island in indonesia where a first coffee was produced."
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Java Divided into Three Categeories:-
+-------------------------------------
+J2SE(java 2 standard Edition)
+J2EE(java 2 Enterprise Edition)
+J2ME(java 2 Micro Edition)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+JDk:- Java Development kit(JDK) is a software development kit required to develop applications in java.When you download JDK, JRE is aslo downloaded with it.
+JRE:- Java RunTime Environment(JRE) is a software Package that provides java class libraries, jvm and other compnents that are needed to run java programs.
+JVM:- Java Virtual Machine(JVM) is an interpreter that converts byte code into machine level langauge code .
 =================================================================================================================================================================
 JAVA PROGRAM STEP BY STEP EXECUTION PROCESS:-
 ===============================================
@@ -123,11 +133,11 @@ ADVANTAGES OF JAVA:-
 -->We can give "synchronized, strictfp, final" keywords for main method other than static..
 -->CLA(Command Line arguements)
 -->sop(System.out.println):-
------------------------------
+--------------------------------
 -->"System" is a predefined class from Java.lang Package.
 -->"out" is a static variable in system class and refering printstream class.
 -->"println" is a method from printStream class.
--->We have total 10 println methods with all primitive data types and object datatypes as arguements.
+-->We have total of 10 println methods with all primitive data types and object datatypes as arguements.
 =================================================================================================================================================================
 DIFFERENCE BETWEEN C++ AND JAVA:-
 =======================================================
