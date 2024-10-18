@@ -5,14 +5,9 @@ Definition of Java:-
 -->java is a simple , High-level, secure,platform independent,Robust,Dynamic , Multi threading and Object oriented programming language used for developing Both 
    Standalone and Web(internet) Applications.
 -->java is case sensitive programming language.
+Note: not a pure object-oriented language because it supports primitive data types like int, char etc.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-How Java Started:-
-===================
--->In 1990, sun microsystems began a new project known as the Green project to work on a new Technology.
--->java was developed by or brainchild of  James gosling and his team(patrick Naughthon,Mike sherdin) at sun micro Systems in 1991.
--->intitally java named as "GreenTalk" later on it is renamed as "oak" .
--->"oak" is renamed as java in the year 1995 where java was first publicy released and later acquired by oracle corporation.
--->In 1996 java Development kit(JDK)1.0 was released.
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 WHY JAVA:-
 ===========
@@ -822,8 +817,8 @@ ARRAYS CLASS:-
 =================================================================================================================================================================
 JAVA LOGICAL STATEMENTS AND OPERATORS:-
 =========================================
-1)"if" and "else":-
---------------------
+1)simple "if" and "else":-(Decision Making)
+---------------------------------------------
 syntax:-
   if(condition){//true
        //block of statements
@@ -832,8 +827,8 @@ syntax:-
     //block of statements
  }
 
-2)"Nested if":-
-----------------
+2)"Nested if":-(Decision Making)
+-------------------------------
 synatx:-
  if(condition1){
      //block of statements
@@ -845,8 +840,8 @@ synatx:-
      }
 }
 
-3)"Nested if-else":-
---------------------
+3)"Nested if-else":-(Decision making)
+-------------------------------------
 if(condition1){
    //block of statements
    if(condition2){
@@ -865,8 +860,8 @@ else{
   }
 }
 
-4)"if-else-if":-
-----------------
+4)"if-else-if":-(Decision making)
+--------------------------------
 syntax:-
 if(condition1){
     //block of statements
@@ -877,6 +872,44 @@ else if(condition2){
 else if(condition3){
   //block of statements
 }
+
+5) "switch statement":-(Decision making)
+----------------------------------------
+A switch statement in java is used to execute a single statement when there are multiple conditions.
+synatx:-
+char ch;
+switch(expression or ch){
+     case 1 : //block of code
+              break;
+     case 2: //block of code
+             break;
+       |
+       |
+     case n: //block of code
+             break;
+     default: //block of code
+             break;
+}
+
+6) "WHILE LOOP":-(looping Statements)
+  ------------------------------------
+  -->It is also called as entry contorlled loop.
+ syntax:-
+  intialization;
+  while(condition-->boolean){
+      //block of code;
+     increment/decrement; //breaking value
+  }
+ 
+7)"DO WHILE LOOP":-(looping statments)
+---------------------------------------
+-->It is also called as exit controlled loop.
+syntax:-
+intialization;
+do{
+  //block of code;
+}while(condition);
+
 
 OPERATORS:-
 ===========================================================
