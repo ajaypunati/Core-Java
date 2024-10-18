@@ -18,25 +18,25 @@ WHY JAVA..?:-
 HISTORY OF JAVA:-
 =================
 -->Java history was started with the Green Team.
--->The Green Team started a project to develop a langauge for digital devices such as Television.
+-->The Green Team started a project to develop a language for digital devices such as Television.
 -->It works on Internet Programming.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 CREATION OF JAVA:-
 ==================
--->Java was developed by James Ghosling and his team (Mike sherdin, park Naughton) at "Sun MicroSytems INC" in the year 1991.
--->James Ghosling is also known as Father of the java.
--->Intially, James Ghosling call it as "GreenTalk" with the file extension as ".gt"
+-->Java was developed by James Ghosling and his team (Mike shredding, park Naughton) at "Sun Microsystems INC" in the year 1991.
+-->James Gosling is also known as Father of the java.
+-->Initially, James Gosling call it as "Green Talk" with the file extension as ".gt"
 -->Later on it is renamed as "OAK" and again it is renamed as "java" in the year 1995 , because "oak" is already a trademark by the "oak Technologies".
--->"java is a island in indonesia where a first coffee was produced."
+-->"java is a island in Indonesia where a first coffee was produced."
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Java Divided into Three Categeories:-
+Java Divided into Three Categories:-
 -------------------------------------
 J2SE(java 2 standard Edition)
 J2EE(java 2 Enterprise Edition)
 J2ME(java 2 Micro Edition)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 JDk:- Java Development kit(JDK) is a software development kit required to develop applications in java.When you download JDK, JRE is aslo downloaded with it.
-JRE:- Java RunTime Environment(JRE) is a software Package that provides java class libraries, jvm and other compnents that are needed to run java programs.
+JRE:- Java Runtime Environment(JRE) is a software Package that provides java class libraries, jvm and other compnents that are needed to run java programs.
 JVM:- Java Virtual Machine(JVM) is an interpreter that converts byte code into machine level langauge code .
 =================================================================================================================================================================
 JAVA PROGRAM STEP BY STEP EXECUTION PROCESS:-
