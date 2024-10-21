@@ -900,9 +900,11 @@ char ch;
 switch(expression or ch){
      case 1 : //block of code
               break;
-     case 2: //block of code
+     case 2: { //we can give curly braces
+             //block of code
              break;
-       |
+             }
+       |   
        |
      case n: //block of code
              break;
