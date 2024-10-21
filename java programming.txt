@@ -110,8 +110,8 @@ APPLICATIONS OF JAVA:-
 ADVANTAGES OF JAVA:-
 ==============================
 -->java  is a popular and widely used programming language with many advantages.
-     -->platform independent -->code can run on any jvm installed desktop
-     -->object-oriented programming -->deals the data with objects
+     -->platform independent -->compiled code can run on any jvm installed desktop(WORA)
+     -->object-oriented programming -->
      -->Simple
      -->Secure
      -->High-performance
