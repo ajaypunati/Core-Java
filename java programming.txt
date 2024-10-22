@@ -177,6 +177,7 @@ CLASS:-
 -->Class is a Blue Print of an object or it is a Template.
 -->We can call class as a user defined data type.
 -->By Default class extends from Object in java.
+-->class is a static memory allocation.
 OBJECT:-
 =========
 -->An Instance of a class is called an object.
