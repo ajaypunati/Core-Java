@@ -276,7 +276,7 @@ APPLICATION LEVEL (OR) OOPS KEYWORDS:-
  -->"instanceof" --> to check status of the object from another object.
 ---------------------------------------------------------------------------------------------------
 -->"void" -->return nothing
--->"int"  -->return something in a method based on the return type.
+-->"return"  -->return something in a method based on the return type.
 --------------------------------------------------------------------------------------------------
 -->"this" :-> this Keyword is used "To invoke current object data members".
 -->"super" :-> super keyword is used "To invoke super object data members".
