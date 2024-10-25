@@ -923,25 +923,28 @@ initialization;
 do{
   //block of code;
 }while(condition);
-
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
 OPERATORS:-
 ===========================================================
--->Binary Arithmetic Operators:-(+,-,*,%,/)
--->unary  Arithmetic  operators:-(-,+,++(pre, post),--(pre, post));
--->Relational operators:-(>,<,>=,<=,==,!=)
--->Logical operators:-(&&,||,!)
--->Assignment operators:-(variable=value, = ,+=,-=,/=,*=,%=,&=,|=,^=,<<=,>>=)
--->Ternary operator:-(condition? if true: if false)
--->Bitwise operators:-(&,|,^,>>(right shift),<<(left shift))
-     -->right shifting is nothing but division by 2 and left is nothing but multiplication by2.
+-->unary  operators:-(++(pre, post),--(pre, post))
+   Post Increment: value will print first and then increment next.
+   post Decrement: value will print first and then decrement next.
+   pre  Increment: value will increment first and then print next.
+   pre Decrement : value will decrement first and then print next.
+-->Arithmetic Operators && shift operators:- (+,-,*,%,/, >>(right shift),<<(left shift))
+     -->right shifting(>>) is nothing but division by 2 and left shift(<<) is nothing but multiplication by2.
+-->Relational operators:- (>,<,>=,<=,==,!=)
+-->Logical operators:- (&&,||,!)
+-->Assignment operators:- (variable=value, = ,+=,-=,/=,*=,%=,&=,|=,^=,<<=,>>=)
+-->Ternary operator:- (condition? if true: if false)
+-->Bitwise operators:- (&,|,^)
 
-Operators Preceedence and Associativity:-
- ========================================
- 1.unary operators have high preceedence(+,-,++,--)
- 2.  (.) -->paranthesis are having Second highest priority.
- 3. *,/,% -->are having third highest priority.
- 4. +(Addition) , -(Subtraction) -->are having fourth highest priority.
+Operators Preceedence and Associativity(BODMAS):-
+ ================================================
+ 1. unary operators have high preceedence(+,-,++,--)
+ 2. ( ) -->paranthesis are having Second highest priority.(BO)
+ 3. *,/,% -->are having third highest priority.(DM)
+ 4. +(Addition) , -(Subtraction) -->are having fourth highest priority.(AS)
 If we have same preceedence operators in the equation:
   then for(*,/, %) the Associativity will be Left to Right.
   then for(+,-) the Associativity will be from Right to Left.
