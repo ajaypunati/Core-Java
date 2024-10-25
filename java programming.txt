@@ -957,9 +957,9 @@ JAVA STRINGS:-
 -->Once String Object is Created its data or state can't be changed but new object will be created.
 -->Syntax :-
       string literal:-(<String_type>  <string_variable> = <String_Sequence>)
-          String s = "HELLO";
+          String s = "HELLO"; -->Stores value in a String Constant pool(SCP)
       String object :-
-          String s = new String("HELLO");
+          String s = new String("HELLO"); //Stores value in Heap Area.
 -->byte[] b_arr={12,13,14,15,16};
    String s= new String(b_arr);
 -->STRING METHODS:-
