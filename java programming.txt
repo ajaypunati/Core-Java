@@ -903,7 +903,16 @@ switch(expression or Ch){
              break;
      default: //block of code
              break;
-}
+} 
+     (OR)
+switch(expression){
+ case 1 --> //block of statements;
+ case 2 --> //block of statements;
+   |
+   |
+   |
+ case n --> //block of statements;
+ default --> //block of code;
 
 6) "WHILE LOOP":-(looping Statements)
   ------------------------------------
