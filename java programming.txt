@@ -128,7 +128,7 @@ ADVANTAGES OF JAVA:-
               -->static means direct access to the JVM(Java virtual machine)  but without creating any object.
               -->void means where as main function does not return anything.
               -->main means, it is callable environment to the java programs  where we can call user defined and pre-defined functions.
-              -->why "String arms[]"(String array arguments)? :- if you want to send arguments through command line then we need togo for "String[] args".
+              -->why "String arms[]"(String array arguments)? :- if you want to send arguments through command line then we need to go for "String[] arms".
 -->We can give "synchronized, strictfp, final" keywords for main method other than static..
 -->CLA(Command Line arguments)
 -->sop(System.out.println):-
@@ -938,15 +938,15 @@ OPERATORS:-
 -->Assignment operators:- (variable=value, = ,+=,-=,/=,*=,%=,&=,|=,^=,<<=,>>=)
 -->Ternary operator:- ((condition)?  true: false)
 -->Bitwise operators:- (&,|,^)
--->instanceof
+-->instance of
 
-Operators Preceedence and Associativity(BODMAS):-
+Operators Precedence and Associativity(BODMAS):-
  ================================================
- 1. unary operators have high preceedence(+,-,++,--)
- 2. ( ) -->paranthesis are having Second highest priority.(BO)
+ 1. unary operators have high precedence(+,-,++,--)
+ 2. ( ) -->parenthesis are having Second highest priority.(BO)
  3. *,/,% -->are having third highest priority.(DM)
  4. +(Addition) , -(Subtraction) -->are having fourth highest priority.(AS)
-If we have same preceedence operators in the equation:
+If we have same precedence operators in the equation:
   then for(*,/, %) the Associativity will be Left to Right.
   then for(+,-) the Associativity will be from Right to Left.
 =================================================================================================================================================================
