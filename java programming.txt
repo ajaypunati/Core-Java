@@ -932,12 +932,13 @@ OPERATORS:-
    pre  Increment: value will increment first and then print next.
    pre Decrement : value will decrement first and then print next.
 -->Arithmetic Operators && shift operators:- (+,-,*,%,/, >>(right shift),<<(left shift))
-     -->right shifting(>>) is nothing but division by 2 and left shift(<<) is nothing but multiplication by2.
+     -->Right shifting(>>) is nothing but division by 2 and Left shift(<<) is nothing but multiplication by2.
 -->Relational operators:- (>,<,>=,<=,==,!=)
 -->Logical operators:- (&&,||,!)
 -->Assignment operators:- (variable=value, = ,+=,-=,/=,*=,%=,&=,|=,^=,<<=,>>=)
--->Ternary operator:- (condition? if true: if false)
+-->Ternary operator:- ((condition)?  true: false)
 -->Bitwise operators:- (&,|,^)
+-->instanceof
 
 Operators Preceedence and Associativity(BODMAS):-
  ================================================
