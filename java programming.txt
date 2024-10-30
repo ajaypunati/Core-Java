@@ -526,19 +526,14 @@ public class TypesofMethods4 {
 JAVA CONSTRUCTORS:-
 =====================
 Why We need Constructors..?
----------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
      -->To Initializing an object and initializing instance data but not static data  we need Constructor.
      -->Without Constructor there is no chance to create the object.
---------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 What is Constructor..?
---------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 -->Constructor is a special member function which is used to initialize objects. When Object is created constructor get invoked Automatically.
--->The class name and constructor name should be same.
--->constructors can be overloaded.
--->Constructors doesn't return any values.
--->Constructors does not have any return datatypes even Void.
--->Constructors should be declared under public section.
------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 What are the types of Constructor types:
 -----------------------------------------
 -->Default Constructor:-
