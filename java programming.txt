@@ -1,4 +1,4 @@
-JAVA INTORDUCTION:-
+ JAVA INTORDUCTION:-
 =====================
 Definition of Java:-
 ====================
@@ -946,28 +946,37 @@ If we have same precedence operators in the equation:
 JAVA ACCESS MODIFIERS/SPECIFIERS:-
 ====================================
 -->"private"   :- private is a keyword, we cannot  use for a class but we can use inside the class.(The Scope of private is within  the class).
+                 USED FOR--> (inner class, variables,methods,constructors)
 -->"<default>" or undefined :- The Scope of default is within the package.
+                 USED FOR--> (class, inner classes, variables,methods,constructors,interfaces)
 -->"protected" :- protected is a keyword , we cannot use for a class but we can use inside the class.(The Scope of Protected is "within the package + outside of 
-                  the packages of subclasses:).
--->"public"    :- public is a keyword we can user for a class and also we can use inside the class. (The Scope of public is within the project Anywhere).
+                  the packages of subclasses by using sub class object reference variables).
+                  USED FOR -->(inner classes, variables, methods, constructors)
+-->"public"    :- public is a keyword we can user for a class and also we can use inside the class. (The Scope of public is anywhere in the project).
+                  USED FOR -->(class, inner classes, variables, methods, constructors, interfaces)
 -->"final"     :- final is for class then we cannot extend that class.(inheritance is not possible)
                   final is for method then we cannot override that method in child class.
                   final is for variable then we cannot change the value of that variable.
+                  USED FOR -->(class, inner classes, variables, methods)
 -->"static"    :- static is a keyword we can use for data members and blocks. 
                   if we use static for a variable or data then it is constant for all objects.
                   if we use static for a method or block then it be will loading in to the Method Area without creating object.
                   static data remains constant for every object but instance data varies for object to object.
+                  USED FOR -->(variables, methods, blocks)
 -->"abstract"  :- abstract is a keyword 
                       --> we can use for methods for declaration but not for implementation
                       --> we can use for classes for not creating an object to our class.
+                  USED FOR -->(class, methods)
 -->"strictfp"  :-  strictfp is a keyword , which strictly follows floating point data in all the systems.
+                  USED FOR --> (Class, methods)
 -->"synchronized" :- synchronized is a keyword , we can go and use in multithreading to acheive synchronization.
--->"transient"  :- transient is a keyword we can use it in serialization. 
+                  USED FOR--> (Blocks, methods)
+-->"transient"  :- transient is a keyword we can use it in serialization concept.
 -->"volatile"
 -->"native"
 ================================================================================================================================================================
-JAVA STRINGS:-
-====================
+JAVA STRING HANDLING:-
+======================
 -->Strings are the type of objects that can store the character of values. A string acts the same as an array of characters in Java.
 -->String Objects are immutable in java.
     -->Immutable in the sense the Object cannot be modified or unchanagable.
@@ -979,6 +988,7 @@ JAVA STRINGS:-
           String s = new String("HELLO"); //Stores value in Heap Area.
 -->byte[] b_arr={12,13,14,15,16};
    String s= new String(b_arr);
+
 -->STRING METHODS:-
    ===========================================
     String s = "learm share any";
