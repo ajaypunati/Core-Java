@@ -971,64 +971,72 @@ JAVA ACCESS MODIFIERS/SPECIFIERS:-
                   USED FOR --> (Class, methods)
 -->"synchronized" :- synchronized is a keyword , we can go and use in multithreading to achieve synchronization.
                   USED FOR--> (Blocks, methods)
--->"transient"  :- transient is a keyword we can use it in serialization concept.
--->"volatile"
--->"native"
+-->"transient"  :- transient is a keyword we can use it in serialization concept.(used for variables)
+-->"volatile"(used for variables)
+-->"native"(used for methods)
 ================================================================================================================================================================
 JAVA STRING HANDLING:-
 ======================
+-->String is a Non-primitive datatype or object datatype.
+-->String is a class from java.lang package.
+-->String is Immuatables(Cannot modify) where as String Buffer and String Builder are Mutable(can Modify).
+-->A Collection of characters which are represented into a single variable using "Double Quotes" is called a String.
 
+--> There are 4 ways to create String:-
+    1) String Literal:-
+    --------------------
+       String s = "Ajay"  -->Loaded into String Constant pool(SCP) --> Special memory from Heap area.
 
--->STRING METHODS:-
-   ===========================================
-    String s = "learn share any";
-    1)String length:-
-          "System.out.println(s.length());" --->returns the number of characters in the String.
-    2)String concatenate:-
-         "s1=s1.concat(s2);" -->used to concatenate the two strings
-    3)String charAt:-
-          "System.out.println(s.charAt(i));"  -->returns the character at the ith index.
-    4)String Substring:-
-         " System.out.println(s.substring(int i));"  -->returns the substring from the ith index to the end of string.
-    5)String subString:-
-         " System.out.println(s.substring(int i,int j));"  -->returns the substring from the ith index to j-1 index.
-    6)int indexOf:-
-          "System.out.println(s.indexOf(ch));"   -->Finding a index of character in String.
-    7)int lastIndexOf:-
-          "System.out.println(s.lastIndexOf("a"));" -->Finding last indexof character in the string.
-    8)String toLowerCase():-
-         " System.out.println(s.toLowerCase());"      -->returns all caharacters of the string to lower case.
-    9)String toUppercase():-
-          "System.out.println(s.toUpperCase());"      -->returns all characters of the string to Upper Case.
-    10)String equals(another string):-
-         " boolean res= s1.equals(s2);"       -->return true/false;
-         "boolean res1= s1.equalsIgnoreCase(s2);" -->return true again.
-         "s1.compareTo(s2);" -->Compares two strings lexicographically.
-         "s1.comapreTo(s2);" -->compare two Strings lexicographically,ignoring case differences.
-    11)String toCharArray():-
-          "char[] s=str.toCharArray();"
-    12)String replace(char old ,char new):-
-           "System.out.println(s.replace("f" , "g"));"
-    13)string split:-
-          "s.split("\\s+");" s.split(","); // for example String[] s = s1.split(",");
-           "String[] words=s.split("(?=[A-Z])"); //To split words in a String when we encourted a Capital Letter.
-    14)toString():-
-        String s1 = s.toString() or Integer.toString();-->used to convert given content to the string.
-        String res = Integer.toBinaryString(num);
-    15) String trim():-
-          string s1=s.trim();
+    2) String Object:-
+    ----------------------
+       String s1 = new String("Ajay1") -->Loaded into Heap Area.
+
+JAVA STRING METHODS:-
+======================
+1) "charAt(int index)" :- Returns the character at the specified index.(o/p:- character)
+   eg:- char c = s.charAt(i);
+
+2) "length()" :- Returns the Length of the String.(o/p:- integer)
+    eg:- s.length();
+
+3) "codePointAt(int index)":- Returns the unioce character at the specified index.(o/p:- return ASCII Value -->integer)
+    eg:- int res = s.codePointAt(index);
+
+4) "codePointBefore(int index)" :- Returns the unicode character before the specified index.(o/p:- integer)
+    eg:- int res1= s.codePointBefore(index);
+
+5) "equals(String s1)" :- Compare  String "s" with another String "s1".(o/p :- returns true or false)
+    eg:- boolean  res= s.equals(s1);
+
+6) "equalsIgnoreCase(String s1)" :- Compare String "s' with another String "s1" ignoring case considerations.(o/p:- return true or false)
+    eg:- boolean res1= s.equalsIgnoreCase(s1);
+
+7) "compareTo(String s1)" :- Compare two Strings lexicographically(based on ascii values).(o/p:- integer)
+    eg:- int res= s.compareTo(s1);
+
+8) "compareToIgnoreCase(String s1)" :- Compare two Strings lexicographically, ignoring case differences.(o/p:- integer)
+    eg:- int res1=s.compareToIgnoreCase(s1);
+
+9) "concat(String s1)" :- concatenate String "s1" to the end of String "s".(o/p:- String)
+   eg:- s=s.concat(s1);
+
+10) "contains(character sequence c)" :- Returns true if and only if the character 'c'  present in the character sequence of a String "s".(o/p:- boolean)
+    eg:- boolean res = s.contains("a");
+
+11) "toUpperCase()" :- Converts all the characters of a String "s" in to Upper case.(o/p:- String)
+   eg:- s.toUpperCase();
+
+12) "toLowerCase()" :- Converts all the characters of a String "s" in to Lower Case.(o/p:- String)
+    eg:- s.toLowerCase();
+
     16) "Character.isDigit(ch);" -->it will return true or false based on it is digit or not.
     17) "Character.getNumericValue(ch);" 
     18) "Character.isUpperCase();"
     19) "Character.isLowerCase();"
     20) "Integer.valueOf(ele);"
     21) "String.valueOf(ele);"
-    22) int sum = IntStream.range(ele1 , ele2).sum();
-    23) IntStream.rangeClosed(ele1 , ele2)
-             .filter(num->num%2==0)
-             .foreach(System.out:println)
-   24) "Character.toUpperCase(ch);"
-   25) "Character.toLowerCase(ch);"
+    24) "Character.toUpperCase(ch);"
+    25) "Character.toLowerCase(ch);"
 ================================================================================================================================================================
 STRING BUFFER && STRING BUILDER IN JAVA:-
 =========================================================
