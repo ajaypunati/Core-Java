@@ -1029,6 +1029,10 @@ JAVA STRING METHODS:-
 12) "toLowerCase()" :- Converts all the characters of a String "s" in to Lower Case.(o/p:- String)
     eg:- s.toLowerCase();
 
+13) "trim()" :-  
+
+
+
     16) "Character.isDigit(ch);" -->it will return true or false based on it is digit or not.
     17) "Character.getNumericValue(ch);" 
     18) "Character.isUpperCase();"
