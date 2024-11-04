@@ -1029,7 +1029,24 @@ JAVA STRING METHODS:-
 12) "toLowerCase()" :- Converts all the characters of a String "s" in to Lower Case.(o/p:- String)
     eg:- s.toLowerCase();
 
-13) "trim()" :-  
+13) "trim()" :-  To remove leading and trailing spaces in a String "s" we need to go for "trim()" method.(o/p:- String)
+    eg:- s.trim(); -->System.out.println(s.trim());
+
+14) "replace(charSequence target or delimter , charSequnce replacement)" :- To remove spaces in between a String based on Strings.(o/p:- String)
+     eg:- s.replace(" ", "");
+
+15) "replaceAll(String regexp, String replacement)" :- To Remove spaces in between a String based on regular expressions.(o/p:- String)
+    eg:- s.replaceAll(" ", "@");
+
+16) "replaceFirst(String regexp, String replacement)" :- To Remove First space in between a String based on regular expressions.(o/p:- String)
+    eg:- s.replaceFirst(" ", "@");
+
+17) "split(String regexp)" :- Splits this string around matches of the given regular expression.(o/p:- array of String)
+     String[] S2 = s.split(","); or String[] s2= s.split("//s");
+
+18) "split(String regexp, int limit)" :- Splits this string around matches of the given regular expression.(o/p:- array of Strings)
+     String[] s2= s.split("," , 3);
+
 
 
 
