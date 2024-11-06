@@ -1066,22 +1066,26 @@ JAVA STRING METHODS:-
 24) "subString(int beginIndex, int lastIndex)" :- Returns the String that is a subString of this String.(o/p:- String)
      eg:- s.subString(3,7);
 
-    16) "Character.isDigit(ch);" -->it will return true or false based on it is digit or not.
-    17) "Character.getNumericValue(ch);" 
-    18) "Character.isUpperCase();"
-    19) "Character.isLowerCase();"
-    20) "Integer.valueOf(ele);"
-    21) "String.valueOf(ele);"
-    24) "Character.toUpperCase(ch);"
-    25) "Character.toLowerCase(ch);"
+25) "valueOf(int , byte,short, long,float,..)" :- Returns the String representation of the all primitive arguments.
+     eg:- int a1=100;
+          String a2=String.valueOf(a1);
+26) "toString()" 
+
+27) "Character.isDigit(ch);" :- It will return true or false based on it is digit or not.
+  
+28) "Character.getNumericValue(ch);" 
+     
+29) "Character.isUpperCase();"
+     
+30) "Character.isLowerCase();"
+     
+31) "Character.toUpperCase(ch);"
+    
+32) "Character.toLowerCase(ch);"
 ================================================================================================================================================================
 STRING BUFFER && STRING BUILDER IN JAVA:-
 =========================================================
--->String Buffer is a Class in java that represents a mutable sequence of Characters. It provides an alternative to the immutable string class by allowing you to modify the contents of a string without creating new object every time.
--->String buffer is used to protect threads.
--->where as String builder doesn't protect threads.
-     -->StirngBufffer sb=new StringBuffer();
-      methods:-
+      Methods:-
           String sb=new StringBuffer();
           sb.append("HELLO"); --->used to add ,insert strings at the end of the buffer.
           sb.delete(1,3);     --->used to delete the characters from the buffer.
