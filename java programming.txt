@@ -1042,13 +1042,29 @@ JAVA STRING METHODS:-
     eg:- s.replaceFirst(" ", "@");
 
 17) "split(String regexp)" :- Splits this string around matches of the given regular expression.(o/p:- array of String)
-     String[] S2 = s.split(","); or String[] s2= s.split("//s");
+    eg:- String[] S2 = s.split(","); or String[] s2= s.split("//s");
 
 18) "split(String regexp, int limit)" :- Splits this string around matches of the given regular expression.(o/p:- array of Strings)
-     String[] s2= s.split("," , 3);
+     eg:- String[] s2= s.split("," , 3);
 
+19) "indexOf(int ch)" :- Returns the index of first occurence of a given subString within this String "s".(op:- integer)
+    "indexOf(int ch, int fromIndex);
+     eg:- s.indexOf('a');
 
+20) "lastIndexOf(int ch)" :- Returns the last index of a given subString within this String "s".(o/p:- integer)
+     eg:- s.lastIndexOf('a'); 
 
+21) "isEmpty()" :- Returns true if and only if the length() is "0".(o/p:- boolean)
+     eg:- boolean res= s.isEmpty();
+
+22) "toCharArray()" :- converts the given String into Array of Characters.(o/p:- char Array)
+     eg:- char[] ch = s.toCharArray();
+
+23) "subString(int beginindex)" :- Returns the String that is a subString of this String.(o/p:- String)
+      eg:- s.subString(5); 
+
+24) "subString(int beginIndex, int lastIndex)" :- Returns the String that is a subString of this String.(o/p:- String)
+     eg:- s.subString(3,7);
 
     16) "Character.isDigit(ch);" -->it will return true or false based on it is digit or not.
     17) "Character.getNumericValue(ch);" 
