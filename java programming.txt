@@ -979,8 +979,10 @@ JAVA STRING HANDLING:-
 ======================
 -->String is a Non-primitive datatype or object datatype.
 -->String is a class from java.lang package.
--->String is Immuatables(Cannot modify) where as String Buffer and String Builder are Mutable(can Modify).
+-->String is Immuatable(we cannot change the value of these  objects) object where as String Buffer and String Builder are Mutable(we can change the value of 
+   these object) objects.
 -->A Collection of characters which are represented into a single variable using "Double Quotes" is called a String.
+-->String is not thread Safe.
 
 --> There are 4 ways to create String:-
     1) String Literal:-
@@ -990,6 +992,15 @@ JAVA STRING HANDLING:-
     2) String Object:-
     ----------------------
        String s1 = new String("Ajay1") -->Loaded into Heap Area.
+
+    3) StringBuffer:-
+    -----------------------
+      StringBuffer sb = new StringBuffer("ajay");
+
+    4) StringBuilder:-
+   --------------------------
+     StringBuilder SB = new StringBuilder("ajay");
+
 
 JAVA STRING METHODS:-
 ======================
@@ -1066,7 +1077,7 @@ JAVA STRING METHODS:-
 24) "subString(int beginIndex, int lastIndex)" :- Returns the String that is a subString of this String.(o/p:- String)
      eg:- s.subString(3,7);
 
-25) "valueOf(int , byte,short, long,float,..)" :- Returns the String representation of the all primitive arguments.
+25) "valueOf(int , byte,short, long,float,..)" :- Returns the String representation of  all the  primitive arguments.
      eg:- int a1=100;
           String a2=String.valueOf(a1);
 26) "toString()" 
@@ -1084,14 +1095,20 @@ JAVA STRING METHODS:-
 32) "Character.toLowerCase(ch);"
 ================================================================================================================================================================
 STRING BUFFER && STRING BUILDER IN JAVA:-
-=========================================================
-      Methods:-
-          String sb=new StringBuffer();
-          sb.append("HELLO"); --->used to add ,insert strings at the end of the buffer.
-          sb.delete(1,3);     --->used to delete the characters from the buffer.
-          sb.reverse();        -->used to reverse the buffer.
-          sb.insert(position,string);
-          sb.replace(1,3,string);
+============================================
+StringBuffer:-
+-------------
+-->StringBuffer is a mutable Object(we can chage the value of these objects).
+-->StringBuufer is a thread safe.
+-->StingBuffer is a synchronized because its methods are thread safe and can be used in multithreading environment.
+
+syntax:-
+--------
+ StringBuffer sb = new StringBuffer();
+
+StringBuilder:-
+--------------
+-->StringBuilder is a mutable object.
 =================================================================================================================================================================
 JAVA MATH:-
 =====================
