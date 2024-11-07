@@ -916,7 +916,7 @@ initialization;
 do{
   //block of code;
 }while(condition);
------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 OPERATORS:-
 ===========================================================
 -->unary  operators:-(++(pre, post),--(pre, post))
@@ -982,7 +982,7 @@ JAVA STRING HANDLING:-
 -->String is Immuatable(we cannot change the value of these  objects) object where as String Buffer and String Builder are Mutable(we can change the value of 
    these object) objects.
 -->A Collection of characters which are represented into a single variable using "Double Quotes" is called a String.
--->String is not thread Safe.
+-->String is not a thread Safe.
 
 --> There are 4 ways to create String:-
     1) String Literal:-
@@ -1101,6 +1101,13 @@ StringBuffer:-
 -->StringBuffer is a mutable Object(we can chage the value of these objects).
 -->StringBuufer is a thread safe.
 -->StingBuffer is a synchronized because its methods are thread safe and can be used in multithreading environment.
+
+StringBuilder:-
+----------------
+-->StringBuilder is also a mutable Object(We can the value of these objects).
+-->StringBuilder is not a thread Safe.
+-->StringBuilder is not synchronized, because its methods are not thread safe and cannot be used in multithreading environment.
+
 
 syntax:-
 --------
