@@ -2,8 +2,7 @@
 =====================
 Definition of Java:-
 ====================
--->java is a simple , High-level, secure, platform independent, Robust, Dynamic , Multi threading and Object oriented programming language used for developing Both 
-   Standalone and Web(internet) Applications.
+-->java is a simple , High-level, secure, platform independent, Robust, Dynamic , Multi threading and Object oriented programming language used for developing Both Standalone and Web(internet) Applications.
 -->java is case sensitive programming language.
 Note: Not a pure object-oriented language because it supports primitive data types like int, char etc.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -60,8 +59,9 @@ ARCHITECTURE:-
 --------------
 ".class"--> 1)Class Loader Subsystem:
                  -->Loading(Classes will be loaded by this Component)
-                      -->Bootstrap Class Loader -->Responsible for loading classes find in the "jre/lib .folder"
-                      -->Extension Class Loader -->Responsible for loading Classes find in the "jre/lib/ext. folder"
+                      -->Bootstrap Class Loader -->Responsible for loading classes from BootStrap class path, Nothing but rt.jar(contins all of the compiled 
+                         class files)
+                      -->Extension Class Loader -->Responsible for loading Classes find in the ext.folder("/jre/lib").
                       -->Application Class Loader -->Responsible for loading Application-level class path, path mentioned in environment variable, etc..
                              |
                            CLASS NOT FOUND EXCEPTION
@@ -94,9 +94,10 @@ ARCHITECTURE:-
                             -->By Making the reference variable as "Nullify(t=NULL)", and assigning one reference variable to other(t1=t).When we use any one of 
                                the above method we need to call garbage Collector(System.gc()) then the Garbage Collector will Call the Finalize() method and it 
                                will remove garbage value or nullify value from the memory.
-              4)Native Method Libraries  --
-                                            |--> Any logic that  written in other language can access in java by using this native method lib and interfaces. 
-              4)Native Method Interface  --
+              4)Native Method Libraries  -- This a Collection of Native Libraries which are required for the Execution engine.
+                                            
+              4)Java Native Interface(JNI) -- JNI will be interacted with the Native method libraries and provide the Native libraries required for the 
+                                              Execution Engine.
 =================================================================================================================================================================
 APPLICATIONS OF JAVA:-
 ==========================
