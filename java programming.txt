@@ -982,7 +982,7 @@ JAVA STRING HANDLING:-
 -->String is Immuatable(we cannot change the value of these  objects) object where as String Buffer and String Builder are Mutable(we can change the value of 
    these object) objects.
 -->A Collection of characters which are represented into a single variable using "Double Quotes" is called a String.
--->String is not a thread Safe.
+-->String is a thread Safe.
 
 --> There are 4 ways to create String:-
     1) String Literal:-
@@ -1101,12 +1101,27 @@ StringBuffer:-
 -->StringBuffer is a mutable Object(we can chage the value of these objects).
 -->StringBuufer is a thread safe.
 -->StingBuffer is a synchronized because its methods are thread safe and can be used in multithreading environment.
+-->The Default Capacity of StringBuffer is 16.
 
 StringBuilder:-
 ----------------
 -->StringBuilder is also a mutable Object(We can the value of these objects).
 -->StringBuilder is not a thread Safe.
 -->StringBuilder is not synchronized, because its methods are not thread safe and cannot be used in multithreading environment.
+-->The Default capacity of StringBuilder is also 16.
+
+                        String                        StringBuilder                       StringBuffer
+                      ------------                  -------------------                 ----------------------
+Mutability->           Immutable                        Mutable                              Mutable
+
+Thread Safety->        Thread Safe                    Not thread safe                       Thread Safe
+
+Memory Efficiency->    High (SCP)                    Efficient(heap area)                   Less Efficient(heap Area)
+
+Performance->          High(No-synchornization)       High(No-synchornization)              Low(due to synchornization)
+
+usage->               This is used when we            This is used when thread              This is Used when thread safety 
+                      Want immutability                Safety is not required.              is required.
 
 
 syntax:-
