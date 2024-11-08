@@ -370,6 +370,16 @@ JAVA TYPECASTING:-
 -->Example for manual or narrowing:-
           double c = 9.0;
           int d = (int)c; -->this is nothing but explicit casting.
+
+-->Primitive data types can be converted to Wrapper class objects that conversion is called as Auto Boxing
+  eg:- int i= 10;
+       Integer i1=i;
+-->Wrapper class objects can be converted to primitve data types that conversion is called as Auto unBoxing.
+   eg:- Integer i2=100;
+        int i3=i2;
+-->All Strings can be converted to Wrapper class objects.
+  eg:- String s="123";
+       int res=Integer.parseInt(s);
 ================================================================================================================================================================
 JAVA WRAPPER CLASSES:-
 =======================
