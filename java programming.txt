@@ -90,6 +90,7 @@ ARCHITECTURE:-
                      and remaining time the JIT Compiler  will take care of it , that is the use of JIT(i.e. used for better performance of Java Applications 
                      during runtime). 
                    -->Garbage Collection:
+                        -->Garbage Collector Removes Unreferenced Objects.
                         -->This garbage Collection can be done in two ways:
                             -->By Making the reference variable as "Nullify(t=NULL)", and assigning one reference variable to other(t1=t).When we use any one of 
                                the above method we need to call garbage Collector(System.gc()) then the Garbage Collector will Call the Finalize() method and it 
