@@ -1083,11 +1083,11 @@ JAVA STRING METHODS:-
 22) "toCharArray()" :- converts the given String into Array of Characters.(o/p:- char Array)
      eg:- char[] ch = s.toCharArray();
 
-23) "subString(int beginindex)" :- Returns the String that is a subString of this String.(o/p:- String)
-      eg:- s.subString(5); 
+23) "substring(int beginindex)" :- Returns the String that is a subString of this String.(o/p:- String)
+      eg:- s.substring(5); 
 
-24) "subString(int beginIndex, int lastIndex)" :- Returns the String that is a subString of this String.(o/p:- String)
-     eg:- s.subString(3,7);
+24) "substring(int beginIndex, int lastIndex)" :- Returns the String that is a subString of this String.(o/p:- String)
+     eg:- s.substring(3,7);
 
 25) "valueOf(int , byte,short, long,float,..)" :- Returns the String representation of  all the  primitive arguments.
      eg:- int a1=100;
