@@ -1105,6 +1105,9 @@ JAVA STRING METHODS:-
 31) "Character.toUpperCase(ch);"
     
 32) "Character.toLowerCase(ch);"
+
+33) "intern()" :- Returns the canonical representation of a given String.(strng)
+     eg:- s.intern();  s1.intern();
 ================================================================================================================================================================
 STRING BUFFER && STRING BUILDER IN JAVA:-
 ============================================
