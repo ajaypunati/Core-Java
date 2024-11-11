@@ -1178,32 +1178,44 @@ Example:-
   }
 ================================================================================================================================================================
 JAVA OOPS:-
-============================
--->OOPs Stands for object oriented programming.
--->object-oriented programming is about creating objects that contains both data and Methods.
-Advantgaes/why we use oops:-
-===========================
--->oop is faster and easier to execute.
--->oop gives clear structure of program.
--->oop makes code easier to maintain and reusable.
--->oop provides security and high efficiency.
+============
+-->OOPS stands for object oriented programming structure or system.
+
+WHY...?
+-----------
+--> To write a Program in a structured or organised or proper way, we must need to  go for oops.
+
+WHAT... is OOPS?
+----------------
+--> If any program consists of below principles then we can call it  as object oriented programming.
+      1)Encapsulation -- Security or Modularity (use)
+      2)Abstraction   -- Security or flexibility (use)
+      3)Inheritance   -- Reusability(use)
+      4)polymorphism  -- Flexibility(use)
+
+where... we use?
+-----------------
+--> Without OOPS , we cannot even write any simple java program, even it is very simple java program we are using oops.    
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Following are some object oriented Principles:-
-   -->Encapsulation
-   -->Inheritance
-   -->Abstraction
-   -->Polymorphism
-=========================================
 ENCAPSULATION:-
 =======================
--->The meaning of "Encapsulation" , is to make sure that "Sensitive" data is hidden from users.To Acheive this we need to    
-     ->declare calss variables or attributes as Private.
-     ->provide public "set" and "get" methods to access and update the value of private variables.
-                                   OR
--->The process of wrapping code and data together in to a single unit is called Encapsulation.
--->Types:  function encapsulation, calss encapsulation, member variable encapsulation
-   example:-
-  ===================
+-->It is a Combination of :
+        - Data Hiding --> Hiding the data
+             +
+        - Abstraction --> Hiding the implementation.
+
+-->Encapsulation means, Binding the data or Wrapping the data with "related functionalities" in to a single unit.
+-->JAVA API is the best example of Encapsulation Mechanism.
+-->In MYSQl , Normalization is the best example of Encapsulation.
+-->Each and every class in java is following encapsulated mechanism.
+
+-->To Work on Encapsulation, we need to follow three terminologies:-
+      - we need to stop the access.                -->private keyword
+      - we should provide the modification option. --> setters
+      - we should provide the redability option.   --> getters
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Example:-
+===================
   public class Main{
        private String name;
        public String getName(){
@@ -1218,12 +1230,6 @@ ENCAPSULATION:-
           System.out.println(myobj.getName());
       }
   }
--->Why Encapsulation?
- =============================
--->Better Control of calss Attributes or variables.
--->class attributes can be made red-only or write only.
--->Increases security of data.
--->Code Maintainance.
 =================================================================================================================================================================
 INHERITANCE:-
 ===================
