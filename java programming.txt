@@ -1197,6 +1197,7 @@ where... we use?
 -----------------
 --> Without OOPS , we cannot even write any simple java program, even it is very simple java program we are using oops.    
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ENCAPSULATION:-
 =======================
 -->It is a Combination of :
@@ -1204,32 +1205,55 @@ ENCAPSULATION:-
              +
         - Abstraction --> Hiding the implementation.
 
--->Encapsulation means, Binding the data or Wrapping the data with "related functionalities" in to a single unit.
+-->Encapsulation means, Binding the data or Wrapping the data or bundling the data with "related functionalities" in to a single unit.
 -->JAVA API is the best example of Encapsulation Mechanism.
 -->In MYSQl , Normalization is the best example of Encapsulation.
 -->Each and every class in java is following encapsulated mechanism.
+-->The Object in Encapuslated class is called as DTO(Data transfer object) or PLOJO(Plain old java object) or Data Model
 
--->To Work on Encapsulation, we need to follow three terminologies:-
-      - we need to stop the access.                -->private keyword
-      - we should provide the modification option. --> setters
-      - we should provide the redability option.   --> getters
------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Example:-
-===================
-  public class Main{
-       private String name;
-       public String getName(){
-           return name;
-       }
-      public String setName(String name){
-          this.name = name;  //use this keyword
-      } 
-     public static void main(String args[]){
-          Main myobj  = new Main();
-          myobj.setName("ajay");
-          System.out.println(myobj.getName());
-      }
-  }
+Data Hiding(To work on Encapsulation) :- This can be achieved by the following three terminologies:
+      - we need to stop the access.                --> private keyword
+      - we should provide the modification option. --> setters method
+      - we should provide the redability option.   --> getters method
+
+Benefits of Encapsulation:-
+---------------------------
+-->Security
+-->Maintainability
+-->code Reusability
+-->Modularity
+
+Abstraction:- 
+==============
+-->Abstraction is the process of "Hiding the Implemetation" and "showing only essential information" to the users.
+-->By Using "Interface" and "abstract" keywords  we can achieve Abstraction.
+-->ATM machine is one of the best example of Abstraction.
+
+Interface:-
+------------
+-->Interface is a keyword used to create interface types.
+-->Interface is a SRS(service Requirement Specification) but not implementation.
+-->Interface is a contract between client and developers.
+-->For Interface we cannot create an object.
+-->Interface can extends any number of interfaces where multiple inheritance is possible with interface.
+-->if we want to implement "interface methods" we must need to use "implements" keyword.
+
+There are three types of Interfaces:
+--------------------------------------
+1) Normal Interface:-
+      --> up to 1.7 version:- A interface can contain "any number of abstract methods" + " static variables".
+      --> From 1.8 version:- In Interface we have "default methods" and "static methods".
+      --> From 1.9 version:- In Interface we have "private methods".
+    example:- List, Map, Set.
+
+2) Functional interface:-
+      -->An Interface which conatins only one "Abstract Method" is called as Functional Interface.
+   example:- Comparable, comparator.
+
+3) Marker Interface:-
+     -->An Interface which does not contain any methods is called as marker Interface.
+  example:- cloneable, seralization.
+
 =================================================================================================================================================================
 INHERITANCE:-
 ===================
