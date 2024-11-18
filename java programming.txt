@@ -1245,7 +1245,13 @@ There are three types of Interfaces:
 1) Normal Interface:-
       --> up to 1.7 version:- A interface can contain "any number of abstract methods" + " static variables".
       --> From 1.8 version:- In Interface we can have "default methods" and "static methods".
+                              -->"default methods" will help "to acheive the Backward Compatibility".
+                              -->default methods can be override.
+                              -->"static methods" will help "to provide constant behavior for all implemeted classes"
+                              --> static methods cannot be override.(this is the difference between default and static).
+                              --> we cannot call static methods by using "reference varaibles" , we can call them by using "interface names".
       --> From 1.9 version:- In Interface we  can have "private methods".
+                             -->Private Methods will help to remove duplication from default methods.
     example:- Collection, List, Map, Set.
 
 2) Functional interface:-
