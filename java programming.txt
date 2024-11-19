@@ -1223,6 +1223,7 @@ Benefits of Encapsulation:-
 -->code Reusability
 -->Modularity
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Abstraction:- 
 ==============
 -->Abstraction is the process of "Hiding the Implemetation" and "showing only essential information" to the users.
@@ -1261,6 +1262,37 @@ There are three types of Interfaces:
 3) Marker Interface:-
      -->An Interface which does not contain any methods is called as marker Interface.
   example:- cloneable, seralization, Random Access.
+
+
+Abstract Class:-
+----------------
+
+why we need "abstract class"...?
+--------------------------------
+-->Whenever we don't want to crreate an object for our class then we need to go for "abstract class".
+
+example:-
+----------
+Interface In1
+10 abstract methods 
+
+abstract class AB1 implements In1{
+ //We are implementing all the 10 abstract methods in abstract class without functionalities and creating like dummy implementation.
+ //These Methods are called as concrete methods.
+}
+class A1 extends AB1{
+  2 methods
+}
+class A2 exteds AB1
+{
+  3 methods
+}
+class A3 extends AB1{
+  4 methods
+}
+
+
+
 
 =================================================================================================================================================================
 INHERITANCE:-
