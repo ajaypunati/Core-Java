@@ -1266,10 +1266,17 @@ There are three types of Interfaces:
 
 Abstract Class:-
 ----------------
+-->Abstract is a keyword:
+     -- we can use for methods for declaration but not for implementation.
+     -- we can use for classes for not creating an object of that class. 
 
 why we need "abstract class"...?
 --------------------------------
 -->Whenever we don't want to crreate an object for our class then we need to go for "abstract class".
+-->If we use "interface" then  we need to implement all the abstract methods in it for sure in our class, but when we use abstract class,
+  we are implementing all the abstract methods without functionalities and creating a dummy implementation so from that "abstract class"  
+  we can implement client required methods(eg:-2,3,4) in a class by extending the "abstract class".(this is the difference between "Interface" and "abstract 
+  class") --> The Main reason is flexibility.
 
 example:-
 ----------
@@ -1291,7 +1298,7 @@ class A3 extends AB1{
   4 methods
 }
 
-
+Note:-
 
 
 =================================================================================================================================================================
@@ -1303,111 +1310,9 @@ INHERITANCE:-
        -->Super or base class :- (the class whose features are  inherited is known as Super Class or Parent Class)
        -->Derived or sub class:- (the class that inherits the other class is known as derived class or sub class)
 --->why we use inheritance:->it is useful for  code reusability.
-TYPES:-
-=======
-1.single-level inheritance :- One sub class is extends from super class.
-===========================================================================
-                               A(Baseclass)
-                                 |
-                               B(Derived class)
-Example:-
-===========
-     class parent{
-        public int x=2;
-    }
-    class child extends parent{
-         public int y=5;
-         public static void main(String args[]){
-             child myobj= new child();
-            System.out.println(myobj.x+" "+myobj.y);
-        }
-    }
------------------------------------------------------------
-2.Multilevel Inheritance:- one class is inherited from another class , which is already exteded from another class.
-====================================================================================================================
-                        A(Base class)
-                         |
-                        B(Intermediate class)
-                         |
-                        C(Derived class)
-Example:-
-============
-   class parent1{
-      public int x=2;
-    }
-    class child1 extends parent1{
-        public int y=3;
-    }
-    class child2 extends child1 {
-        public int z=8;
-      public static void main(String args[]){
-          child2 myobj = new child2();
-         System.out.println(myobj.x+" "+myobj.y+" " + myobj.z);
-       }
-    }
--->heirarchial Inheritance:-(Two derived class and one parent class those two derived classes are extended from one base class)
-==============================================================================================================================
-                              A(Base Class)
-                              |
-                            -   -
-                           |      |
-                    B(Derived)    C(Derived)
-Example:-
-===========
--->class parent{
-      }
-  class child1 extends parent{
-  }
-  class child2 extends parent{
-  }
-  class Main{
-     public static void main(String args[]){
-            child1 obj1 = new child1();
-            child2 obj2 = new child2();
-      }
- }
-=======================================================================================
-  Hybrid inheritance and multiple inheritance can be achieved by java interfaces.
- -->Hybrid inheritance is the combination of two or more types of inheritances.
-Advantages:-
-===========
---->code reusability
---->Abstraction
---->Method overriding
---->class heirarchy
---->polymorphism 
-========================================================================================================================================
-ABSTRACTION:-
-==========================================
--->Abstraction is the process of "hidding certain details" and "showing only essential information to the user."
--->Abstraction can be acheived with either abstract classes or interfaces.
--->Abstract class:- It is a restricted class that cannot be used to create objects(to access it , it must be inherited from another class)
--->Abstract class can have a constructor, final methods, private methods , private constructor ...
--->Abstract method:- It can be only used in abstract class and it has no body.
-Example:-
----------
-abstract class animal{     //abstract class
-     public abstract void myanimal();     //abstract method
-     public void sample(){
-          System.out.println("hello Animal");  //regular method
-     }
-}
-class forest extends animal{
-     public void myanimal(){
-          //The body of the abstract method is used here or provided here
-        System.out.println("Hello Tiger");
-     }
-}
-class Main{
- public static void main(String args[]){
-     forest f=new forest();
-     f.myanimal();
-     f.sample();
-   }
-}
-===============================================================================================================
+=================================================================================================================================================================
 POLYMORPHISM:-
-==================================
+==================
 -->polymorphism means "many forms" and it occurs when  we have many classes that are related to each other by inheritance.
 -->we can re-use attributes and methods of already existing class when a new class is created.
 -->There are two of polymorphism they are run time and compile time polymorphisms.
