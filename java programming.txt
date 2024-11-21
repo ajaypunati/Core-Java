@@ -1275,6 +1275,18 @@ why we need "abstract class"...?
 -->Whenever we don't want to create an object for our class then we need to go for "abstract class".
 -->if we need "100%" abstraction we need to go for "interface" but if we need "0 to 100 %"(10 or 20%) abstraction we need to go for "abstract class".
 
+              abstarct class                                               interface
+         ---------------------------                              -----------------------------
+1)  Abstract class can have abstract and                         1)Interface can have only abstract methods, since java8 it can have default
+    non-abstract methods.(regular,concrete)                         methods and static methods.
+2)  Abstract class can have constructors.                        2)In Interface there no constructors.
+3)  Abstract class does not support multiple inheritance.        3)Interface supports multiple inheritance.
+4)  Abstract can have final, non-final, static and               4)Interface can only have static and final variables.
+    non-static variables.
+5) The "abstract" keyword is used to declare                     5)The "Interface" keyword is used to declare Interface.
+   abstract class.
+6) Data Members of a java abstract class are private,            6) Data Members of a java interface are public by default.
+   protected,etc...
 
 example:-
 ----------
@@ -1282,8 +1294,8 @@ Interface In1
 10 abstract methods 
 
 abstract class AB1 implements In1{
- //We are implementing all the 10 abstract methods in abstract class without functionalities and creating like dummy implementation.
- //These Methods are called as concrete methods.
+  //We are implementing all the 10 abstract methods in abstract class without functionalities and creating like dummy implementation.
+  //These Methods are called as concrete methods.
 }
 class A1 extends AB1{
   2 methods
@@ -1300,6 +1312,11 @@ Note:-
 --------
 In Abstract class, we can have abstract methods, concrete methods, static and instance variables, regular methods, constructors.
 If a class is "abstract" then we no need to have "abstract methods" but if our class contains "abstract methods" then that class must be a "abstract class".
+
+Benifits of Abstraction:-
+--------------------------
+-->Security
+-->flexibility
 =================================================================================================================================================================
 INHERITANCE:-
 ===================
