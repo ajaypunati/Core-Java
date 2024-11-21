@@ -1273,10 +1273,8 @@ Abstract Class:-
 why we need "abstract class"...?
 --------------------------------
 -->Whenever we don't want to create an object for our class then we need to go for "abstract class".
--->If we use "interface" then  we need to implement all the abstract methods in it for sure in our class, but when we use abstract class,
-  we are implementing all the abstract methods without functionalities and creating a dummy implementation so from that "abstract class"  
-  we can implement client required methods(eg:-2,3,4) in a class by extending the "abstract class".(this is the difference between "Interface" and "abstract 
-  class") --> The Main reason is flexibility.
+-->if we need "100%" abstraction we need to go for "interface" but if we need "0 to 100 %"(10 or 20%) abstraction we need to go for "abstract class".
+
 
 example:-
 ----------
@@ -1300,7 +1298,7 @@ class A3 extends AB1{
 
 Note:-
 --------
-In Abstract class we may have abstract methods, concrete methods, static and instance variables.
+In Abstract class, we can have abstract methods, concrete methods, static and instance variables, regular methods, constructors.
 If a class is "abstract" then we no need to have "abstract methods" but if our class contains "abstract methods" then that class must be a "abstract class".
 =================================================================================================================================================================
 INHERITANCE:-
