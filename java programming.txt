@@ -1327,12 +1327,21 @@ why inheritance..?
 what is inheritance..?
 -------------------------
 -->Inheritance means "IS-A RelationShip" and also we will consider as "HAS-A RelationShip".
--->Getting Data members or properties from parent to child is the concept of inheritance.
+-->Getting Data members or properties from parent class to child class is the concept of Inheritance.
 
 Where we use inheritance..?
 ------------------------------
 -->Everywhere in java , without inheritance there is no single java program.
 
+Types of Inheritance:-
+-----------------------
+-->implicit inheritance
+-->single level inheritance
+-->multi level inheritance
+-->multiple inheritance -->it is not possible in java for classes but it will be possible for ionterfaces.
+-->Heirarchial inheritance
+-->Hybrid inheritance
+-->cyclic inheritance-->It is not possible in java.
 =================================================================================================================================================================
 POLYMORPHISM:-
 ==================
