@@ -1320,12 +1320,19 @@ Benifits of Abstraction:-
 =================================================================================================================================================================
 INHERITANCE:-
 ===================
--->It is possible to inherit attributes and Methods from one class to another class .
--->Inheritance is "is a" relationship .
--->Inheritance is grouped into two categeories:
-       -->Super or base class :- (the class whose features are  inherited is known as Super Class or Parent Class)
-       -->Derived or sub class:- (the class that inherits the other class is known as derived class or sub class)
---->why we use inheritance:->it is useful for  code reusability.
+why inheritance..?
+----------------------
+-->Whenever we are looking for "Reusability" then we will go for inheritance.
+
+what is inheritance..?
+-------------------------
+-->Inheritance means "IS-A RelationShip" and also we will consider as "HAS-A RelationShip".
+-->Getting Data members or properties from parent to child is the concept of inheritance.
+
+Where we use inheritance..?
+------------------------------
+-->Everywhere in java , without inheritance there is no single java program.
+
 =================================================================================================================================================================
 POLYMORPHISM:-
 ==================
