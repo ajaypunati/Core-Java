@@ -1241,6 +1241,10 @@ Interface:-
 -->If we want to Implement "interface methods" we must need to use "implements" keyword in classes.
 -->In Interface there are no constructors.
 
+why interface..?
+--------------------
+-->if we want 100% abstraction then we will go for interface concept.
+
 There are three types of Interfaces:
 --------------------------------------
 1) Normal Interface:-
