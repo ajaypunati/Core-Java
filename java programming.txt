@@ -1289,7 +1289,7 @@ why we need "abstract class"...?
     non-static variables.
 5) The "abstract" keyword is used to declare                     5)The "Interface" keyword is used to declare Interface.
    abstract class.
-6) Data Members of a java abstract class are private,            6) Data Members of a java interface are public by default.
+6) Data Members of a java abstract class are private,            6)Data Members of a java interface are public by default.
    protected,etc...
 
 example:-
@@ -1337,6 +1337,14 @@ Where we use inheritance..?
 ------------------------------
 -->Everywhere in java , without inheritance there is no single java program.
 
+-->"extends" is the keyword used to achieve inheritance.
+-->By using child class reference and child class object we can call both child class and parent class functionalities.
+-->By using parent class reference and parent class object we can call only parent class functionalities but not child class.
+-->By using parent class refrence and child class object we can call only parent class functionalities but not child class directly, where we 
+   can call child class methods which are override.(upcasting)
+-->Storing parent object and child reference is not possible in java because parent class is not extended by the child class.
+ (Downcasting is not possible in java directly but with explicit type casting we can call both child and parent class functionalities)
+
 Types of Inheritance:-
 -----------------------
 -->implicit inheritance
@@ -1346,6 +1354,70 @@ Types of Inheritance:-
 -->Heirarchial inheritance
 -->Hybrid inheritance
 -->cyclic inheritance-->It is not possible in java.
+
+1)Single Level Inheritance:-
+----------------------------
+               A(super class)
+               |
+               B(sub class)
+example:-
+class A{
+}
+class B extends A{
+}
+
+2)Multi Level Inheritance:-
+-----------------------------
+            A(super)
+            |
+            B(intermediate class)
+            |
+            c(sub)
+example:-
+class A{
+}
+class B extends A{
+}
+class c extends B{
+}
+
+3)Multiple Inhertiance :-
+-----------------------
+Multiple Inheritance is not possible in java for classes. It is possible for interfaces.
+Example:-
+class A{
+}
+class B{
+}
+class c extends B,A{
+}
+
+4)Heirarchial Inheritance:-
+-----------------------------
+      A(super)
+      |
+    -----
+    |    |
+    B    C -->sub classes
+
+example:-
+class A{
+}
+class B extends A{
+}
+clsss C extends A{
+}
+
+5)Hybrid Inheritance:-
+-----------------------
+-->It is a combination of two or more types of inheritance.
+example:-
+ class A{
+ }
+ interface B{
+ }
+ class C implements B extends A{
+ }
 =================================================================================================================================================================
 POLYMORPHISM:-
 ==================
