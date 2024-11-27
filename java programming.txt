@@ -1412,117 +1412,62 @@ clsss C extends A{
 -----------------------
 -->It is a combination of two or more types of inheritance.
 example:-
- class A{
+
+ interface A{
  }
- interface B{
+ class B{
  }
- class C implements B extends A{
+ class C extends B implements A{
  }
 
 6)cyclic Inheritance:- It is not possible in java.
 =================================================================================================================================================================
 POLYMORPHISM:-
 ==================
+Why we need to go for polymorphism..?
+--------------------------------------
+    --Flexibility, redability or loosly coupling.
+
+what is polymorphism:-
+------------------------
 -->polymorphism means "many forms" and it occurs when  we have many classes that are related to each other by inheritance.
--->we can re-use attributes and methods of already existing class when a new class is created.
--->There are two of polymorphism they are run time and compile time polymorphisms.
--->public class Animal{
-      public void Myanimal(){
-         System.out.println("I am a Animal");
-       }
-   }
-   class pig extends Animal{
-        public void Myanimal(){
-          System.out.println("The pig sounds as: pee pee ");
-        }
-   }
-   class Main{
-        public static void main(String args[]){
-            Animal myobj = new Animal();
-            myobj.Myanimal();
-            Animal myobj1 = new pig();
-            myobj1.Myanimal();
-        }
-   }
-============================================================================================================
-DIFFERENCE BETWEEN COMPILE TIME AND RUN TIME POLYMORPHISMS:-
-=================================================================
--->compile-time polymorphism:-
-==============================
--->Whenever an object is bound with it's functionality at compile time that is known as compile time polymorphism.
- -->This can be acheived by method-overloading -->method overloading says that it can have more than one fucntion with same name but different parameters in a class.
-Example:-
-========
-class Main{
-    public int add(int x , int y){
-         return x+y;
-    }
-  public double add(double x , double y){
-         return x+y;
-   }
-  public static void main(String args[]){
-      Main myobj = new Main();
-      myobj.add(3,4);
-      myobj.add(5.80,6.89);
-   }
-}
-================================================================================================================================================================
--->Run-Time polymorphism:-
-  ===========================
--->Whenever an object bound it's functionality at run-time that is known as run-time polymorphism.
--->This can be acheived by method overriding-->method overiding means when a function or method in parent is declared same as in child class and should have 
-   same parameters of same type.
-Example:-
-===========
-class parent{
-  public  void myMethod(){
-       System.out.println("Method 1");
- }
-}
-class child extends parent{
-     public void myMethod(){
-       system.out.pintln("Method 2");
-     }
- }
-class Main{
-   public static void main(String args[]){
-          child ch = new child();
-          ch.myMethod();
-    }
- }
-=====================================================
+
+-->We have two types of polymorphism they are:
+   1)compile time polymorphism (or) Method Overloading (or) static polymorphism (or) Early Binding
+   2)Run time polymorphism (or) Method Overriding (or) Dynamic Polymorphism (or) Late Binding
+
+Method Overriding (or) RunTime polymorphism:-
+----------------------------------------------
+why method overriding..?
+------------------------
+ -->Whenever we are not happy or not satisfying with the parent class functionalities then we will gor for method Overriding.
+
+what is Method overriding:-
+---------------------------
+
+Method Overriding Rules:-
+-------------------------
+1)Method Signature(name+arguments but not return type) should be same.
+2)Method return type must be same until 1.5 version, afterwards we have co-variant return types.
+  Co-variant Return type:-
+     -->Method return must be same if it is primitive datatype even after 1.5 version also.
+     -->Method return no need to be same if it is object datatype after 1.5 version  we can use co-variant return type.
+     -->Covariant return type means , If the  parent class return parent type then our child class can return the parent type or it's child type.
+         example:-
+             if Parent: Number --> Child : Number or it's sub types(Wrapper Object Datatypes)
+3)Method Scope should not be reduced.
+4)Parent class private methods , we cannot override them in child classes, if we write the "@Override" annotation or if we are not writing that annotation then the child class is considering it as a different method and there will be no error.
+5)parent class final methods, we cannot override them in child classes.
+6)Parent class static methods, we cannot override them in child classes when we are using "@Override" annotation but when we are not using that annotation then
+  it is considered as Method Hiding.
+7)If Parent class throws any exception then child class no need to throws the exception but if the child class throws any Exception then the parent class must throws that exception.
+
 Benefits of polymorphism:-
 ==========================
 -->Increases code reusability.
 -->Improves readability and maintainability.
 -->Supports dynamic binding.
 ================================================================================================================================================================
-INTERFACE IN JAVA:-
-====================================
--->Another way to acheive "Abstraction" in java is with interfaces.
--->An "Interface" is a completely "Abstract Class" that is used to group related methods with no body.
--->Example:-
-   interface animal{
-        public void animalsound(){}
-        public void sleep(){}
-   }
-  class pig extends animal{
-        public void animalsound(){
-           System.out.println("pig sound as zeeeg");  //abstract method body
-        }
-         public void sleep(){
-             System.out.println("pig sleep as zooo"); //abstract method body
-        }
- }
- class Main{
-       public static void main(String args[]){
-              pig mypig= new pig();
-              mypig.animalsound();
-              mypig.sleep();
-      }
-}
--->Similarly multiple interfaces can be developed.
-==================================================================================================================================================================
 COLLECTIONS IN JAVA:-
 =====================
 -->These provides below shown methods.
