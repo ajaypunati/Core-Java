@@ -1444,6 +1444,7 @@ why method overriding..?
 
 what is Method overriding:-
 ---------------------------
+A Method in parent class is declared with same name , arguments and return type in child class then that is called as method overriding.
 
 Method Overriding Rules:-
 -------------------------
