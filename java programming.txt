@@ -1470,7 +1470,7 @@ Method Overriding Rules:-
   it is considered as Method Hiding.
 7)If Parent class throws any exception then child class no need to throws the exception but if the child class throws any Exception then the parent class must throws that exception.
 8)Parent abstract class abstract Methods , we must need to override them in Child classes.
-9) Parent class regular methods or normal methods we can  override them as abstract methods in child class.
+9) Parent class regular methods or normal methods we can  override them as abstract methods in abstract child class.
 
 
 Method OverLoading:-
