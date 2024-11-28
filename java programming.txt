@@ -1421,6 +1421,12 @@ example:-
  }
 
 6)cyclic Inheritance:- It is not possible in java.
+
+Benifits:-
+----------
+-->Code Reusability
+-->Redability
+-->Memory efficiency
 =================================================================================================================================================================
 POLYMORPHISM:-
 ==================
@@ -1444,7 +1450,8 @@ why method overriding..?
 
 what is Method overriding:-
 ---------------------------
-A Method in parent class is declared with same name , arguments and return type in child class then that is called as method overriding.
+A Method in parent class is declared with same name , arguments and return type agiain in child class then that is called as method overriding.
+
 
 Method Overriding Rules:-
 -------------------------
@@ -1462,12 +1469,25 @@ Method Overriding Rules:-
 6)Parent class static methods, we cannot override them in child classes when we are using "@Override" annotation but when we are not using that annotation then
   it is considered as Method Hiding.
 7)If Parent class throws any exception then child class no need to throws the exception but if the child class throws any Exception then the parent class must throws that exception.
+8)Parent abstract class abstract Methods , we must need to override them in Child classes.
+9)Parent class Normal or Regular Methods, we can override them in child abstract class as abstract methods.
+
+
+Method OverLoading:-
+---------------------
+-->In  any class, if we have same methods with different types of arguments, then we can call it as Method Overloading.
+Best Example:- Println() method from printStream Class.
+
+Rules for Method Overloading:-
+-------------------------------
+Rule 1: Method Signature should not be same.
+Rule 2: Method Return type is not a part of MOL, whether it is same return type or not.
 
 Benefits of polymorphism:-
 ==========================
--->Increases code reusability.
--->Improves readability and maintainability.
--->Supports dynamic binding.
+-->Flexibility
+-->Loosely Coupling
+-->Readability
 ================================================================================================================================================================
 COLLECTIONS IN JAVA:-
 =====================
