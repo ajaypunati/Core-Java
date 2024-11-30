@@ -133,6 +133,10 @@ ADVANTAGES OF JAVA:-
               -->why "String arms[]"(String array arguments)? :- if you want to send arguments through command line then we need to go for "String[] arms".
 -->We can give "synchronized, strictfp, final" keywords for main method other than static..
 -->CLA(Command Line arguments)
+-->varaible argument:-
+       void m1(int ...a){
+       }
+
 -->sop(System. out. println):-
 --------------------------------
 -->"System" is a predefined class from Java. Lang Package.
