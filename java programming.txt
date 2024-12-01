@@ -400,25 +400,13 @@ JAVA WRAPPER CLASSES:-
        double(32 bits)          -->      Double
        char                     -->      Character
        boolean(1 bit)           -->      Boolean
--->example:
-   =======
-    import java. util.*;
-    public class M{
-        public static void main(String args[]){
-                Integer a = 5;
-                Float f = 5.66;
-                Character c = 'A';
-           System.out.println(a);
-           System.out.println(f);
-           System.out.println(c);
-       }
-   }
+
 -->For converting one primitive datatype to another datatype we have type casting but to one type to another type by using wrapper class objects we have folowing methods.
      -->byteValue();
-     -->shortVAlue();
+     -->shortValue();
      -->intValue();
-     -->longvalue();
-     -->floatvalue();
+     -->longValue();
+     -->floatValue();
      -->doubleValue();
      -->charValue();
      -->toString();
@@ -435,7 +423,7 @@ JAVA WRAPPER CLASSES:-
            System.out.println(c);
            System.out.println(f.intValue());
            System.out.println(a.doubleValue());
-          System.out.println)(c.toString());
+          System.out.println(c.toString());
        }
    }
 ================================================================================================================================================================
