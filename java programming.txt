@@ -1409,7 +1409,7 @@ example:-
  }
  class B{
  }
- class C extends B implements A{
+ class C  implements A extends B{
  }
 
 6)cyclic Inheritance:- It is not possible in java.
