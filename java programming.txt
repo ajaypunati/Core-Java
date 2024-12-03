@@ -1481,6 +1481,64 @@ Benefits of polymorphism:-
 -->Loosely Coupling
 -->Readability
 ================================================================================================================================================================
+EXCEPTION HANDLING:-
+======================
+why we need to Handle Exceptions..?
+------------------------------------
+ -->For a Graceful or successful termination of a program or Application, we need to Handle Exceptions.
+
+What is Exception?
+------------------
+-->Exception means a problem which will occur due to "Bad Logics or Bad Data".
+-->Exception is an "Unwanted Event" that occurs in a Normal Flow and the program will terminate "abnormally".
+-->The Best Example is Corona.
+-->Exception is a Pre-defined Class under "Throwable class".
+-->"Throwable" is the Parent class of two child classes("Exceptions" and "Errors") in java from java.lang package.
+
+What is Error..?
+-----------------
+-->Error , which will Occur "Due to Lack of Resources".
+-->We cannot handle the errors.
+-->Example:- Virtual Machine error(OutOfMemoryError, StackOverFlowError).
+-->compile time errors and errors are different.(compile time errors-->due to syntacticle mistakes, errors-->due to lack of resources.)
+
+-->We can handle the Exceptions by using below keywords:
+      -try
+      -catch
+      -finally
+      -throw
+      -throws
+
+Types of Exceptions:
+---------------------
+There are two types of Exceptions, they are:
+ 1) Checked Exceptions:-
+ ------------------------
+   -All "Exception classes" under "Exception class" are checked Exceptions.
+   -Any Exceptions are checked by the compiler at compile time is called as Checked Exceptions.
+   Examples:-
+  -------------
+    1)IOException
+    2)FileNotException
+    3)InterruptedException
+    4)ClassNotFoundException
+    5)SQLException
+  
+
+ 2) Unchecked Exceptions.
+----------------------------
+   -All "Exception classes" under "RunTimeException" class are Unchecked Exceptions.
+   -Any Exceptions are not checked by the compiler at compile time is called as Unchecked Exceptions.
+   Examples:-
+  ------------
+   1)ArithmeticException
+   2)NullPointerException
+   3)IndexOutOfBoundsException
+   4)ArrayIndexOutOfBoundsException
+   5)StringOutOfBoundsException
+   6)InputMismatchException
+
+================================================================================================================================================================
 COLLECTIONS IN JAVA:-
 =====================
 -->These provides below shown methods.
@@ -1724,236 +1782,9 @@ public class Iterating{
             }
        }
       System.out.println(A);
-}
+ }
 }
 ================================================================================================================================================================
-INTRODUCTION TO THREADS AND CONCURRECNY IN JAVA:-
-===================================================
--->Thread: Single Sequential flow of control within the Program.
--->Threads allows a programs to operate more efficiently by doing multiple things at the same time.
--->Threads can be used to perform complicated tasks in the background but without interrupting the main program.
--->creating threads :-
-     -->Threads can be created in two ways -->by extending the class called thread or by implementing the interface called Runnable.
-     -->Inorder to run the single Thread we use the thread by extending Thread Class.
-     -->Inorder to run the multiple threads we need to use interface called Runnable.
--->Synatx to create Threads:-
- ===============================
-     -->class Task1 extends Thread{
-           public void run(){
-                 //code
-           }
-        }
-   -->class Task2 implements Runnable{
-           public void run(){
-              //code
-           }
-      }
--->How to Run the Threads:-
-==================================
-  public class Main{
-    public static void main(String args[]){
-          Task1 task1 = new Task1();
-          task1.start();
-          Task2 task2 = new Task2();
-          Thread thread = new Thread(task2);
-          thread.start();
-     }
-   }
--->"threadname.setPriority(ele);" -->it is used to change the priority of the thread to execute.
--->"threadname.join();" -->it is used for the communication between the threads nothing but one thread has to wait until the another thread completes it's execution .
--->"Thread.sleep(ele);" -->thread utility method
--->"Thread.yeild();"    -->the yield method is used to stop one thread and give time to another thread to execute.
-=========================================================================================================================================================
--->EXAMPLE PROGRAM FOR THREADS:-
-=================================
-package com.sample;
-class Task1 extends Thread{
-	public void run() {
-		System.out.println("\nTask1 Started");
-		for(int i=101;i<=199;i++)
-		 {
-			 System.out.println(i+" ");
-		 }
-                 try {
-			Thread.sleep(10000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		 System.out.println("\nTask1 Done");
-	}
-}
-class Task2 implements Runnable{
-	public void run()
-	{
-		System.out.println("\nTask2 Started");
-		for(int i=201;i<=299;i++)
-		 {
-			 System.out.println(i+" ");
-		 }
-                 Thread.yeild(); //it is a thread utility method.
-		 System.out.println("\nTask2 Done");
-	}
-}
-public class ThreadTasks {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-         //Task1
-		System.out.println("\nTask1 Kickedoff");
-		Task1 task1 = new Task1();
-                task1.setPriority(5);       //it will changes the prority of threads to execute.
-		task1.start();
-		 //Task2 
-		System.out.println("\nTask2 Kickeoff");
-		 Task2 task2= new Task2();
-		 Thread thread = new Thread(task2);
-                 thread.setPriority(1);
-		 thread.start();
-                 //wait for task1 and task2 to complete their execution
-                  task1.join();
-                  task2.join();
-                //task3 
-		 System.out.println("\nTask3 Kickedofff");
-		 for(int k=301;k<=399;k++)
-		 {
-			 System.out.println(k+" ");
-		 }
-		 System.out.println("\nTask3 Done");
-	}
-}
--->Physical States of Thread:-
-  ===========================
-  -->"NEW"
-  -->"RUNNABLE"
-  -->"RUNNING"
-  -->"BLOCKED/WAITING"
-  -->"TERMINATED/DEAD"
-===============================================================================================================================================================
-MULTI THREADING IN JAVA:-
-============================
--->THREAD:- single sequential flow of control within the program.
--->Single threaded process can only handle one task at any time.
--->multi-tasking allows single process to run several concurrent threads.
-Advantages:-
-===========
--->reactive systems
--->parallel processing
--->server can handle mutliple clients simultaneoulsy.
--->Different processes do not share memory spaces.
-================================================================================================================================================================
-JAVA EXCEPTIONS:-
-===================
--->When Executing java Code, different errors can occur:  coding errors made by the programmer , errors due to wrong input ...
--->when an error occurs java will stop normally and shows an error message . The Technical term for this is java will throw an exception.
--->There are two types of exceptions they are :
-      -->checked Exceptions -- Exceptions Which are checked during for during compile time are called as checked Exceptions.
-      -->Unchecked Exceptions --Exceptions which are not checked for  during compile time  or Exceptions which are checked for during run time are called as 
-       unchecked Exceptions.eg: Arithmetic Exception, NullPointer Exception, etc..
--->Try-Catch block handles both checked and unchecked Exceptions.
--->Throws keyword handles only checked Exception.
-JAVA TRY AND CATCH:-
-====================
--->The "try" Statement allows you to define a block of code to be tested for errors while it is being executed.
--->The "catch" Statement allows you to define a block of code to be executed , if an error occurs in the try block.
-SYNTAX:
-=======
-try{
-   //Block of code to try.
-}
-catch(Exception e){
-      //Block of code to handle errors.
-}
-
-Example program:
-===============
-import java.util.*;
-public class Main{
-  public static void main(Stirng args[]){
-      try{
-          int[] myNumber= {1,2,3,4};
-          System.out.println(myNumbers[10]);
-      }
-      catch(Exception e){
-           System.out.println("Something went wrong");
-     }
-  } 
-}
-
-Throw:-
-=======
--->The "throw" statement allows  you to create a custom error.
--->The "throw" statement is used together with an exception type. There are many Exception types in java they are
-  "ArithmeticException" ,"FileNotFoundException", "ArrayIndexOutOfBoundsException", "SecurityException" , etc..
--->Example:-
-=============
-public class Main {
-  static void checkAge(int age) {
-    if (age < 18) {
-      throw new ArithmeticException("Access denied - You must be at least 18 years old.");
-    }
-    else {
-      System.out.println("Access granted - You are old enough!");
-    }
-  }
-
-  public static void main(String[] args) {
-    checkAge(15); // Set age to 15 (which is below 18...)
-  }
-}
-=================================================================================================================================================================
-JAVA ENUMS:-
-==============
--->An "enum" is a special class that represents a group of "Constants".
--->To create an "enum" , use the enum KeyWord and sperate the constants with comma.
-Synatx:-
-  enum level{
-     low,
-     Middle,
-     High
- }
--->We can access the enum constants with dot syntax operator.
-     level myVar = level.Middle;
--->we can use "enum"  often inside a class.
-   public class Main{
-      enum level{
-          low,
-          middle,
-          high
-      }
-       public static void main(String args[]){
-          level myVar = level.middle;
-          System.out.println(myVar);
-       }
- }
--->We can use "enum" often inside the  switch case also..
-   enum Level {
-  LOW,
-  MEDIUM,
-  HIGH
-}
-public class Main {
-  public static void main(String[] args) {
-    Level myVar = Level.MEDIUM;
-
-    switch(myVar) {
-      case LOW:
-        System.out.println("Low level");
-        break;
-      case MEDIUM:
-         System.out.println("Medium level");
-        break;
-      case HIGH:
-        System.out.println("High level");
-        break;
-    }
-  }
-}
--->Loop through Enum:
-    for (Level myVar : Level.values()) {
-             System.out.println(myVar);
-     }
-=================================================================================================================================================================
 JAVA CHAPTER 1 INTERVIEW QUESTIONS:-
 =====================================
 -->Why u choose java and what are the features of java?
