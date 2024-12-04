@@ -1515,7 +1515,8 @@ There are two types of Exceptions, they are:
  1) Checked Exceptions:-
  ------------------------
    -All "Exception classes" under "Exception class" are checked Exceptions.
-   -Any Exceptions are checked by the compiler at compile time is called as Checked Exceptions.
+   -Any Exceptions which are checked by the compiler at compile time is called as Checked Exceptions.
+
    Examples:-
   -------------
     1)IOException
@@ -1528,7 +1529,8 @@ There are two types of Exceptions, they are:
  2) Unchecked Exceptions.
 ----------------------------
    -All "Exception classes" under "RunTimeException" class are Unchecked Exceptions.
-   -Any Exceptions are not checked by the compiler at compile time is called as Unchecked Exceptions.
+   -Any Exceptions which are not checked by the compiler at compile time is called as Unchecked Exceptions.
+
    Examples:-
   ------------
    1)ArithmeticException
