@@ -1533,8 +1533,8 @@ There are two types of Exceptions, they are:
 
    Examples:-
   ------------
-   1)ArithmeticException
-   2)NullPointerException
+   1)ArithmeticException : If any Number divisible by Zero then we will get "ArithmeticException".
+   2)NullPointerException : "null" with any thing is a Null pointer Exception.
    3)IndexOutOfBoundsException
    4)ArrayIndexOutOfBoundsException
    5)StringOutOfBoundsException
