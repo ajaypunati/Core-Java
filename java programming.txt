@@ -1494,6 +1494,12 @@ What is Exception?
 -->The Best Example is Corona.
 -->Exception is a Pre-defined Class under "Throwable class".
 -->"Throwable" is the Parent class of two child classes("Exceptions" and "Errors") in java from java.lang package.
+-->We can handle the Exceptions by using below keywords:
+      -try
+      -catch
+      -finally
+      -throw
+      -throws
 
 What is Error..?
 -----------------
@@ -1502,12 +1508,6 @@ What is Error..?
 -->Example:- Virtual Machine error(OutOfMemoryError, StackOverFlowError).
 -->compile time errors and errors are different.(compile time errors-->due to syntacticle mistakes, errors-->due to lack of resources.)
 
--->We can handle the Exceptions by using below keywords:
-      -try
-      -catch
-      -finally
-      -throw
-      -throws
 
 Types of Exceptions:
 ---------------------
@@ -1534,11 +1534,11 @@ There are two types of Exceptions, they are:
    Examples:-
   ------------
    1)ArithmeticException : If any Number divisible by Zero then we will get "ArithmeticException".
-   2)NullPointerException : "null" with any thing is a Null pointer Exception.
-   3)IndexOutOfBoundsException
-   4)ArrayIndexOutOfBoundsException
-   5)StringOutOfBoundsException
-   6)InputMismatchException
+   2)NullPointerException : "null" with any operation is a Null pointer Exception.
+   3)IndexOutOfBoundsException 
+   4)ArrayIndexOutOfBoundsException : If we give size of an array more than expected then we will get "ArrayIndexOutOfBoundsException".
+   5)StringOutOfBoundsException : If we try to access the index which is not available in String then we will get "StringOutOfBoundsException".
+   6)InputMismatchException  : If we have declared input as Integer but we are giving String input in console then we will get "InputMissMatchException".
 
 ================================================================================================================================================================
 COLLECTIONS IN JAVA:-
