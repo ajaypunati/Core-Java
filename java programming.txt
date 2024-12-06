@@ -1524,7 +1524,8 @@ There are two types of Exceptions, they are:
     3)InterruptedException
     4)ClassNotFoundException
     5)SQLException
-  
+
+  -->
 
  2) Unchecked Exceptions.
 ----------------------------
