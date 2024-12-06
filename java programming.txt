@@ -1540,6 +1540,20 @@ There are two types of Exceptions, they are:
    5)StringOutOfBoundsException : If we try to access the index which is not available in String then we will get "StringOutOfBoundsException".
    6)InputMismatchException  : If we have declared input as Integer but we are giving String input in console then we will get "InputMissMatchException".
 
+Note:-
+1)Only "try" block is not possible, we must need to provide "catch or finally" blocks.
+2)"try" block is to keep problamatic code.
+3)If there is a problem in  try block then catch block will executes.
+4)If there is a problem or not in try block the finally block will always executes.
+5)We can have Multiple catch blocks.
+6)We cannot have Multiple finally blocks.
+7)try ->catch -> finally order is important.
+8)The first catch block never be a parent Excepiton.
+9)Only try, only catch, only finally blocks are not possible.
+10)Catch with finally  is also not possible wihtout try block. 
+11)We cannot write any other statements between "try" and "catch" blocks.
+12)We can stop finally block by using "System.exit(0);"
+13)Nested try-catch blocks are possible in try block, catch block and finally block also.
 ================================================================================================================================================================
 COLLECTIONS IN JAVA:-
 =====================
