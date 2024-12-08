@@ -1,7 +1,41 @@
- JAVA INTORDUCTION:-
-=====================
-Definition of Java:-
-====================
+JAVA INTORDUCTION:-
+=========================
+Why we need to learn JFS..?
+=============================
+-->To Develop the Applications, who can
+    -Take the request
+    -Process the request
+    -Send the response to the end user.
+ ->There are 3 types of Applications:
+    1)Desktop Applications(notepad,word,calculator,...)
+    2)Web Based Applications(Facebook, Whatsapp, SBI,HDFC,...)
+    3)Mobile Applications(notepad, Facebook)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Where we can use all these Concepts..?(Java, FET or UI, SQL)
+=============================================================
+-->In Generic, For Each and Every Application we have "4" layers:
+
+ ->user -->Request   -->Response --> end user.
+                |   |
+                |   |
+    1)View layer or presentation Layer(FET or UI):
+        -->Taking the request from the end user, and we can create web pages like home page, login page, error page, signup page,etc...
+                |   |
+                |   |
+    2)Controller Layer(J2SE, J2EE, Frameworks):
+        -->Peroforming the Validations and Bussiness logics based on requirements.
+        -->Processing the request
+                |   |
+                |   |
+    3)Data Access Layer(JDBC or Hibernate):
+       -->Translates the Java Technologies in to Database understandle Language and vice versa.
+                |   |
+                |   |
+    4)Data Layer(SQL : MYSQl or Oracle)
+        ->Database, it is going to store the data and manipulate the data based of CRUD Operations.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Definition of Java or What is Java:-
+=====================================
 -->java is a simple , High-level, secure, platform independent, Robust, Dynamic , Multi threading and Object oriented programming language used for developing Both Standalone and Web(internet) Applications.
 -->java is case sensitive programming language.
 Note: Not a pure object-oriented language because it supports primitive data types like int, char etc.
