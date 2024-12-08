@@ -146,18 +146,7 @@ APPLICATIONS OF JAVA:-
 =================================================================================================================================================================
 ADVANTAGES OF JAVA:-
 ==============================
--->java  is a popular and widely used programming language with many advantages.
-     -->platform independent -->compiled code can run on any Platform(OS) where JVM is installed(WORA).
-     -->object-oriented programming -->
-     -->Simple
-     -->Secure
-     -->High-performance
-     -->memory management
-     -->multi-threading
-     -->community support
-     -->Dynamic
-     -->Robust-->Garbage Collection and exception handling makes the java programming as Robust.
-     -->Architecture Neutral -->it is not depend on the Architecture design.
+
 =================================================================================================================================================================
 -->What is meant by "public static void main(String[] arms)"?
      -->In public static void main(String arms[])
@@ -1174,14 +1163,6 @@ StringBuilder:-
 --------------
 -->StringBuilder is a mutable object.
 =================================================================================================================================================================
-JAVA MATH:-
-=====================
-import java.io.*;
--->Math.max(x,y); //returns the maximum value.
--->Math.min(x,y); //returns the minimum value.
--->Math.abs(x); //returns the absolute value.
--->(int)Math.random()*10; //return the random values.
-===============================================================================================================================================================
 JAVA RECURSION:-
 ====================
 -->Recursion is the technique of making a function call itself. This Technique provides a way to break down complicated problems into simple problems which are easier to solve.
