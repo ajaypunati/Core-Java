@@ -20,7 +20,7 @@ Where we can use all these Concepts..?(Java, FET or UI, SQL)
                 |   |
                 |   |
     1)View layer or presentation Layer(FET or UI):
-        -->Taking the request from the end user, and we can create web pages like home page, login page, error page, signup page,etc...
+        -->Taking the request from the end user, and creating web pages like home page, login page, error page, signup page,etc...
                 |   |
                 |   |
     2)Controller Layer(J2SE, J2EE, Frameworks):
@@ -148,7 +148,7 @@ FEATURES OR ADVANTAGES OF JAVA:-
 ===============================
 1)Java is Simple -->why? 
    -->It's Syntax is Simple.
-   -->In java, They removed Complicated Features like Pointers and Introduced References(Address of the objects).
+   -->In java, They removed Complicated Features like Pointers and Introduced References(Address of the object).
    -->In java, We have AGC(Auto matic Garbage Collection).
 
 2)Java is High-level --> why?
@@ -159,16 +159,29 @@ FEATURES OR ADVANTAGES OF JAVA:-
      1)Compilation(JDK) --> Source code ---> byte code (.class extension)
      2)Execution(JVM)   --> byte code --> machine level language -->(Low level Language) --> os -->output.
 
-3)Java is Robust -->why?
-  -->
+3)Java is Platform Independent -->why?
+  --> platform means: OS + Processor
+  --> Java is Platfrom Independent because, Compiled source code(byte code) can execute on any platform(Os) using Java Virtual Machine.
+  --> We should not share source code with anyone, we only share the .class file (byte code).
 
-4)Java is Platform Independent -->why?
-  -->
+4)Java is Robust -->why?
+  -->Robust means "Strong".
+  -->Java is Robust Due to:
+       -->Strong Memory Management
+       -->Exception Handling
+       -->Multi threading
 
 5)Java is Secure --> why?
-  -->
+  -->Java is Secure due to it's :
+       -->byte code verifier
+       -->Access modifiers
+       -->Encapsulation
+       -->Abstraction
+       -->No Explicit Pointers
 
-6)Java is Object oriented Programming
+6)Java is Object oriented Programming -->why?
+    -->Everything in java is Object.
+    -->It is not Purely object oriented becasue it supports primitive data types like int, char, byte, etc...
 =================================================================================================================================================================
 -->What is meant by "public static void main(String[] arms)"?
      -->In public static void main(String arms[])
