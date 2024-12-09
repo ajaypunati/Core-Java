@@ -147,10 +147,17 @@ APPLICATIONS OF JAVA:-
 FEATURES OR ADVANTAGES OF JAVA:-
 ===============================
 1)Java is Simple -->why? 
-   -->
+   -->It's Syntax is Simple.
+   -->In java, They removed Complicated Features like Pointers and Introduced References(Address of the objects).
+   -->In java, We have AGC(Auto matic Garbage Collection).
 
 2)Java is High-level --> why?
-   -->
+   -->High level Means English language or Human Understandle Language but "OS" does not understand English language,
+     it Understands Only Low level Language. 
+  -->Then What we need to do..? --> Convert high level to low level.
+  -->For conversion we need to follow two steps:-
+     1)Compilation(JDK) --> Source code ---> byte code (.class extension)
+     2)Execution(JVM)   --> byte code --> machine level language -->(Low level Language) --> os -->output.
 
 3)Java is Robust -->why?
   -->
