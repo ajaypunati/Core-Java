@@ -144,9 +144,24 @@ APPLICATIONS OF JAVA:-
   -->"EMBEDDED SYSTEMS"
   -->"GAMING".
 =================================================================================================================================================================
-ADVANTAGES OF JAVA:-
-==============================
+FEATURES OR ADVANTAGES OF JAVA:-
+===============================
+1)Java is Simple -->why? 
+   -->
 
+2)Java is High-level --> why?
+   -->
+
+3)Java is Robust -->why?
+  -->
+
+4)Java is Platform Independent -->why?
+  -->
+
+5)Java is Secure --> why?
+  -->
+
+6)Java is Object oriented Programming
 =================================================================================================================================================================
 -->What is meant by "public static void main(String[] arms)"?
      -->In public static void main(String arms[])
@@ -180,8 +195,8 @@ DIFFERENCE BETWEEN C++ AND JAVA:-
     6.c++ supports pointers and we can write a pointer program     6.java does not supports pointers instead they developed references(address of the objects)
     7.c++ supports operator overloading                            7.java doesn't supports operator overloading.
 =================================================================================================================================================================
-WHAT A CLASS CAN CONTAIN:-
-==========================
+WHAT DOES A CLASS  CONTAIN:-
+==============================
 1) Data Members:
         -->Static Data members(variables + Methods)
         -->instance Data Members(Variables + Methods)
@@ -194,20 +209,22 @@ WHAT A CLASS CAN CONTAIN:-
 4)Interfaces
 5)Inner Classes
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
-CLASS:-
-=======
--->Class is a Blue Print of an object or it is a Template.
+WHAT IS CLASS:-
+==============
+-->Class is a Blue Print(plan) of an object or it is a Template.
 -->We can call class as a user defined data type.
 -->By Default class extends from Object in java.
 -->class is a static memory allocation.
-OBJECT:-
-=========
--->An Instance of a class is called an object.
+
+WHAT IS OBJECT:-
+==================
+-->An Instance(Example) of a class is called an object.
 -->Object is a Dynamic Memory Allocation.
 -->Object is a real time entity.
 -->Object consists of state , behavior and Identity.
 Note: Where as Class is Dummy and Object is Real.
 -->The Java Compiler will provide default constructor for your class to create an object.
+
 creating object:-
 -----------------
 -->ClassName A = new ClassName();
@@ -352,7 +369,8 @@ LOGICAL STATEMENT:-
 JAVA  DATATYPES:-
 =======================================
 -->There are Two types of Data types in java : they are "Primitive Data types " and "Non-primitive datatypes"
--->Primitive datatype's in java are pre-defined by a java language and named as the reserved keywords. As primitive datatypes does not share a state with other primitive values. The Data in data types is stored in a 2's complement way. ( -2^n to 2^n-1)
+-->Primitive datatype's in java are pre-defined by a java language and named as the reserved keywords. 
+-->As primitive datatypes does not share a state with other primitive values. The Data in data types is stored in a 2's complement way. ( -2^n to 2^n-1)
 -->byte (Byte)        ->size->1byte(8 bits)-->max value we can store in byte is 127 and min value is -128 -->byte bytevar;
                                                                                                 (Byte.SIZE,Byte.MAX_VALUE,Byte.MIN_VALUE);
 -->short(Short)       ->size->2bytes(16 bits)-->max value we can store in short is 32767 and min value is -32768 -->short shortvar; 
@@ -603,18 +621,6 @@ RULES FOR CONSTRUCTORS:-
 10)In java ,constructor overloading is possible.
 11)In one Constructor, we cannot call both this() and super().
 12)The scope of "default constructor" is the "scope of class".
-================================================================================================================================================================
-ESCAPE SEQUENCES:-
-==================
-single quote ---> ' '
-double quote ---> " "
-new line     ---> \n
-tab space    ---> \t
-carriage return --> \r
-Form Feed    ---> \f
-backspace    ---> \b
-backslash    ---> \\
--->While loop is called entry Controlled Loop or sentinel Loop and Do while loop is called exit controlled loop.
 =================================================================================================================================================================
 JAVA ARRAYS:-
 =================
@@ -1224,8 +1230,8 @@ Data Hiding(To work on Encapsulation) :- This can be achieved by the following t
       - we should provide the modification option. --> setters method
       - we should provide the redability option.   --> getters method
 
-Benefits of Encapsulation:-
----------------------------
+Benefits of Encapsulation(why):-
+------------------------------
 -->Security
 -->Maintainability
 -->code Reusability
@@ -1430,8 +1436,8 @@ example:-
 
 6)cyclic Inheritance:- It is not possible in java.
 
-Benifits:-
-----------
+Benifits(why):-
+---------------
 -->Code Reusability
 -->Redability
 -->Memory efficiency
