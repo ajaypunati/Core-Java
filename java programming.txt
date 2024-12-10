@@ -1567,6 +1567,9 @@ There are two types of Exceptions, they are:
     4)ClassNotFoundException
     5)SQLException
 
+  -->throws: thorws is the keyword to satisfy the compiler when we are having checked Exceptions.
+  -->throw : throw the exceptions Explicitly to the jvm whether it is prdefined or user defined Exception.
+
 
  2) Unchecked Exceptions.
 ----------------------------
@@ -1612,10 +1615,8 @@ FILE IO(File Handling):-
 
   ->Serialization
 =================================================================================================================================================================
-
 COLLECTIONS IN JAVA:-
 =====================
--->These provides below shown methods.
 -->"Collections.sort(arr_name or list_name); " -->It is used to sort the elements of array or list.
 -->"Collections.copy(arr1,arr2) ;" -->It is used to copy elements from one array to another array. 
 -->"Collections.swap(arr,index1,index2);" --">It is used to swap elements of the array.
@@ -1629,8 +1630,8 @@ COLLECTIONS IN JAVA:-
 -->"Collections.rotate(arr,how_many_rotations);
 so these are some the important methods they can be by using collections. 
 =================================================================================================================================================================
-COLLECTION FRAME WORK IN JAVA:-
-==================================
+COLLECTION FRAME WORK OR COLLECTION API(Java.util):-
+===================================================
 -->Any Group of individual objects which are represented as a single unit known as collection of objects. In java, a seperate framework named as  "COLLECTION 
    FRAMEWORK" has been defined in java jdk1.2 which holds the collection classes and interfaces.
 -->following are some of the collection data structures in java.
