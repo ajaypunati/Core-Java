@@ -1561,8 +1561,8 @@ There are two types of Exceptions, they are:
 
    Examples:-
   -------------
-    1)IOException
-    2)FileNotException
+    1)IOException  : when we are calling "creatNewFile()" then we are getting "IOException".
+    2)FileNotException : 
     3)InterruptedException
     4)ClassNotFoundException
     5)SQLException
@@ -1583,7 +1583,7 @@ There are two types of Exceptions, they are:
    2)NullPointerException : "null" with any operation is a Null pointer Exception.
    3)IndexOutOfBoundsException 
    4)ArrayIndexOutOfBoundsException : If we give size of an array more than expected then we will get "ArrayIndexOutOfBoundsException".
-   5)StringOutOfBoundsException : If we try to access the index which is not available in String then we will get "StringOutOfBoundsException".
+   5)StringIndexOutOfBoundsException : If we try to access the index which is not available in String then we will get "StringOutOfBoundsException".
    6)InputMismatchException  : If we have declared input as Integer but we are giving String input in console then we will get "InputMissMatchException".
 
 Custom Exceptions or User Defined Exceptions:-
