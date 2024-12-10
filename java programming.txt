@@ -1545,7 +1545,7 @@ What is Exception?
 
 What is Error..?
 -----------------
--->Error , which will Occur "Due to Lack of Resources".
+-->Error means a problem which will Occur "Due to Lack of Resources".
 -->We cannot handle the errors.
 -->Example:- Virtual Machine error(OutOfMemoryError, StackOverFlowError).
 -->compile time errors and errors are different.(compile time errors-->due to syntacticle mistakes, errors-->due to lack of resources.)
@@ -1569,6 +1569,7 @@ There are two types of Exceptions, they are:
 
   -->throws: thorws is the keyword to satisfy the compiler when we are having checked Exceptions.
   -->throw : throw the exceptions Explicitly to the jvm whether it is prdefined or user defined Exception.
+   
 
 
  2) Unchecked Exceptions.
@@ -1584,6 +1585,11 @@ There are two types of Exceptions, they are:
    4)ArrayIndexOutOfBoundsException : If we give size of an array more than expected then we will get "ArrayIndexOutOfBoundsException".
    5)StringOutOfBoundsException : If we try to access the index which is not available in String then we will get "StringOutOfBoundsException".
    6)InputMismatchException  : If we have declared input as Integer but we are giving String input in console then we will get "InputMissMatchException".
+
+Custom Exceptions or User Defined Exceptions:-
+-----------------------------------------------
+-->Any class that extends "Excpetion Class" then we can consider it as Checked Exception.
+-->Any Class that extends "RuntimeException" class then we can consider it as Unchecked Exception.
 
 Note:-
 1)Only "try" block is not possible, we must need to provide "catch or finally" blocks.
