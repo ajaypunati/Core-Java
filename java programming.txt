@@ -1656,17 +1656,18 @@ why Collections..?
    4)DeQueue
 
    5)Set
-   6)SoretedSet
+   6)SortedSet
    7)NavigableSet
 
    8)Map
-   9)SoretedMap
+   9)SortedMap
    10)NavigableMap
-
-   
-
-
-
+----------------cursors------------------
+   11)Enumeration
+   12)Iterator
+   13)ListIterator
+   14)Comparable
+   15)Comparator
 =================================================================================================================================================================
 COLLECTIONS IN JAVA:-
 =====================
