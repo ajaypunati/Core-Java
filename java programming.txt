@@ -1250,12 +1250,11 @@ Data Hiding(To work on Encapsulation) :- This can be achieved by the following t
       - we should provide the modification option. --> setters method
       - we should provide the redability option.   --> getters method
 
-Benefits of Encapsulation(why):-
-------------------------------
--->Security
--->Maintainability
--->code Reusability
--->Modularity
+why Encapsulation..?
+--------------------
+-->To Achieve Security or Modularity.
+-->"let us say , we are having a database that consists of data , and how this data is transfering to the UI, means, we are having a object in java class with same name as table name and the fields of database are my java class variabales, Now i need to secure my data from others acessing directly and i will provide 
+only modificatioj by  using setter method and redability by using getters method."
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Abstraction:- 
