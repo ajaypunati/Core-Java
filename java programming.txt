@@ -1621,6 +1621,53 @@ FILE IO(File Handling):-
 
   ->Serialization
 =================================================================================================================================================================
+COLLECTIONS FRAME WORK OR COLLECTIONS API(Java.util):-
+=====================================================
+Frameworks:-
+-------------
+->A system of rules or ideas which help you to decide what to do.
+
+-->There are two Chapters in Collections Frame work they are:
+     1)Collections Framework or Collections API is a chapter to discuss Collection Objects.(Interface)
+     2)Collections is a utility class.
+
+why Collections..?
+-------------------
+-->To Structering the  data in a proper way or organised way, we need to go for concept of Collections Chapter.
+-->Representing  Collection of Objects in to a single entity, that entity can be any collection framework Object.
+
+          Array                            vs                          Collections
+   ------------------                                           --------------------------
+1)Array is a fixed in size , we cannot                     1)Collections are Growable in nature at runtime.
+  change it in runtime.
+2)Arrays Can allow only homogeneous                        2)Collections can allow both homogeneous and heterogeneous 
+  data elements.                                              data elements.
+3)Arrays can allow both primitive datatypes                3)Collections can allow only object Data types to store the elements.
+  and object data types to store the elements.
+4)Memory POV Arrays are not recommended to use.            4)Memory POV Collections are recommended to use.
+5)Performance POV Arrays are recommended to use            5)Performance POV Collections are not recommended to use when compare to arrays.
+  when we know exact array size.
+
+-->Collections framework Available from java.util package.
+-->We are going to learn "15" interfaces in Collections, they are:
+   1)Collection
+   2)List
+   3)Queue
+   4)DeQueue
+
+   5)Set
+   6)SoretedSet
+   7)NavigableSet
+
+   8)Map
+   9)SoretedMap
+   10)NavigableMap
+
+   
+
+
+
+=================================================================================================================================================================
 COLLECTIONS IN JAVA:-
 =====================
 -->"Collections.sort(arr_name or list_name); " -->It is used to sort the elements of array or list.
@@ -1636,236 +1683,6 @@ COLLECTIONS IN JAVA:-
 -->"Collections.rotate(arr,how_many_rotations);
 so these are some the important methods they can be by using collections. 
 =================================================================================================================================================================
-COLLECTION FRAME WORK OR COLLECTION API(Java.util):-
-===================================================
--->Any Group of individual objects which are represented as a single unit known as collection of objects. In java, a seperate framework named as  "COLLECTION 
-   FRAMEWORK" has been defined in java jdk1.2 which holds the collection classes and interfaces.
--->following are some of the collection data structures in java.
--->They are:-
-        -->ArrayList
-        -->LinkedList
-        -->HashSet
-        -->LinkedHashSet
-        -->TreeSet
-        -->HashMap
-        -->LinkedHashMap
-        -->TreeMap
-JAVA ARRAYLIST:-
-====================
--->The "ArrayList" class is a  resizable array which can be found in the java.util package.
--->The difference between  "built-in array" and "ArrayList" is that for the built array we cannot add or remove elements to/from the built-in array whereas for 
-   ArrayList the elements can be added or removed at any place or position.
--->vector is a thread safe and ArrayList is not a thread safe.
--->mutable collection.
--->SYNTAX:-
-      import java.util.ArrayList;
-      List<data_type> Arraylist = new ArrayList<>();
-                   or
-      ArrayList<data_type> ArrayName = new ArrayList<data_type>();
--->SOME OF THE USEFUL METHODS THAT ARRAYLIST CLASS HAS:-
-   -->"A.add(ele);"  -->it is used to add elements in to the arraylist.
-   -->"A.add(index, ele);" -->it is used to add element at the specific position in the list.
-   -->"A.addAll(newList);" --> it is used to addall elements of newList to the already existing ArrayList.
-   -->"A.get(i);"  -->it is used to access elements inthe arraylist.
-   -->"A.set(index, ele);" -->it is used to replace elements at particular position in the arraylist.
-   -->"A.remove(index);" -->it is used to remove element at particular index in the arraylist.
-   -->"A.indexOf(ele);" -->it will return index of the specific element.
-   -->"A.clear();" -->it will entire arraylist.
-   -->"A.size();" -->it will print size of the arraylist.
-   -->"A.contains(ele);" -->it will checck for whether the element exits or not.and return true or false.
-   -->"A.isEmpty();" -->it will true or false based on whether the ArrayList is empty or not.
-   -->"A.endsWith("ch");"
-   -->"A.startsWith("ch");"
--->for(String c : cars){
-      if(c.endsWith("a")){
-          System.out.println(c);
-      }
-      if(c.startsWith("V")){
-         System.out.println(c);
-      }
-}
--->for(int i=0;i<A.size();i++){
-    System.out.println(A.get(i));
- }
--->for(int x:A){
- system.out.println(x);
-}
-================================================================================================================================================================
-JAVA LINKEDLIST:-
-====================
--->java  LinkedList Class is same as Java ArrayList Class both are having same methods to perform operations.
--->The difference between ArrayList and LinkedList are insertion and deletion of elements are faster in LinkedList when compared to ArrayList.
--->mutable collection.
-SYNTAX:-
-========
-import java.util.LinkedList;
-List<data_type> linkedlist = new LinkeList<>();
-          or
-LinkedList<data_type> L = new LinkedList<data_type>();
--->Following are some of the useful methods that LinkedList has:-
-     -->"L.add(ele);" 
-     -->"L.add(index,ele);"
-     -->"L.get(i);"  --->it is used to access the items in linked list.
-     -->"L.size();"
-     -->"L.set(i,ele);"   -->it is used to replace an item at the specific position inthe linkedlist.
-     -->"L.remove(i);"    -->it is used to remove specific item in the linkedlist at specific position.
-     -->"L.clear();"
-     -->"L.contians(ele);"  -->return true or false .whether the element presento or not.
-     -->"L.isEmpty();"       -->return true or false. whether it is empty or not.
-     -->"L.addFirst(parameter);" -->adds an item to the beginning of the  list.
-     -->"L.addLast(parameter);"  -->adds an item to the end of the list.
-     -->"L.removeFirst();" -->removes an item from the begging of the list.
-     -->"L.removeLast();" -->removes an item from the end of the list.
-     -->"L.getFirst();" -->get an item at the beginning of the list.
-     -->"L.getLast();" -->get an item at the end of the list.          ---->These two methods should be in print statements.
-     -->"L.endsWith("ch");"
-     -->"L.startsWith("ch");"
--->for(String c : cars){
-      if(c.endsWith("a")){
-          System.out.println(c);
-      }
-      if(c.startsWith("V")){
-         System.out.println(c);
-      }
-}
-================================================================================================================================================================
- JAVA HASHSET:-
-==================
--->It is used to store collection of items where every item is unique and it can found in java.util package.
--->immutable collection.
--->It does not cares about sorted order and  insertion order.
-SYNTAX:-
-=======
-import java.util.HashSet;
- Set<data_type> Hashset = new HashSet<>();
-            or
- HashSet<data_type> HashSet_Name = new HashSet<data_type>();
-
--->Following are some of the useful methods that HashSet has:-
-     -->"HashSet_Name.add(ele);" --> it is used to add elements in to the Hashset without caring about insertion and sorted order.
-     -->"HashSet_Name.addAll(newSet);"
-     -->"HashSet_Name.Contains(ele);" -->it will check whether the element present in the set or not.
-     -->"HashSet_Name.size();" -->it will return size of the set.
-     -->"HashSet_Name.clear();" -->it will delete entire set at a time.
-     -->"HashSet_Name.remove(ele);" -->it will remove specific element in the HashSet.
-     -->"HashSet_Name.isEmpty();" -->return true or false  based on whether the HashSet is empty or not.
--->for(int i : HashSet_Name) {
-         System.out.println(i);
-    }
-=================================================================================================================================================================
-JAVA TREESET:-
-====================
--->TreeSet cares about sorted Order but not about insertion order.
--->HashSet does not cares about both sorted and insertion order.
--->LinkedHashSet cares about insertion order but not about sorted order.
-SYNTAX:-
-========
-Set<data_type> numbers = new TreeSet<>();
-      or
-TreeSet<data_type> treeset = new TreeSet<data_type>();
--->"numbers.add(ele);" -->it will add  items into the set in sorted order without caring about insertion order.
--->"numbers.floor(ele);" -->it will return the element that is less than or equal to the given parameter.
--->"numbers.lower(ele);" -->it will return the element that is less than the given parameter.
--->"numbers.ceil(ele);" -->it will the return the element that is greater than or equal to the given parameter.
--->"numbers.higher(ele);" -->it will the return the element that is greater than the given parameter.
--->"numbers.subSet(ele1, ele2);" -->ex: [10,12,14,15,17, 18,20,24,26] -->numbers.subSet(15,20); -->[17,18]
--->"numbers.headSet(ele);" -->it will return the elements that are before to the given parameter.
--->"numbers.tailSet(ele);" -->it will return the elements that are after to the given parameter.
-=================================================================================================================================================================
-PRIORITY QUEUE:-
-=================
-SYNTAX:-
-==========
-Queue<Data_type> q = new priorityQueue<data_type>();
--->"q.addAll(newList);" -->it is used to add list of items in to the list.
--->"q.offer(ele);" --->it is used to add element/item in to the queue.
--->"q.poll();"     --->it is used to bring out elements from the queue.
--->"q.remove();"
--->"q.peek();"
-===============================================================================================================================================================
-JAVA MAP:-
-=================
--->MAP stores items or elements as key value pairs.
--->it does not allows duplicates.
--->"HashMap" -->it is unsorted and unordered.
--->"LinkedHashMap" -->it maintains or cares about insertion order.
--->"TreeMap" -->it maintains or cares about sorted order.
-SYNTAXES:-
-================
--->Map<key,value> map= Map.of("A" , 1 , "B" , 2, "c" , 3);
--->"HashMap<key, value > map = new HashMap<>();"
--->"LinkedHashMap<key,value> map1 = new LinkedHashMap<>();"
--->"TreeMap<key,value> map2 = new TreeMap<>();"
-Following are some of the useful methods that MAP has:-
--->"map.put(key,value);" -->it is used to insert key and values into the map.
--->"map.get(key);" -->it is used to access value by using key.
--->"map.size();" -->it will return size of map.
--->"map.clear(); " -->it will delete entire map.
--->"map.isEmpty();" -->it will return true or false based on whether map is empty or not.
--->"map.containsKey(key);" -->it will return true or false.
--->"map.containsValue(value); " -->it will return true or false.
--->"map.remove(key);" -->it is used to remove specific value in the map.
--->"map2.higherkey(key);" --> it will print the key that is greater than the given key.
--->"map2.ceilingKey(key);" --> it will print the key that is grater than or equal to the given key.
--->"map2.lowerKey(key);"  -->it will print the key that is less than the given key.
--->"map2.floorKey(key);"  -->it will print the key that is less than or equal to the given key.
--->"map2.firstEntry();"   -->it will print the first key in the map.
--->"map2.lastEntry();"    -->it will print the last key or entry in the map.
--->"map2.subMap("key1-range" , "key2-range");" -->it will print the subMap of the gievn range.
--->for(data_type c : map.keySet()){
-     System.out.println(c); -->it will print all the keys of a map.
-  }
--->for(data_type c : map.values()){
-        System.out.println( c); -->it will print all the values in a map.
-   }
--->To access elements of array into map use the following process:
-      for(int i=0;i<A.size();i++){
-             m.put(key, m.getOrDefault(key,0)+1);
-      }
--->To print Keys ina map by using the map values use the foolowing logic:
- for (Map.Entry<Integer, Integer> entry : m.entrySet()) {
-            if (entry.getValue().equals(cnt)) {
-                a.add(entry.getKey());
-            }
-        }
-================================================================================================================================================================
-JAVA ITERATOR:-
-===================
--->java "Iterator" is an object that can be used to loop through collections like "ArrayList" and "HashSet". It is called an iterator because iterating is the technical term for looping.
--->Syntax for creating iterator:-
- ====================================
-import java.util.Iterator;
-Iterator<data_type> it = Collection_name.iterator();
-Example:-
-========
-import java.util.ArrayList;
-import java.util.Iterator;
-public class Iterating{
-    public static void main(String args[]){
-          ArrayList<Integer> A = new ArrayList<>();
-          A.add(1); 
-          A.add(10);
-          A.add(14);
-          A.add(16);
-          A.add(18);
-         //get the iterator
-         Iterator<Integer> it = A.iterator();
-         //prints the first term
-         System.out.println("it.next()");
-        //looping through iterator.
-        while("it.hasNext()"){
-             System.out.println(it.next());
-        }
-        while(it.hasNext()){
-            Integer i = it.next();
-            if(i< 10){
-               "it.remove();"  //remove items from arraylist or collection by using iterator
-            }
-       }
-      System.out.println(A);
- }
-}
-================================================================================================================================================================
 JAVA CHAPTER 1 INTERVIEW QUESTIONS:-
 =====================================
 -->Why u choose java and what are the features of java?
