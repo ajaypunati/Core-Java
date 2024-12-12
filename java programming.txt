@@ -1562,9 +1562,10 @@ There are two types of Exceptions, they are:
   -------------
     1)IOException  : when we are calling "creatNewFile()" then we are getting "IOException".
     2)FileNotException : when we are using "FileReader()" then we are getting "FileNotFoundException".
-    3)ClassNotFoundException : 
-    4)InterruptedException 
-    5)SQLException
+    3)ClassNotFoundException : when we are calling "Class.forName("Oracle.jdbc.driver.OracleDriver"); then we are geeting "ClassNotFoundException".
+    4)SQLException : when we are calling "DriverManager.getConnection("url","username","password"); then we will get "SQL EXCEPTIOn".
+    5)InterruptedException 
+   
 
   -->throws: thorws is the keyword to satisfy the compiler when we are having checked Exceptions.
   -->throw : throw the exceptions Explicitly to the jvm whether it is prdefined or user defined Exception.
