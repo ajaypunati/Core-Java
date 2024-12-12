@@ -1650,23 +1650,50 @@ why Collections..?
 -->Collections framework Available from java.util package.
 -->We are going to learn "15" interfaces in Collections, they are:
    1)Collection
-   2)List
+   2)List : ArrayList, LinkedList, Vector, Stack and CopyOnWriteArrayList -->Implemented classes of List Interface.
    3)Queue
    4)DeQueue
 
    5)Set
    6)SortedSet
    7)NavigableSet
-
+---------------------------------------------
    8)Map
    9)SortedMap
    10)NavigableMap
-----------------cursors------------------
+----------------cursors---------------------
    11)Enumeration
    12)Iterator
    13)ListIterator
    14)Comparable
    15)Comparator
+---------------------------------------------
+-->All the Collection Interfaces are child interfaces of Collection (root interface)
+-->Iterbale is the root interface of Collection Interface.
+
+1)Collection:-
+--------------
+  -The root "Interface" in the Collection Heirarchy.
+  -A Collection represents a group of objects, known as its elements.
+  -Some Collections Allow duplicate elements and other do not.
+  -some are ordered and others Unordered.
+  -The JDK Does not provide any direct implementations for Collection Interface.
+  -It provides implementations of more specific subInterfaces Like Set and List.
+
+synatx:-
+-------------
+Collection<Integer> c = new ArrayList<>();
+               or
+List<Integer> c = new ArrayList<>();
+              or
+ArrayList<Integer> c = new ArrayList<>();
+
+Collection<String> c1= new ArrayList();
+
+Method Summary:-
+----------------
+1) c.add(E e);  //Here E represents Datatype and expecting a element as argument.
+2) c.addAll(c1); //Here it is Expecting a Collection as argument.
 =================================================================================================================================================================
 COLLECTIONS IN JAVA:-
 =====================
