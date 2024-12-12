@@ -1561,15 +1561,13 @@ There are two types of Exceptions, they are:
    Examples:-
   -------------
     1)IOException  : when we are calling "creatNewFile()" then we are getting "IOException".
-    2)FileNotException : 
-    3)InterruptedException
-    4)ClassNotFoundException
+    2)FileNotException : when we are using "FileReader()" then we are getting "FileNotFoundException".
+    3)ClassNotFoundException : 
+    4)InterruptedException 
     5)SQLException
 
   -->throws: thorws is the keyword to satisfy the compiler when we are having checked Exceptions.
   -->throw : throw the exceptions Explicitly to the jvm whether it is prdefined or user defined Exception.
-   
-
 
  2) Unchecked Exceptions.
 ----------------------------
@@ -1668,7 +1666,7 @@ why Collections..?
    14)Comparable
    15)Comparator
 ---------------------------------------------
--->All the Collection Interfaces are child interfaces of Collection (root interface)
+-->All the Collection Interfaces are child interfaces of Collection (root interface).
 -->Iterbale is the root interface of Collection Interface.
 
 1)Collection:-
