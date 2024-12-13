@@ -1702,6 +1702,7 @@ Method Summary:-
 9)c.iterator(); //Returns the Collections Elements as an Iterator(one after another).
 10)c.remove(ele); //Removes the specific elements from the Collection.
 11)c.removeAll(c1);
+12)c.size(); //returns size of the Collection object.
 =================================================================================================================================================================
 COLLECTIONS IN JAVA:-
 =====================
