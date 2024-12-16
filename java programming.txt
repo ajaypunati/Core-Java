@@ -1691,20 +1691,21 @@ Collection<String> c1= new ArrayList();
 
 Method Summary:-
 ----------------
-1)c.add(E e);  //Here E represents Datatype and expecting  element as argument. It is a method to add elements into Collection.//boolean
-2)c.addAll(c1); //Here it is Expecting a Collection as argument. //boolean
-3)c.clear();  // It is a method to remove all of the Collection elements. //void
-4)c.contains(E e); // It will return true if the Collection contains Specified element.//boolean
-5)c.containsAll(c1); //It will return true if this Collection Contains all of the elements of Specified Collection.//boolean
-6)c.equals(c1);  //It is a method to compare this Collection "c" with the Specified Collection "c1". //boolean
-7)c.hashCode();  //It will return a unique value of our Collection.
-8)c.isEmpty();  //It will return true if and only if the Collection contains no elements.//boolean 
-9)c.iterator(); //Returns the Collections Elements as an Iterator(one after another).(boolean -->hasNext()  -->Object -->next())//Iterator Interface
-10)c.remove(ele); //Removes the specific elements from the Collection. //boolean
-11)c.removeAll(c1); //boolean
-12)c.size(); //returns size of the Collection object.
-13)c.toArray(); //It is a method to convert Collection Object into Array.//Object[]
-14)String[] y = x.toArray(new String[0]);
+ *    c.add(E e) //boolean, it is a method to add element into collection and expecting element as argument.
+ *    c.addAll(Collection<?> c1); //boolean, it is a method to add another Collection to this Collection.
+ *    c.clear(); //void , it is a method to clear elements int the enitre Collection.
+ *    c.contains(E e); //boolean , it will return true if and only the element contains inthe collection.
+ *    c.conatainsAll(Collection<?>c1); //boolean , it will return true if and only if the entire Collection elements
+      present in this Collection. 
+ *    c.equals(Collection<?> c1); //boolean, It will comapre this Collection "c" with the Specified Collection"c1"
+ *    c.isEmpty(); //boolean, it will return true if the Speicfied Collection is Empty.
+ *    c.hashCode(); //int return hash code value of this collection.
+ *    c.iterator(); //Iterator , Returns an iterator over the elements in this collection.
+ *    c.remove(E e); //boolean , It is a method to remove  specified element from the collection.
+ *    c.removeAll(Collection<?> c1); //boolean
+ *    c.size(); //int , it is a method to return size of the collection.
+ *    c.toArray(); //Object[] , it is a method to convert Collection into Array.
+ *    String y=x.toArray(new String[0]);
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 2)List Interface:-
 -----------------
