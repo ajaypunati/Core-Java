@@ -8,7 +8,7 @@ Why we need to learn JFS..?
     -Process the request
     -Send the response to the end user.
  ->There are 3 types of Applications:
-    1)Desktop Applications(notepad,word,calculator,...)
+    1)Desktop Applications(notepad,word, calculator,...)
     2)Web Based Applications(Facebook, Whatsapp, SBI,HDFC,...)
     3)Mobile Applications(notepad, Facebook)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -20,19 +20,19 @@ Where we can use all these Concepts..?(Java, FET or UI, SQL)
                 |   |
                 |   |
     1)View layer or presentation Layer(FET or UI):
-        -->Taking the request from the end user, and creating web pages like home page, login page, error page, signup page,etc...
+        -->Taking the request from the end user, and creating web pages like home page, login page, error page, signup page, etc...
                 |   |
                 |   |
     2)Controller Layer(J2SE, J2EE, Frameworks):
-        -->Peroforming the Validations and Bussiness logics based on requirements.
+        -->Performing the Validations and Business logics based on requirements.
         -->Processing the request
                 |   |
                 |   |
     3)Data Access Layer(JDBC or Hibernate):
-       -->Translates the Java Technologies in to Database understandle Language and vice versa.
+       -->Translates the Java Technologies in to Database understandable Language and vice versa.
                 |   |
                 |   |
-    4)Data Layer(SQL : MYSQl or Oracle)
+    4)Data Layer(SQL : MySQL or Oracle)
         ->Database, it is going to store the data and manipulate the data based of CRUD Operations.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Definition of Java or What is Java:-
@@ -149,10 +149,10 @@ FEATURES OR ADVANTAGES OF JAVA:-
 1)Java is Simple -->why? 
    -->It's Syntax is Simple.
    -->In java, They removed Complicated Features like Pointers and Introduced References(Address of the object).
-   -->In java, We have AGC(Auto matic Garbage Collection).
+   -->In java, We have AGC(Auto Matic Garbage Collection).
 
 2)Java is High-level --> why?
-   -->High level Means English language or Human Understandle Language but "OS" does not understand English language,
+   -->High level Means English language or Human Understandable Language but "OS" does not understand English language,
      it Understands Only Low level Language. 
   -->Then What we need to do..? --> Convert high level to low level.
   -->For conversion we need to follow two steps:-
@@ -161,7 +161,7 @@ FEATURES OR ADVANTAGES OF JAVA:-
 
 3)Java is Platform Independent -->why?
   --> platform means: OS + Processor
-  --> Java is Platfrom Independent because, Compiled source code(byte code) can execute on any platform(Os) using Java Virtual Machine.
+  --> Java is Platform Independent because, Compiled source code(byte code) can execute on any platform(Os) using Java Virtual Machine.
   --> We should not share source code with anyone, we only share the .class file (byte code).
 
 4)Java is Robust -->why?
@@ -181,7 +181,7 @@ FEATURES OR ADVANTAGES OF JAVA:-
 
 6)Java is Object oriented Programming -->why?
     -->Everything in java is Object.
-    -->It is not Purely object oriented becasue it supports primitive data types like int, char, byte, etc...
+    -->It is not Purely object oriented because it supports primitive data types like int, char, byte, etc...
 =================================================================================================================================================================
 -->What is meant by "public static void main(String[] arms)"?
      -->In public static void main(String arms[])
@@ -192,7 +192,7 @@ FEATURES OR ADVANTAGES OF JAVA:-
               -->why "String arms[]"(String array arguments)? :- if you want to send arguments through command line then we need to go for "String[] arms".
 -->We can give "synchronized, strictfp, final" keywords for main method other than static..
 -->CLA(Command Line arguments)
--->varaible argument:-
+-->variable argument:-
        void m1(int ...a){
        }
 
@@ -247,9 +247,9 @@ Note: Where as Class is Dummy and Object is Real.
 
 creating object:-
 -----------------
--->ClassName A = new ClassName();
+-->Class Name A = new Class Name();
           or
-    new ClassName();
+    new Class Name();
 =================================================================================================================================================================
 READING INPUT IN JAVA:-
 ========================
@@ -263,11 +263,6 @@ Scanner class:- Scanner Class is a predefined class in "java. util" package
      float f  =sc.nextFloat();
      String q =sc.nextLine(); or sc.next();
      Char ch  =sc.next().charAt(0 or i);
-BufferedReader class:-
-    -->InputStreamReader s=new InputStreamReader(System.in);
-    -->BufferedReader br=new BufferedReader(s);
-       ---->int n = Integer.parseInt(br.readLine());
-       --->float f= Float.parseFloat(br.redLine());
 =================================================================================================================================================================
 -->To find Number of digits in the given number use this logic: (int)Math.log10(num)+1;
 -->TO separate the digits from first then use the below logic:
@@ -357,7 +352,7 @@ ACCESS MODIFIERS KEYWORDS(12):-
                   if we use static for a variable or data then it is constant for all objects.
                   if we use static for a method or blocks then it will loading to  the memory without creating object.
 -->"strictfp" :-  strictly follows floating point data in all the systems.
--->"synchronized" :-synchronized is a keyword , we can go and use in multithreading to acheive synchronization.
+-->"synchronized" :-synchronized is a keyword , we can go and use in multithreading to achieve synchronization.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 -->"final" :-  final is for class then we cannot extends that class.
                final is for method then we cannot override that method in child class.
@@ -463,7 +458,7 @@ JAVA WRAPPER CLASSES:-
        char                     -->      Character
        boolean(1 bit)           -->      Boolean
 
--->For converting one primitive datatype to another datatype we have type casting but to one type to another type by using wrapper class objects we have folowing methods.
+-->For converting one primitive datatype to another datatype we have type casting but to one type to another type by using wrapper class objects we have :
      -->byteValue();
      -->shortValue();
      -->intValue();
@@ -541,7 +536,7 @@ TYPES OF METHODS:-
 -->We cannot write one method inside another method.
 -->we can write a block inside of the Any Method.
 -->we can call one method in another different method.
--->we can call the method in same method but we will get stackoverflow error.
+-->we can call the method in same method but we will get stack overflow error.
 -->The main aim of creating methods is to reuse the code any number of times.
 -->There are 4 types of methods they are:
     -->Method with no "return type" and with "no arguments".
@@ -594,14 +589,14 @@ public class TypesofMethods4 {
 JAVA CONSTRUCTORS:-
 =====================
 Why We need Constructors..?
------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
      -->To Initializing an object and initializing instance data but not static data  we need Constructor.
      -->Without Constructor there is no chance to create the object.
------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What is Constructor..?
------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -->Constructor is a special member function which is used to initialize objects. When Object is created constructor get invoked Automatically.
------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What are the types of Constructor types:
 -----------------------------------------
 -->Default Constructor:-
@@ -622,7 +617,7 @@ What are the types of Constructor types:
          methods is known as constructor chaining. 
 -->Copy Constructor
        -->if we are copying one constructor into another constructor by using object reference variable.
---------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 RULES FOR CONSTRUCTORS:-
 ----------------------------
 1)Class name and Constructor name must be same.
@@ -641,7 +636,7 @@ RULES FOR CONSTRUCTORS:-
 10)In java ,constructor overloading is possible.
 11)In one Constructor, we cannot call both this() and super().
 12)The scope of "default constructor" is the "scope of class".
-=================================================================================================================================================================
+====================================================================================================================================================================
 JAVA ARRAYS:-
 =================
 Why wee need Arrays?
@@ -655,7 +650,7 @@ What is Array?
  -->Array is an object.
  -->Array is a index based, collection of homogeneous data elements into a single unit with fixed size.
  -->Array is a fixed and mutable(i.e. we can replace the value of a array element)
-Array Creation:-(For Creating an array we need to follow four steps they are: Declaration, Creation, Intialization, Representation)
+Array Creation:-(For Creating an array we need to follow four steps they are: Declaration, Creation, Initialization, Representation)
 =================
 1) Declaration
     --> int[] ages;
@@ -774,7 +769,8 @@ class Main{
 
 Selection Sort Algorithm:-
 ===========================
-Selection sort is a Straightforward sorting Algorithm that operates by repeatedly finding the minimum element from an unsorted section of array and moving it to the beginning. This process continues until the entire array is sorted.
+Selection sort is a Straightforward sorting Algorithm that operates by repeatedly finding the minimum element
+, from an unsorted section of array and moving it to the beginning. This process continues until the entire array is sorted.
 Time Complexity : o(n^2)
 Space Complexity: o(1)
 
@@ -1033,7 +1029,7 @@ JAVA STRING HANDLING:-
 ======================
 -->String is a Non-primitive datatype or object datatype.
 -->String is a class from java.lang package.
--->String is Immuatable(we cannot change the value of these  objects) object where as String Buffer and String Builder are Mutable(we can change the value of 
+-->String is Immutable(we cannot change the value of these  objects) object where as String Buffer and String Builder are Mutable(we can change the value of 
    these object) objects.
 -->A Collection of characters which are represented into a single variable using "Double Quotes" is called a String.
 -->String is a thread Safe.
@@ -1047,7 +1043,7 @@ JAVA STRING HANDLING:-
     ----------------------
        String s1 = new String("Ajay1") -->Loaded into Heap Area.
 
-    3) StringBuffer:-
+    3) String Buffer:-
     -----------------------
       StringBuffer sb = new StringBuffer("ajay");
 
@@ -1175,7 +1171,7 @@ Thread Safety->        Thread Safe                    Not thread safe           
 
 Memory Efficiency->    High (SCP)                    Efficient(heap area)                   Less Efficient(heap Area)
 
-Performance->          High(No-synchornization)       High(No-synchornization)              Low(due to synchornization)
+Performance->          High(No-synchronization)       High(No-synchronization)              Low(due to synchronization)
 
 usage->               This is used when we            This is used when thread              This is Used when thread safety 
                       Want immutability                Safety is not required.              is required.
@@ -1189,35 +1185,13 @@ StringBuilder:-
 --------------
 -->StringBuilder is a mutable object.
 =================================================================================================================================================================
-JAVA RECURSION:-
-====================
--->Recursion is the technique of making a function call itself. This Technique provides a way to break down complicated problems into simple problems which are easier to solve.
-Example:-
-  public class Main{
-      public static void main(String args[]){
-           Scanner s = new Scanner(System.in);
-           int num=s.nextInt();
-           int res= sum(num); 
-          System.out.println(res);
-     }
-     public static int sum(int n){ 
-          if(n>0){
-               return n+sum(n-1);
-          }
-           else
-            {
-              return 0;
-            }
-     }
-  }
-================================================================================================================================================================
 JAVA OOPS:-
 ============
 -->OOPS stands for object oriented programming structure or system.
 
 WHY...?
 -----------
---> To write a Program in a structured or organised or proper way, we must need to  go for oops.
+--> To write a Program in a structured or organized or proper way, we must need to  go for oops.
 
 WHAT... is OOPS?
 ----------------
@@ -1241,25 +1215,25 @@ ENCAPSULATION:-
 
 -->Encapsulation means, Binding the data or Wrapping the data or bundling the data with "related functionalities" in to a single unit.
 -->JAVA API is the best example of Encapsulation Mechanism.
--->In MYSQl , Normalization is the best example of Encapsulation.
+-->In MySQL , Normalization is the best example of Encapsulation.
 -->Each and every class in java is following encapsulated mechanism.
--->The Object in Encapuslated class is called as DTO(Data transfer object) or PLOJO(Plain old java object) or Data Model
+-->The Object in Encapsulated class is called as DTO(Data transfer object) or PLOJO(Plain old java object) or Data Model
 
 Data Hiding(To work on Encapsulation) :- This can be achieved by the following three terminologies:
       - we need to stop the access.                --> private keyword
       - we should provide the modification option. --> setters method
-      - we should provide the redability option.   --> getters method
+      - we should provide the readability option.   --> getters method
 
 why Encapsulation..?
 --------------------
 -->To Achieve Security or Modularity.
--->"let us say , we are having a database that consists of data , and how this data is transfering to the UI, means, we are having a object in java class with same name as table name and the fields of database are my java class variabales, Now i need to secure my data from others acessing directly and i will provide 
-only modificatioj by  using setter method and redability by using getters method."
+-->"let us say , we are having a database that consists of data , and how this data is transferring to the UI, means, we are having a object in java class with same name as table name and the fields of database are my java class variables, Now i need to secure my data from others accessing directly and i will provide 
+only modification by  using setter method and readability by using getters method."
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Abstraction:- 
 ==============
--->Abstraction is the process of "Hiding the Implemetation" and "showing only essential information" to the users.
+-->Abstraction is the process of "Hiding the Implementation" and "showing only essential information" to the users.
 -->By Using "Interface" and "abstract" keywords  we can achieve Abstraction.
 -->ATM machine is one of the best example of Abstraction.
 
@@ -1283,22 +1257,22 @@ There are three types of Interfaces:
 1) Normal Interface:-
       --> up to 1.7 version:- A interface can contain "any number of abstract methods" + " static variables".
       --> From 1.8 version:- In Interface we can have "default methods" and "static methods".
-                           why?   -->"default methods" will help "to acheive the Backward Compatibility".
+                           why?   -->"default methods" will help "to achieve the Backward Compatibility".
                                   -->"default methods" can be override.
-                           why?   -->"static methods" will help "to provide constant behavior for all implemeted classes"
+                           why?   -->"static methods" will help "to provide constant behavior for all implemented classes"
                                   -->"static methods" cannot be override.(this is the difference between default and static).
-                                  -->we cannot call static methods by using "reference varaibles" , we can call them by using "interface names".
+                                  -->we cannot call static methods by using "reference variables" , we can call them by using "interface names".
       --> From 1.9 version:- In Interface we  can have "private methods".
                             why? -->"Private Methods" will help to remove duplication from default methods.
     example:- Collection, List, Map, Set.
 
 2) Functional interface:-
-      -->An Interface which conatins only one "Abstract Method" is called as Functional Interface.
+      -->An Interface which contains only one "Abstract Method" is called as Functional Interface.
    example:- Comparable, comparator.
 
 3) Marker Interface:-
      -->An Interface which does not contain any methods is called as marker Interface.
-  example:- cloneable, seralization, Random Access.
+  example:- cloneable, serialization, Random Access.
 
 
 Abstract Class:-
@@ -1312,10 +1286,10 @@ why we need "abstract class"...?
 -->Whenever we don't want to create an object for our class then we need to go for "abstract class".
 -->if we need "100%" abstraction we need to go for "interface" but if we need "0 to 100 %"(10 or 20%) abstraction we need to go for "abstract class".
 
-              abstarct class                                               interface
+              abstract class                                               interface
          ---------------------------                              -----------------------------
 1)  Abstract class can have abstract and                         1)Interface can have only abstract methods, since java8 it can have default
-    non-abstract methods.(regular,concrete)                         methods and static methods.
+    non-abstract methods.(regular, concrete)                         methods and static methods.
 2)  Abstract class can have constructors.                        2)In Interface there no constructors.
 3)  Abstract class does not support multiple inheritance.        3)Interface supports multiple inheritance.
 4)  Abstract can have final, non-final, static and               4)Interface can only have static and final variables.
@@ -1323,7 +1297,7 @@ why we need "abstract class"...?
 5) The "abstract" keyword is used to declare                     5)The "Interface" keyword is used to declare Interface.
    abstract class.
 6) Data Members of a java abstract class are private,            6)Data Members of a java interface are public by default.
-   protected,etc...
+   protected...
 
 example:-
 ----------
@@ -1337,7 +1311,7 @@ abstract class AB1 implements In1{
 class A1 extends AB1{
   2 methods
 }
-class A2 exteds AB1
+class A2 extends AB1
 {
   3 methods
 }
@@ -1350,7 +1324,7 @@ Note:-
 In Abstract class, we can have abstract methods, concrete methods, static and instance variables, regular methods, constructors.
 If a class is "abstract" then we no need to have "abstract methods" but if our class contains "abstract methods" then that class must be a "abstract class".
 
-Benifits of Abstraction:-
+Benefits of Abstraction:-
 --------------------------
 -->Security
 -->flexibility
@@ -1363,7 +1337,7 @@ why inheritance..?
 
 what is inheritance..?
 -------------------------
--->Inheritance means "IS-A RelationShip" and also we will consider as "HAS-A RelationShip".
+-->Inheritance means "IS-A Relationship" and also we will consider as "HAS-A Relationship".
 -->Getting Data members or properties from parent class to child class is the concept of Inheritance.
 
 Where we use inheritance..?
@@ -1373,18 +1347,18 @@ Where we use inheritance..?
 -->"extends" is the keyword used to achieve inheritance.
 -->By using child class reference and child class object we can call both child class and parent class functionalities.
 -->By using parent class reference and parent class object we can call only parent class functionalities but not child class.
--->By using parent class refrence and child class object we can call only parent class functionalities but not child class directly, where we 
+-->By using parent class reference and child class object we can call only parent class functionalities but not child class directly, where we 
    can call child class methods which are override.(upcasting)
 -->Storing parent object and child reference is not possible in java because parent class is not extended by the child class.
- (Downcasting is not possible in java directly but with explicit type casting we can call both child and parent class functionalities)
+ (Down casting is not possible in java directly but with explicit type casting we can call both child and parent class functionalities)
 
 Types of Inheritance:-
 -----------------------
 -->implicit inheritance
 -->single level inheritance
 -->multi level inheritance
--->multiple inheritance -->it is not possible in java for classes but it will be possible for ionterfaces.
--->Heirarchial inheritance
+-->multiple inheritance -->it is not possible in java for classes but it will be possible for interfaces.
+-->Hierarchical inheritance
 -->Hybrid inheritance
 -->cyclic inheritance-->It is not possible in java.
 
@@ -1414,7 +1388,7 @@ class B extends A{
 class c extends B{
 }
 
-3)Multiple Inhertiance :-
+3)Multiple Inheritance :-
 -----------------------
 Multiple Inheritance is not possible in java for classes. It is possible for interfaces.
 Example:-
@@ -1425,7 +1399,7 @@ class B{
 class c extends B,A{
 }
 
-4)Heirarchial Inheritance:-
+4)Hierarchical Inheritance:-
 -----------------------------
       A(super)
       |
@@ -1438,7 +1412,7 @@ class A{
 }
 class B extends A{
 }
-clsss C extends A{
+class C extends A{
 }
 
 5)Hybrid Inheritance:-
@@ -1455,17 +1429,17 @@ example:-
 
 6)cyclic Inheritance:- It is not possible in java.
 
-Benifits(why):-
+Benefits(why):-
 ---------------
 -->Code Reusability
--->Redability
+-->Readability
 -->Memory efficiency
 =================================================================================================================================================================
 POLYMORPHISM:-
 ==================
 Why we need to go for polymorphism..?
 --------------------------------------
-    --Flexibility, redability or loosly coupling.
+    --Flexibility, readability or loosely coupling.
 
 what is polymorphism:-
 ------------------------
@@ -1475,20 +1449,20 @@ what is polymorphism:-
    1)compile time polymorphism (or) Method Overloading (or) static polymorphism (or) Early Binding
    2)Run time polymorphism (or) Method Overriding (or) Dynamic Polymorphism (or) Late Binding
 
-Method Overriding (or) RunTime polymorphism:-
+Method Overriding (or) Runtime polymorphism:-
 ----------------------------------------------
 why method overriding..?
 ------------------------
- -->Whenever we are not happy or not satisfying with the parent class functionalities then we will gor for method Overriding.
+ -->Whenever we are not happy or not satisfying with the parent class functionalities then we will go for method Overriding.
 
 what is Method overriding:-
 ---------------------------
-A Method in parent class is declared with same name , arguments and return type agiain in child class then that is called as method overriding.
+A Method in parent class is declared with same name , arguments and return type again in child class then that is called as method overriding.
 
 
 Method Overriding Rules:-
 -------------------------
-1)Method Signature(name+arguments but not return type) should be same.
+1)Method Signature(name+ arguments but not return type) should be same.
 2)Method return type must be same until 1.5 version, afterwards we have co-variant return types.
   Co-variant Return type:-
      -->Method return must be same if it is primitive datatype even after 1.5 version also.
@@ -1506,10 +1480,10 @@ Method Overriding Rules:-
 9) Parent class regular methods or normal methods we can  override them as abstract methods in abstract child class.
 
 
-Method OverLoading:-
+Method Overloading:-
 ---------------------
 -->In  any class, if we have same methods with different types of arguments, then we can call it as Method Overloading.
-Best Example:- Println() method from printStream Class.
+Best Example:- Println() method from print Stream Class.
 
 Rules for Method Overloading:-
 -------------------------------
@@ -1547,7 +1521,7 @@ What is Error..?
 -->Error means a problem which will Occur "Due to Lack of Resources".
 -->We cannot handle the errors.
 -->Example:- Virtual Machine error(OutOfMemoryError, StackOverFlowError).
--->compile time errors and errors are different.(compile time errors-->due to syntacticle mistakes, errors-->due to lack of resources.)
+-->compile time errors and errors are different.(compile time errors-->due to syntactical mistakes, errors-->due to lack of resources.)
 
 
 Types of Exceptions:
@@ -1562,13 +1536,13 @@ There are two types of Exceptions, they are:
   -------------
     1)IOException  : when we are calling "creatNewFile()" then we are getting "IOException".
     2)FileNotException : when we are using "FileReader()" then we are getting "FileNotFoundException".
-    3)ClassNotFoundException : when we are calling "Class.forName("Oracle.jdbc.driver.OracleDriver"); then we are geeting "ClassNotFoundException".
-    4)SQLException : when we are calling "DriverManager.getConnection("url","username","password"); then we will get "SQL EXCEPTIOn".
+    3)ClassNotFoundException : when we are calling "Class.forName("Oracle.jdbc.driver.OracleDriver"); then we are getting "ClassNotFoundException".
+    4)SQLException : when we are calling "DriverManager.getConnection("URL","username", password"); then we will get "SQL Exception".
     5)InterruptedException 
    
 
-  -->throws: thorws is the keyword to satisfy the compiler when we are having checked Exceptions.
-  -->throw : throw the exceptions Explicitly to the jvm whether it is prdefined or user defined Exception.
+  -->throws: throws is the keyword to satisfy the compiler when we are having checked Exceptions.
+  -->throw : throw the exceptions Explicitly to the JVM whether it is predefined or user defined Exception.
 
  2) Unchecked Exceptions.
 ----------------------------
@@ -1586,20 +1560,20 @@ There are two types of Exceptions, they are:
 
 Custom Exceptions or User Defined Exceptions:-
 -----------------------------------------------
--->Any class that extends "Excpetion Class" then we can consider it as Checked Exception.
+-->Any class that extends "Exception Class" then we can consider it as Checked Exception.
 -->Any Class that extends "RuntimeException" class then we can consider it as Unchecked Exception.
 
 Note:-
 1)Only "try" block is not possible, we must need to provide "catch or finally" blocks.
-2)"try" block is to keep problamatic code.
+2)"try" block is to keep problematic code.
 3)If there is a problem in  try block then catch block will executes.
 4)If there is a problem or not in try block the finally block will always executes.
 5)We can have Multiple catch blocks.
 6)We cannot have Multiple finally blocks.
 7)try ->catch -> finally order is important.
-8)The first catch block never be a parent Excepiton.
+8)The first catch block never be a parent Exception.
 9)Only try, only catch, only finally blocks are not possible.
-10)Catch with finally  is also not possible wihtout try block. 
+10)Catch with finally  is also not possible without try block. 
 11)We cannot write any other statements between "try" and "catch" blocks.
 12)We can stop finally block by using "System.exit(0);"
 13)Nested try-catch blocks are possible in try block, catch block and finally block also.
@@ -1607,7 +1581,7 @@ Note:-
 FILE IO(File Handling):-
 ========================
 -->The File Io is related to java.io package.
--->The File IO stands for file input output Sreams.
+-->The File IO stands for file input output Streams.
 -->We are going to understand 11 Predefined classes in File IO.
   ->1)File
   ->2)FileReader
@@ -1631,7 +1605,7 @@ Frameworks:-
 
 why Collections..?
 -------------------
--->To Structering the  data in a proper way or organised way, we need to go for concept of Collections Chapter.
+-->To Structuring the  data in a proper way or organized way, we need to go for concept of Collections Chapter.
 -->Representing  Collection of Objects in to a single entity, that entity can be any collection framework Object.
 
           Array                            vs                          Collections
@@ -1651,7 +1625,7 @@ why Collections..?
    1)Collection
    2)List : ArrayList, LinkedList, Vector, Stack and CopyOnWriteArrayList -->Implemented classes of List Interface.
    3)Queue
-   4)DeQueue
+   4)Dequeue
 
    5)Set
    6)SortedSet
@@ -1668,18 +1642,18 @@ why Collections..?
    15)Comparator
 ---------------------------------------------
 -->All the Collection Interfaces are child interfaces of Collection (root interface).
--->Iterbale is the root interface of Collection Interface.
+-->Iterable is the root interface of Collection Interface.
 
 1)Collection:-
 --------------
-  -The root "Interface" in the Collection Heirarchy.
+  -The root "Interface" in the Collection Hierarchy.
   -A Collection represents a group of objects, known as its elements.
   -Some Collections Allow duplicate elements and other do not.
   -some are ordered and others Unordered.
   -The JDK Does not provide any direct implementations for Collection Interface.
-  -It provides implementations of more specific subInterfaces Like Set and List.
+  -It provides implementations of more specific sub Interfaces Like Set and List.
 
-synatx:-
+syntax:-
 -------------
 Collection<Integer> c = new ArrayList<>();
                or
