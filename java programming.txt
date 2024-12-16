@@ -1693,16 +1693,27 @@ Method Summary:-
 ----------------
 1)c.add(E e);  //Here E represents Datatype and expecting  element as argument. It is a method to add elements into Collection.//boolean
 2)c.addAll(c1); //Here it is Expecting a Collection as argument. //boolean
-3)c.clear();  // It is a method to remove all of the Collection elements.
+3)c.clear();  // It is a method to remove all of the Collection elements. //void
 4)c.contains(E e); // It will return true if the Collection contains Specified element.//boolean
 5)c.containsAll(c1); //It will return true if this Collection Contains all of the elements of Specified Collection.//boolean
 6)c.equals(c1);  //It is a method to compare this Collection "c" with the Specified Collection "c1". //boolean
 7)c.hashCode();  //It will return a unique value of our Collection.
 8)c.isEmpty();  //It will return true if and only if the Collection contains no elements.//boolean 
-9)c.iterator(); //Returns the Collections Elements as an Iterator(one after another).
-10)c.remove(ele); //Removes the specific elements from the Collection.
-11)c.removeAll(c1);
+9)c.iterator(); //Returns the Collections Elements as an Iterator(one after another).(boolean -->hasNext()  -->Object -->next())//Iterator Interface
+10)c.remove(ele); //Removes the specific elements from the Collection. //boolean
+11)c.removeAll(c1); //boolean
 12)c.size(); //returns size of the Collection object.
+13)c.toArray(); //It is a method to convert Collection Object into Array.//Object[]
+14)String[] y = x.toArray(new String[0]);
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+2)List Interface:-
+-----------------
+-->List Implementation classes are below :
+    --ArrayList, LinkedList, Stack, Vector, CopyOnWriteArrayList.
+-->List follows "insertion Order".
+-->List will allow Duplicate Elements.
+-->List can take both homogeneous and heterogeneous data elements.
+-->List can allow any number of null values.
 =================================================================================================================================================================
 COLLECTIONS IN JAVA:-
 =====================
