@@ -1689,6 +1689,40 @@ Method Summary:-
 -->List will allow Duplicate Elements.
 -->List can take both homogeneous and heterogeneous data elements.
 -->List can allow any number of null values.
+-->List is working based on index values.
+
+syntax:-
+----------
+List<Integer> l = new ArrayList<>();
+
+Method summary:-
+----------------
+*  l.add(E e); //boolean, It is a method to add element into collection and expecting element as argument.
+*  l.add(int index, E e); //void , It is a method to add specific element at the specific index or position.
+*  l.addAll(Collection<?> l1); //boolean, It is a method to add another Collection to this Collection.
+*  l.addAll(int index, Collection<?> l1); //Inserts all of the elements in the specified collection into this list at the specified position 
+*  l.get(int index);   //E, it is a method to retrieve the value in that index.
+*  l.indexOf(E e);    //int , it is a method to retrieve the index of the given element.
+*  l.clear();  //void , It is a method to clear the enitre collection Object.
+*  l.size();   //int , It is a method to find size of the list.
+*  l.remove(int index); //E, Removes the element at the specified position in this list .
+*  l.removeAll(Collection<?> l1); 
+*  l.contains(Object o); //boolean , return true if the specified element contains in this list.
+*  l.containsAll(Collection<?> l1); //boolean , return true if this list "l1" contains in the specified list "l".
+*  l.iterator(); //Iterator, Returns an iterator over the elements in this List.(hasNext(), next())
+*  l.listIterator(); //Iterator, Returns an list iterator over the elements in this list.(hasNext(),next(),previous(),hasPrevious())
+*  l.equals(l1);  //boolean
+*  l.isEmpty();   //boolean, Return true if there are no elements in this list.
+*  l.set(int index, E e); //E , It is a method to change the value at the specified index in this list.
+*  l.subList(int fromindex, int toindex);
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ArrayList:-
+-----------
+-->ArrayList is a Implemented class of List Interface.
+-->ArrayList can also perform all the similar Operations of List Interface.
+-->ArrayList is Unsynchronized.
+
+
 =================================================================================================================================================================
 COLLECTIONS IN JAVA:-
 =====================
