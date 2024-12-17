@@ -274,16 +274,14 @@ Scanner class:- Scanner Class is a predefined class in "java. util" package
 =================================================================================================================================================================
 PRINTING OUTPUT:-
 ==============================
--->there are 3 ways of printing output.
--->1.System.out.println("HELLO WORLD");
--->2.System.out.print(x);
--->3.System.out.printf("THE VALUE OF x IS :"+x);
--->while printing the floating point numbers after decimal point print only 2 digits.
-float pi=3.142345f;
-System.out.println(pi);
--->Formatting the output:-
-System.out.format("%.2f",pi);
-System.out.printf("%.2f",pi);
+* System.out.println("Java Fundamentals");
+* System.out.println(x);
+* System.out.println("Java :"+ x);
+* System.out.print("Jaava Fundamentals");
+* System.out.print(x);
+* System.out.print("java:"+x);
+* System.out.printf("%.2f" , x);
+* System.out.format("%.2f", x);
 =================================================================================================================================================================
 "JAVA LANGUAGE FUNDAMENTALS":-
 ============================================================
