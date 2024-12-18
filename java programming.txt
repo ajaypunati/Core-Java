@@ -1717,8 +1717,48 @@ Method summary:-
 ArrayList:-
 -----------
 -->ArrayList is a Implemented class of List Interface.
+-->ArrayList is a resizeable Array.
 -->ArrayList can also perform all the similar Operations of List Interface.
--->ArrayList is Unsynchronized.
+-->ArrayList allows duplicate elements and also heterogeneous elements.
+-->Insetion order is Preserved.
+-->ArrayList is unsynchronized.
+-->ArrayList Inital Capicty is 10. (Ic * 3/2).
+-->ArrayList class is used to retrive the data from database.
+
+why ArrayList ...  why not Vector..?
+--------------------------------------
+-->Becuase both the Classes implements Random Access Interface(marker Interface) but ArrayList is not synchronized where as vector is synchronization.Hence
+  ArrayList is best option when compared to Vector.
+
+   ArrayList      vs          Vector
+ -------------------------------------------
+ * No method in ArrayList is synchronized.
+ * Most of the methods in vector are synchronized.
+
+ *At a time Multiple threads are allowed to operate on ArrayList Object and hence it is not thread safe.
+ *At a time only one thread is allowed to operate on Vector Object and hence it is thread safe.
+
+ *performace POV ArrayList is recommended to use.
+ *performance POV Vector is not recommended to use.
+
+ *Not legacy and 1.2 version.
+ *Legacy and 1.o version.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Linked List:-
+--------------
+ -->LinkedList is a Implemented class of List Interface.
+ -->LinkedList is a resizeable array.
+ -->LinkedList can also perfrom all the similar Operations of List Interface.
+ -->LinkedList allow Duplicate elements and also hetergeneous elements.
+ -->Insertion order is Preserved.
+ -->LinkedList is unsynchronized.
+
+ why ArrayList .. why not LinkedList..?
+--------------------------------------------
+
+
+
 
 
 =================================================================================================================================================================
