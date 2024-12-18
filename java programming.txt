@@ -1754,13 +1754,9 @@ Linked List:-
  -->Insertion order is Preserved.
  -->LinkedList is unsynchronized.
 
- why ArrayList .. why not LinkedList..?
+ why LinkedList .. why not ArrayList..?
 --------------------------------------------
-
-
-
-
-
+ -->In LinkedList , Insertion and deletion of elements is faster when compare to ArrayList even though they are unsynchronized.
 =================================================================================================================================================================
 COLLECTIONS IN JAVA:-
 =====================
