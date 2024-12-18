@@ -73,6 +73,41 @@ JDK:- Java Development kit(JDK) is a software development kit required to develo
 JRE:- Java Runtime Environment(JRE) is a software Package that provides java class libraries, JVM and other components that are needed to run java programs.
 JVM:- Java Virtual Machine(JVM) is an interpreter that converts byte code into machine level language code .
 =================================================================================================================================================================
+Java version History:-
+------------------------
+1)JDk alpha and beta 
+2)JDk 1.0
+3)JDK 1.1
+4)J2SE 1.2
+5)J2SE 1.3
+6)J2SE 1.4
+7)J2SE 5(1.5)
+8)Java SE 6(1.6)
+8)Java SE 7(1.7)
+9)Java SE 8(1.8)
+10)Java SE 9(1.9)
+11)Java SE 10(1.10)
+12)Java SE 11
+13)Java SE 12
+14)Java SE 13
+15)Java SE 14
+16)Java SE 15
+17)Java SE 16
+18)Java SE 17
+19)Java SE 18
+20)Java SE 19
+21)Java SE 20
+22)Java SE 21
+23)Java SE 22
+24)Java SE 23
+25)Java SE 24
+26)Java SE 25
+
+latest version: JAVA SE 23
+Feature Updates: JAVA SE 24, 25
+old version and under maintainance:- (JAVA SE 8, JAVA SE 11, JAVA SE 17, JAVA SE 21)
+(Alpha & beta, 1.0, 1.1, 1.2, 1.3,1.4,1.5, 1.6, 1.7,1.9,1.10, 12, 13, 14, 15, 16, 18, 19, 20) -->Old version not in maintenance.
+=================================================================================================================================================================
 JAVA PROGRAM STEP BY STEP EXECUTION PROCESS:-
 ===============================================
 -->Step-1:  create a java source code file with .java extension
