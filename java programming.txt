@@ -1571,7 +1571,8 @@ There are two types of Exceptions, they are:
     2)FileNotException : when we are using "FileReader()" then we are getting "FileNotFoundException".
     3)ClassNotFoundException : when we are calling "Class.forName("Oracle.jdbc.driver.OracleDriver"); then we are getting "ClassNotFoundException".
     4)SQLException : when we are calling "DriverManager.getConnection("URL","username", password"); then we will get "SQL Exception".
-    5)InterruptedException 
+    6)EmptyStackException: when we are access an empty stack by using "s.peek()" and "s.pop()" then we will get EmptyStackExcpetion.
+    6)InterruptedException 
    
 
   -->throws: throws is the keyword to satisfy the compiler when we are having checked Exceptions.
@@ -1763,7 +1764,7 @@ ArrayList:-
 why ArrayList ...  why not Vector..?
 --------------------------------------
 -->Becuase both the Classes implements Random Access Interface(marker Interface) but ArrayList is not synchronized where as vector is synchronization.Hence
-  ArrayList is best option when compared to Vector.
+  ArrayList is best option when compared to Vector.(it is little bit of speed)
 
    ArrayList      vs          Vector
  -------------------------------------------
@@ -1792,6 +1793,48 @@ Linked List:-
  why LinkedList .. why not ArrayList..?
 --------------------------------------------
  -->In LinkedList , Insertion and deletion of elements is faster when compare to ArrayList even though they are unsynchronized.
+
+Method Summary of LinkedList:-
+-------------------------------
+All the methods of List Interace and additionally we have some extra methods they are:
+
+
+copyOnWriteArryList:-
+-------------------------
+-->copyOnWriteArrayList is a class from java.util.concurrent package.
+-->copyOnWrtieArrayList can also perform all the similar operations of List interface.
+-->copyOnWriteArrayList is Fail safe.
+
+why copyOnWriteArrayList..  ... why not ArrayList..?
+----------------------------------------------------
+-->ArrayList is Fail fast where as copyOnWriteArrayList is Fail safe.
+(Fail Fast -->It does not allow modification while iterating, if we do the same then we will get concurrentmodification error)
+(Fail Safe -->It allows modification of elements while Iterating.
+
+Method Summary of vector:-
+--------------------------
+syntax:-
+-------
+ Vector v = new Vector<>();
+
+1) v.addElement(E e);
+2) v.elements(); // Enumeration<?> e (hasMoreElements(), nextElement())
+3) v.add(E e);
+
+Stack:-
+---------
+-->Stack is LIFO(Last in First Out)
+-->vector is the parent class of Stack.
+synatx:-
+--------
+Stack<String> s = new Stack<>();
+Method Summary:-
+---------------
+1)s.push(E e); //it is used to add Object into the stack.
+2)s.peek();  //Returns the Object which is in the top position
+3)s.pop(); //remove the object from Stack
+4)s.search(Objec o); //int
+5)s.empty(); //boolean , return true if the stack have no objects.
 =================================================================================================================================================================
 COLLECTIONS IN JAVA:-
 =====================
