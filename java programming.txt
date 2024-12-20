@@ -1683,10 +1683,10 @@ why Collections..?
 --------------
   -The root "Interface" in the Collection Hierarchy.
   -A Collection represents a group of objects, known as its elements.
-  -Some Collections Allow duplicate elements and other do not.
+  -Some Collections allow duplicate elements and other do not.
   -some are ordered and others Unordered.
   -The JDK Does not provide any direct implementations for Collection Interface.
-  -It provides implementations of more specific sub Interfaces Like Set and List.
+  -It provides implementations of more specific sub Interfaces Like "Set" and "List."
 
 syntax:-
 -------------
@@ -1836,6 +1836,15 @@ Method Summary:-
 3)s.pop(); //remove the object from Stack
 4)s.search(Objec o); //int
 5)s.empty(); //boolean , return true if the stack have no objects.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Set:-
+------
+-->Set will not follow Insertion Order and it follow based on hashCode.
+-->Set will not allow Duplicate values.
+-->Set will allow null values only once.
+-->Set can allow both homogeneous and heterogeneous data elements
+-->Set is a Interface. -- HashSet, LinkedHashSet
+-->SoretedSet and NavigableSet (TreeSet) are Sub Interfaces of SetInterface.
 =================================================================================================================================================================
 COLLECTIONS IN JAVA:-
 =====================
