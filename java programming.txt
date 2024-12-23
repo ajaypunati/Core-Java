@@ -1845,6 +1845,10 @@ Set:-
 -->Set can allow both homogeneous and heterogeneous data elements
 -->Set is a Interface. -- HashSet, LinkedHashSet
 -->SoretedSet and NavigableSet (TreeSet) are Sub Interfaces of SetInterface.
+-->The Main intension for going to "Set" Interface is to remove Duplication.
+-->The default initial Capacity of  Set is "16" and the load factor is (0.75).
+-->The HashSet is Working internally based on "HashMap".
+-->if our frequent Operation is searching then we can go for "HashSet".
 =================================================================================================================================================================
 COLLECTIONS IN JAVA:-
 =====================
