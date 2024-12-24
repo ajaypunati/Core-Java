@@ -238,6 +238,8 @@ FEATURES OR ADVANTAGES OF JAVA:-
 -->"out" is a static variable in system class and referring print stream class.
 -->"println" is a method from print Stream class.
 -->We have total of 10 println methods with all primitive data types and object datatypes as arguments.
+-->import static java.lang.System.out;
+   out.println("Hello World");
 =================================================================================================================================================================
 DIFFERENCE BETWEEN C++ AND JAVA:-
 =======================================================
