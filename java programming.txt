@@ -1875,10 +1875,11 @@ Method Summary:-
 * s2.subSet(E e1, E e2);
 
 =================================================================================================================================================================
-COLLECTIONS IN JAVA:-
-=====================
--->"Collections.sort(arr_name or list_name); " -->It is used to sort the elements of array or list.
--->"Collections.copy(arr1,arr2) ;" -->It is used to copy elements from one array to another array. 
+COLLECTIONS IS A UILITY CLASS IN JAVA:-
+========================================
+-->This Collections class provide some generic functionalities to work with Collection.
+-->"Collections.sort(list_name); " -->It is used to sort the elements of array or list.
+-->"Collections.copy(l1,l2) ;" -->It is used to copy elements from one array to another array. 
 -->"Collections.swap(arr,index1,index2);" --">It is used to swap elements of the array.
 -->"Collections.reverse(arr);" -->It is used to reverse  elements of the array.
 -->"Collections.frequency(arr,ele);"
@@ -1888,7 +1889,6 @@ COLLECTIONS IN JAVA:-
 -->"Collections.replaceAll(arr, old_value, new_value);"
 -->"Collections.binarySearch(arr,ele);"
 -->"Collections.rotate(arr,how_many_rotations);
-so these are some the important methods they can be by using collections. 
 =================================================================================================================================================================
 JAVA CHAPTER 1 INTERVIEW QUESTIONS:-
 =====================================
