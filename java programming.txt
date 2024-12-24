@@ -1572,7 +1572,7 @@ There are two types of Exceptions, they are:
     2)FileNotException : when we are using "FileReader()" then we are getting "FileNotFoundException".
     3)ClassNotFoundException : when we are calling "Class.forName("Oracle.jdbc.driver.OracleDriver"); then we are getting "ClassNotFoundException".
     4)SQLException : when we are calling "DriverManager.getConnection("URL","username", password"); then we will get "SQL Exception".
-    6)EmptyStackException: when we are access an empty stack by using "s.peek()" and "s.pop()" then we will get EmptyStackExcpetion.
+    6)EmptyStackException: when we are accessing an empty stack by using "s.peek()" and "s.pop()" then we will get EmptyStackExcpetion.
     6)InterruptedException 
    
 
@@ -1839,16 +1839,41 @@ Method Summary:-
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Set:-
 ------
+ syntac:-
+-------------
+  Set<?> s = new HashSet<>();
+  Set<?> s1 = new LinkedHashSet<>(); //LinkedHashSet is following insertion order.
+
 -->Set will not follow Insertion Order and it follow based on hashCode.
 -->Set will not allow Duplicate values.
 -->Set will allow null values only once.
 -->Set can allow both homogeneous and heterogeneous data elements
 -->Set is a Interface. -- HashSet, LinkedHashSet
--->SoretedSet and NavigableSet (TreeSet) are Sub Interfaces of SetInterface.
+-->SoretedSet and NavigableSet (TreeSet) are Sub Interfaces of Set Interface.
 -->The Main intension for going to "Set" Interface is to remove Duplication.
 -->The default initial Capacity of  Set is "16" and the load factor is (0.75).
 -->The HashSet is Working internally based on "HashMap".
--->if our frequent Operation is searching then we can go for "HashSet".
+-->"HashSet" is working based on hashCode and "LinkedHashSet" is working based on 'linkedlist".
+-->If our frequent Operation is searching then we can go for "HashSet".
+-->set Interface and it's sub Interfaces can also perfrom all the similar Operations of List Interface.
+
+SortedSet:-
+--------------
+SortedSet<?> s2 = new  TreeSet<>();
+
+-->SortedSet follows sorted order.
+-->If we pass any null value to the SortedSet or TreeSet then we will get NullPointerException.
+-->TreeSet is a implemented class of both SortedSet and NavigableSet Interfaces.
+-->TreeSet allows only Homogeneous data elements.
+
+Method Summary:-
+-----------------
+* s2.first();
+* s2.last();
+* s2.tailSet(E e); //Returns elements strictly greater than or equal to the given element.
+* s2.headSet(E e);  //Returns elements strictly less than to the given element.
+* s2.subSet(E e1, E e2);
+
 =================================================================================================================================================================
 COLLECTIONS IN JAVA:-
 =====================
