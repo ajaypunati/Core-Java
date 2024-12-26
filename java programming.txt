@@ -1878,15 +1878,34 @@ Method Summary:-
 
 Method Summary for NavigableSet:-
 ----------------------------------
-* 
+*  
+*  
+*  
+*
 
 Comparable:-
 ------------
 -->Comparable is a Interface from java.lang package.
 -->"compareTo(Object o)" is a abstract method from Comaparable Interface which is expecting an Object as argument and the return type is "int".
 --> compares "this" Object with the specified Object for Order.
---> Returns a positive integer(+1) if this object is greather than the speicifed Object.
--->
+--> Returns a positive Integer(+1) if this object is greather than the specified Object.
+--> Returns a Negative Integer(-1) if this Object is lessthan than the specified Object.
+--> Returns Zero , if this Object equals to the Specified Object.
+
+Comparator:-
+-------------
+-->Comparator is a Interface from java.util package
+-->"compare(T o1, T o2)" is a method from comparator Interface which is expecting two arguments and the return type is "int".
+-->compares first Object or arguments with the Second argument or Object.
+-->Returns a positive Integer(+1) if the first argument is greater than second argument.
+-->Returns a Negative Integer(-1) if the second argument is less than second argument.
+-->Returns Zero if first arguments equals to second argument.
+
+      Comparable                                         vs                              comaprator
+    ----------------                                                                -----------------------
+
+
+
 
 =================================================================================================================================================================
 COLLECTIONS IS A UILITY CLASS IN JAVA:-
