@@ -1876,6 +1876,18 @@ Method Summary:-
 * s2.headSet(E e);  //Returns elements strictly less than to the given element.
 * s2.subSet(E e1, E e2);
 
+Method Summary for NavigableSet:-
+----------------------------------
+* 
+
+Comparable:-
+------------
+-->Comparable is a Interface from java.lang package.
+-->"compareTo(Object o)" is a abstract method from Comaparable Interface which is expecting an Object as argument and the return type is "int".
+--> compares "this" Object with the specified Object for Order.
+--> Returns a positive integer(+1) if this object is greather than the speicifed Object.
+-->
+
 =================================================================================================================================================================
 COLLECTIONS IS A UILITY CLASS IN JAVA:-
 ========================================
