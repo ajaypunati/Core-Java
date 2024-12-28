@@ -1567,17 +1567,16 @@ There are two types of Exceptions, they are:
  ------------------------
    -All "Exception classes" under "Exception class" are checked Exceptions.
    -Any Exceptions which are checked by the compiler at compile time is called as Checked Exceptions.
-   -Checked Exceptions will come when we call some specific pre-defined methods and creating and Object of specific classes.
+   -Checked Exceptions will come when we call some specific pre-defined methods and creating an Object of specific classes.
    Examples:-
   -------------
     1)IOException  : when we are calling "creatNewFile()" then we are getting "IOException".
-    2)FileNotException : when we are using "FileReader()" then we are getting "FileNotFoundException".
+    2)FileNotException : when we are creating Object for "FileReader class" then we are getting "FileNotFoundException".
     3)ClassNotFoundException : when we are calling "Class.forName("Oracle.jdbc.driver.OracleDriver"); then we are getting "ClassNotFoundException".
     4)SQLException : when we are calling "DriverManager.getConnection("URL","username", password"); then we will get "SQL Exception".
     6)EmptyStackException: when we are accessing an empty stack by using "s.peek()" and "s.pop()" then we will get EmptyStackExcpetion.
     6)InterruptedException 
    
-
   -->throws: throws is the keyword to satisfy the compiler when we are having checked Exceptions.
   -->throw : throw the exceptions Explicitly to the JVM whether it is predefined or user defined Exception.
 
