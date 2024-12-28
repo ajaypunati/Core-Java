@@ -1752,6 +1752,7 @@ Method summary:-
 *  l.isEmpty();   //boolean, Return true if there are no elements in this list.
 *  l.set(int index, E e); //E , It is a method to change the value at the specified index in this list.
 *  l.subList(int fromindex, int toindex);
+*  l.lastIndexOf(Object 0);
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ArrayList:-
 -----------
@@ -1800,6 +1801,13 @@ Linked List:-
 Method Summary of LinkedList:-
 -------------------------------
 All the methods of List Interace and additionally we have some extra methods they are:
+
+* addFirst(E e); //void, Appends specified element to the beginning of the list.
+* addLast(E e);  //void, Appends specified element to the end of the list.
+* getFirst();  //E, Returns the first element in the list.
+* getLas();    //E, Returns the last element in the list.
+* removeFirst(); //E, Removes and returns the First element in the list.
+* removeLast(); //E, Removes and returns the last element in the list.
 
 
 copyOnWriteArryList:-
