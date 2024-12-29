@@ -564,6 +564,12 @@ TYPES OF VARIABLES:-
 =================================================================================================================================================================
 TYPES OF METHODS:-
 ====================
+why..?
+-------
+The main aim of creating methods is to reuse the code any number of times in anywhere in the project.
+
+what is..?
+-----------
 -->Method means it's a behavior of a class.
                 or
 -->Method means Collection of logics and collection of statements.
@@ -573,7 +579,7 @@ TYPES OF METHODS:-
 -->we can write a block inside of the Any Method.
 -->we can call one method in another different method.
 -->we can call the method in same method but we will get stack overflow error.
--->The main aim of creating methods is to reuse the code any number of times.
+
 -->There are 4 types of methods they are:
     -->Method with no "return type" and with "no arguments".
     -->method with "return type" and with "no arguments".
@@ -625,14 +631,14 @@ public class TypesofMethods4 {
 JAVA CONSTRUCTORS:-
 =====================
 Why We need Constructors..?
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
      -->To Initializing an object and initializing instance data but not static data  we need Constructor.
      -->Without Constructor there is no chance to create the object.
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 What is Constructor..?
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 -->Constructor is a special member function which is used to initialize objects. When Object is created constructor get invoked Automatically.
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 What are the types of Constructor types:
 -----------------------------------------
 -->Default Constructor:-
