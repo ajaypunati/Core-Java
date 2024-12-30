@@ -1931,6 +1931,12 @@ Comparator:-
 
 
 
+Map:-
+------
+-->Map is a interface from java.util package.
+-->Map implemented classes are HashMap, LinkedHashMap, IdentityHashMap, WeakHashMap.
+-->Map is for representing key,value pairs.
+
 =================================================================================================================================================================
 COLLECTIONS IS A UILITY CLASS IN JAVA:-
 ========================================
