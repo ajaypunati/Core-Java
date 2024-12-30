@@ -1864,7 +1864,8 @@ Set:-
 -->Set will allow null values only once.
 -->Set can allow both homogeneous and heterogeneous data elements
 -->Set is a Interface. -- HashSet, LinkedHashSet
--->SoretedSet and NavigableSet (TreeSet) are Sub Interfaces of Set Interface.
+-->SoretedSet is a  Sub Interface of Set Interface.(TreeSet)
+-->NaviagbleSet is a sub Interface of  SortedSet.(TreeSet)
 -->The Main intension for going to "Set" Interface is to remove Duplication.
 -->The default initial Capacity of  Set is "16" and the load factor is (0.75).
 -->The HashSet is Working internally based on "HashMap".
@@ -1878,7 +1879,8 @@ SortedSet<?> s2 = new  TreeSet<>();
 
 -->SortedSet follows sorted order.
 -->If we pass any null value to the SortedSet or TreeSet then we will get NullPointerException.
--->TreeSet is a implemented class of both SortedSet and NavigableSet Interfaces.
+-->SoretedSet is a sub Interface of Set Interface.
+-->TreeSet is a implemented class of both SortedSet Interface
 -->TreeSet allows only Homogeneous data elements.
 
 Method Summary:-
@@ -1889,12 +1891,21 @@ Method Summary:-
 * s2.headSet(E e);  //Returns elements strictly less than to the given element.
 * s2.subSet(E e1, E e2);
 
+NavigableSet:-
+----------------
+ NavigableSet s = new TreeSet<>();
+
+-->NavigableSet also follows Sorting order.
+-->NavigableSet is a sub Interface of SortedSet.
+-->TreeSet is a implemented class of NavigableSet and it allows only Homogeneous Elements.
+-->If we are trying to pass heterogeneous elements to TreeSet then we will get "ClassCastException".
+
 Method Summary for NavigableSet:-
 ----------------------------------
-*  
-*  
-*  
-*
+*  s.floor(E e);
+*  s.ceiling(E e);
+*  s.higher(E e);
+*  s.lower(E e);
 
 Comparable:-
 ------------
@@ -1908,7 +1919,7 @@ Comparable:-
 Comparator:-
 -------------
 -->Comparator is a Interface from java.util package
--->"compare(T o1, T o2)" is a method from comparator Interface which is expecting two arguments and the return type is "int".
+-->"compare(T o1, T o2)" is a abstract method from comparator Interface which is expecting two arguments and the return type is "int".
 -->compares first Object or arguments with the Second argument or Object.
 -->Returns a positive Integer(+1) if the first argument is greater than second argument.
 -->Returns a Negative Integer(-1) if the second argument is less than second argument.
