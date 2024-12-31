@@ -1946,13 +1946,19 @@ Map<Integer, String> m = new HashMap<>();
 Method Summary:-
 ----------------
 * m.put(key, value); //Returns the previous value associated with key or "null" if there was no mapping for key.
+* m.putAll(Map<?,?> m);
 * m.get(key); //Returns the value associated with the key.
-* m.entrySet();
-* m.keySet();
+* m.entrySet(); //Returns the "Set" view of mappings contained in this map.
+* m.keySet(); 
 * m.values();
 * m.size();
-* m.containsKey(key);
-* m.containsValue(value);
+* m.containsKey(key); //boolean, Returns true if the key contains in a map.
+* m.containsValue(value); //boolean, Returns true if the value contains in a map.
+* m.clear();
+* m.isEmpty(); //Retruns true if the map is Empty.
+* m.remove(Key); 
+* m.replace(key, value);
+* m.replace(key, oldvalue, newvalue);
 
 //Adding list of elements to the Map.
  char[] c = str.toCharArray();
