@@ -457,28 +457,52 @@ Non-Primitive Data types(Wrapped object data types, pre-defined object data type
 =================================================================================================================================================================
 JAVA TYPECASTING:-
 ====================
--->Type casting is nothing but when we assign a value of one primitive datatype to another datatype.
--->there are two types of type casting they are:
-      1.Widening type casting(Automatic) :-  converts smaller datatype to larger datatype size. 
-         byte -> short -> char -> int -> long -> float -> double.
-      2.Narrowing type casting(Manual) :- converts  larger datatype to smaller datatype size
-         double -> float -> long -> int -> char -> short -> byte.
--->Example for automatic or widening :-
-          int a = 9;
-          double b = a; -->this is nothing but implicit casting.
--->Example for manual or narrowing:-
-          double c = 9.0;
-          int d = (int)c; -->this is nothing but explicit casting.
+Type Casting:-
+---------------
+Type Casting is nothing but, conversion of one data type to another data type.
 
--->Primitive data types can be converted to Wrapper class objects that conversion is called as Auto Boxing
-  eg:- int i= 10;
-       Integer i1=i;
--->Wrapper class objects can be converted to primitve data types that conversion is called as Auto unBoxing.
-   eg:- Integer i2=100;
-        int i3=i2;
--->All Strings can be converted to primitive datatypes by using following wrapper class  methods:
-  eg:- String s="123";
-       int res=Integer.parseInt(s);
+There are two types of type casting they are:-
+  
+1)Widening or implicit or Automatic Type Casting:-
+--------------------------------------------------
+  Converts smaller data type to larger data type.
+
+  byte-->short-->char-->int-->long-->float-->Double
+
+ example:-
+    long x=12345567;
+    float f=x; //implicit type casting
+
+2)Narrowing or explicit or Manual Type casting:-
+------------------------------------------------
+  converts larger data type to smaller data type.
+  
+  double-->float --> long-->int-->char-->short-->byte
+ 
+  Example:-
+  
+     double y=123456.78;
+     int z=(int)y; //Explicit Type casting
+
+-->All primtive data types can be converted to wrapper Object data Types, and that process is known as Auto Boxing
+  
+  int x=99;
+  Integer y=x;
+
+-->All Wrapper Object data types can be converted to Primitive data types, and that process is known as Auto UnBoxing.
+
+   Integer y=99;
+   int x=y;
+
+-->All Strings can be converted to Wrapper Object data types by using following methods:
+  
+    String s="123.897";
+   
+    int res=Double.parseDouble(s);
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 ================================================================================================================================================================
 JAVA WRAPPER CLASSES:-
 =======================
@@ -659,7 +683,7 @@ What are the types of Constructor types:
          methods is known as constructor chaining. 
 -->Copy Constructor
        -->if we are copying one constructor into another constructor by using object reference variable.
---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 RULES FOR CONSTRUCTORS:-
 ----------------------------
 1)Class name and Constructor name must be same.
@@ -678,7 +702,7 @@ RULES FOR CONSTRUCTORS:-
 10)In java ,constructor overloading is possible.
 11)In one Constructor, we cannot call both this() and super().
 12)The scope of "default constructor" is the "scope of class".
-====================================================================================================================================================================
+=================================================================================================================================================================
 JAVA ARRAYS:-
 =================
 Why wee need Arrays?
