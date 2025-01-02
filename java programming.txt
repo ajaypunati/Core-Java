@@ -663,26 +663,38 @@ What is Constructor..?
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 -->Constructor is a special member function which is used to initialize objects. When Object is created constructor get invoked Automatically.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-What are the types of Constructor types:
------------------------------------------
--->Default Constructor:-
-      -->why?--> If in our class we don't have any constructor(no-args, parameterized) then "java compiler" will create a Constructor that is called as "default 
-           Constructor".
--->No-arg Constructor:-
-      -->why?--> If in a class we are having a parametrized constructor then the java compiler will not create or call any default constructor so that to create 
-         an object with no args we will go for the No-args Constructor. 
--->Parameterized Constructor:-
-      -->why?-->While Creating an object, if we want to  send any  values to that object then we can go for the parameterized constructor.
--->"this" keyword is used to invoke current class object data members and to maintain the "code readability".
--->"this()" method is used to call current class Constructor. It cannot be used in a method, and this should be used only inside the constructor and written at 
-    first line.
--->"super" keyword is used to invoke super class  object data members.
--->"super()" method is used to call super class constructor.
--->constructor Chaining
-       -->If we are calling  one constructor into another constructor by using "this()"(incase of single class) and "super()"(incase of multiple classes) 
-         methods is known as constructor chaining. 
--->Copy Constructor
-       -->if we are copying one constructor into another constructor by using object reference variable.
+What are the Types of Constructors:-
+-----------------------------------
+1)Default constructor:-
+ -------------------------
+  why-->If our class does not contain any type of constructor(no-args, parameterized) then the java compiler is providing a constructor and that constructor is called as 
+  default constructor.
+
+2)Parameterized constructor:-
+ ----------------------------
+ why-->While creating an Object if we want to send any values to that Object then we will go for the concept of Paramtereized Constructor.
+ 
+ The constructor which takes the arguments as a Input,that constructor is called as Parameterized Constructor.
+
+3)No args Constructor:-
+---------------------------
+  why-->If our class contains parametrized constructor but if we want to create an Object without values then we will go for the concept of No args Contructor.
+ 
+  The Constructor which does not take any arguments as inputs,that constructor is called as No args Constructor.
+
+-->"this" is a keyowrd to invoke current class Object data members.
+-->"super" is a keyword to invoke super class Object Data members.
+-->"this()" is a method to call current class constructor.(Single Class)
+-->"super()" is a method to call super class Constructor.(Multiple Classes)
+
+4)Constructor chaining:-
+ -----------------------
+  If we are calling one constructor inside Another constructor by using "this()" (In case Single class) and "super()"(In case of Mutltiple classes) methods is called as 
+  constructor chaining.
+
+5)Copy constructor:-
+ ---------------------
+  If we are copying one constructor in to another constructor by using Object reference variable is called as Copy constructor.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 RULES FOR CONSTRUCTORS:-
 ----------------------------
