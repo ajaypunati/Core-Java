@@ -1902,7 +1902,7 @@ SortedSet:-
 SortedSet<?> s2 = new  TreeSet<>();
 
 -->SortedSet follows sorted order.
--->If we pass any null value to the SortedSet or TreeSet then we will get NullPointerException.
+-->If we pass any null value to the SortedSet or TreeSet then we will get "NullPointerException."
 -->SoretedSet is a sub Interface of Set Interface.
 -->TreeSet is a implemented class of both SortedSet Interface
 -->TreeSet allows only Homogeneous data elements.
@@ -1960,10 +1960,25 @@ Map:-
 -->Map is a interface from java.util package.
 -->Map implemented classes are HashMap, LinkedHashMap, IdentityHashMap, WeakHashMap.
 -->Map is for representing key,value pairs.
--->HashMap is internally working based on HashTable.
 -->keys cannot be duplicated but values can be duplicated.
+
+HashMap:-
+---------
+-->HashMap is internally working based on HashTable.
 -->HashMap is fail fast and  it is unsynchronized.
+-->HashMap is using ".equals()" method to check the keys from map.
+-->HashMap Order is not preserved.
+-->HashMap Dominates Garbage Collector, where HashMap we used it in cache based Algorithms.
 -->LinkedHashMap follows insertion Order.
+
+IdentityHashMap:-
+----------------
+-->IdentityHashMap is a implemented class of Map Interface.
+-->IdentityHashMap is using "==" operator to check the keys from map.
+
+WeakHashMap:-
+-------------
+-->Garbage Collector dominates WeakHashMap, if we want to perform garbage collection on map then we will go for "WeakHashMap".
 
 Map<Integer, String> m = new HashMap<>();
 
@@ -2018,7 +2033,15 @@ Method Summary:-
       }
 
    }
-    
+
+  SortedMap:-
+  -------------
+  SortedMap<?,?> s = new TreeMap<>();
+  -->SortedMap follows sorted order.
+  -->TreeMap is a implemented class of SortedMap.
+  -->TreeMap only allows Homogeneous Elements.
+  -->If we pass any Heterogeneous elements to the TreeMap then we will get "ClassCastException".
+
 =================================================================================================================================================================
 COLLECTIONS IS A UILITY CLASS IN JAVA:-
 ========================================
