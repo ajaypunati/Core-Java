@@ -11,7 +11,7 @@ Why we need to learn JFS..?
     1)Desktop Applications(notepad,word, calculator,...)
     2)Web Based Applications(Facebook, Whatsapp, SBI,HDFC,...)
     3)Mobile Applications(notepad, Facebook)
------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 Where we can use all these Concepts..?(Java, FET or UI, SQL)
 =============================================================
 -->In Generic, For Each and Every Application we have "4" layers:
@@ -34,13 +34,13 @@ Where we can use all these Concepts..?(Java, FET or UI, SQL)
                 |   |
     4)Data Layer(SQL : MySQL or Oracle)
         ->Database, it is going to store the data and manipulate the data based of CRUD Operations.
------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 Definition of Java or What is Java:-
 =====================================
 -->java is a simple , High-level, secure, platform independent, Robust and Object oriented programming language used for developing Both Standalone and Web(internet) Applications.
 -->java is case sensitive programming language.
 Note: Not a pure object-oriented language because it supports primitive data types like int, char etc.
------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 WHY JAVA..?:-
 ============
 -->Java Programming language is Invented for Developing Internet Applications by providing Platform independence(Write once run anywhere).
@@ -48,13 +48,13 @@ WHY JAVA..?:-
 -->Java is popular programming language for client-server web applications.
 -->It has more demand in the current job market.
 -->it is easy to learn and simple to use.
------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 HISTORY OF JAVA:-
 =================
 -->Java history was started with the Green Team.
 -->The Green Team started a project to develop a language for digital devices such as Television.
 -->It works on Internet Programming.
------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 CREATION OF JAVA:-
 ==================
 -->Java was developed by James Gosling and his team (Mike shredding, park Naughton) at "Sun Microsystems INC" in the year 1991.
@@ -62,17 +62,17 @@ CREATION OF JAVA:-
 -->Initially, James Gosling call it as "Green Talk" with the file extension as ".gt"
 -->Later on it is renamed as "OAK" and again it is renamed as "java" in the year 1995 , because "oak" is already a trademark by the "oak Technologies".
 -->"java is a island in Indonesia where a first coffee was produced."
------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 Java Divided into Three Categories:-
 -------------------------------------
 J2SE(java 2 standard Edition): For creating desktop-based applications.(Core java)
 J2EE(java 2 Enterprise Edition) : For Creating enterprise web-based applications.(Adv Java)
 J2ME(java 2 Micro Edition): For Developing mobile-based applications.(Frameworks)
------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 JDK:- Java Development kit(JDK) is a software development kit required to develop applications in java. When you download JDK, JRE is also downloaded with it.
 JRE:- Java Runtime Environment(JRE) is a software Package that provides java class libraries, JVM and other components that are needed to run java programs.
 JVM:- Java Virtual Machine(JVM) is an interpreter that converts byte code into machine level language code .
-=================================================================================================================================================================
+===============================================================================================================================================================
 Java version History:-
 ------------------------
 1)JDk alpha and beta 
@@ -107,7 +107,7 @@ latest version: JAVA SE 23
 Feature Updates: JAVA SE 24, 25
 old version and under maintainance:- (JAVA SE 8, JAVA SE 11, JAVA SE 17, JAVA SE 21)
 (Alpha & beta, 1.0, 1.1, 1.2, 1.3,1.4,1.5, 1.6, 1.7,1.9,1.10, 12, 13, 14, 15, 16, 18, 19, 20) -->Old version not in maintenance.
-=================================================================================================================================================================
+================================================================================================================================================================
 JAVA PROGRAM STEP BY STEP EXECUTION PROCESS:-
 ===============================================
 -->Step-1:  create a java source code file with .java extension
@@ -115,14 +115,14 @@ JAVA PROGRAM STEP BY STEP EXECUTION PROCESS:-
 -->Step-3:  class loader reads both user defined and library classes into memory for execution.
 -->step-4:  bytecode verifier validates all the byte codes are valid.
 -->step-5:  JVM(java virtual machine) reads bytecodes and translate into machine Level Language for execution. 
-=================================================================================================================================================================
+================================================================================================================================================================
 JVM ARCHITECTURE:-
 ===========================
 Why do we need JVM:-
 --------------------
 -->Operating System is not provided environment to execute java Applications or programs.
 -->To execute java programs or Applications we must need  to have JVM.
------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
 what is JVM? -->JVM is a interpreter which is responsible for loading, verifying and executing byte code created in java.
 -->".Class" file is the input to the JVM.
 ARCHITECTURE:-
@@ -170,7 +170,7 @@ ARCHITECTURE:-
                                             
               4)Java Native Interface(JNI) -- JNI will be interacted with the Native method libraries and provide the Native libraries required for the 
                                               Execution Engine.
-=================================================================================================================================================================
+================================================================================================================================================================
 APPLICATIONS OF JAVA:-
 ==========================
   -->java is used in "DESKTOP APPLICATIONS"
@@ -179,7 +179,7 @@ APPLICATIONS OF JAVA:-
   -->"WEB APPLICATIONS"
   -->"EMBEDDED SYSTEMS"
   -->"GAMING".
-=================================================================================================================================================================
+================================================================================================================================================================
 FEATURES OR ADVANTAGES OF JAVA:-
 ===============================
 1)Java is Simple -->why? 
@@ -218,7 +218,7 @@ FEATURES OR ADVANTAGES OF JAVA:-
 6)Java is Object oriented Programming -->why?
     -->Everything in java is Object.
     -->It is not Purely object oriented because it supports primitive data types like int, char, byte, etc...
-=================================================================================================================================================================
+================================================================================================================================================================
 -->What is meant by "public static void main(String[] arms)"?
      -->In public static void main(String arms[])
               -->public means direct access to the JVM(Java virtual machine).
@@ -240,7 +240,7 @@ FEATURES OR ADVANTAGES OF JAVA:-
 -->We have total of 10 println methods with all primitive data types and object datatypes as arguments.
 -->import static java.lang.System.out;
    out.println("Hello World");
-=================================================================================================================================================================
+================================================================================================================================================================
 DIFFERENCE BETWEEN C++ AND JAVA:-
 =======================================================
 --> C++                                                                JAVA
@@ -252,7 +252,7 @@ DIFFERENCE BETWEEN C++ AND JAVA:-
     5.It supports structures and unions                            5.java doesn't supports structures and unions.
     6.c++ supports pointers and we can write a pointer program     6.java does not supports pointers instead they developed references(address of the objects)
     7.c++ supports operator overloading                            7.java doesn't supports operator overloading.
-=================================================================================================================================================================
+================================================================================================================================================================
 WHAT DOES A CLASS  CONTAIN:-
 ==============================
 1) Data Members:
@@ -266,7 +266,7 @@ WHAT DOES A CLASS  CONTAIN:-
       -->Parametrized Constructor
 4)Interfaces
 5)Inner Classes
-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 WHAT IS CLASS:-
 ==============
 -->Class is a Blue Print(plan) of an object or it is a Template.
@@ -288,7 +288,7 @@ creating object:-
 -->Class Name A = new Class Name();
           or
     new Class Name();
-=================================================================================================================================================================
+================================================================================================================================================================
 READING INPUT IN JAVA:-
 ========================
 Scanner class:- Scanner Class is a predefined class in "java. util" package
@@ -301,7 +301,7 @@ Scanner class:- Scanner Class is a predefined class in "java. util" package
      float f  =sc.nextFloat();
      String q =sc.nextLine(); or sc.next();
      Char ch  =sc.next().charAt(0 or i);
-=================================================================================================================================================================
+================================================================================================================================================================
 -->To find Number of digits in the given number use this logic: (int)Math.log10(num)+1;
 -->TO separate the digits from first then use the below logic:
         while(num>0)
@@ -309,7 +309,7 @@ Scanner class:- Scanner Class is a predefined class in "java. util" package
            int r= num/(int)Math. Pow(10,d) ;
            num=num%(int)Math. Pow(10,d);
         }
-=================================================================================================================================================================
+================================================================================================================================================================
 PRINTING OUTPUT:-
 ==============================
 * System.out.println("Java Fundamentals");
@@ -320,21 +320,22 @@ PRINTING OUTPUT:-
 * System.out.print("java:"+x);
 * System.out.printf("%.2f" , x);
 * System.out.format("%.2f", x);
-=================================================================================================================================================================
+================================================================================================================================================================
 "JAVA LANGUAGE FUNDAMENTALS":-
-============================================================
+=====================================
 JAVA IDENTIFIERS:-
 ============================
 -->java identifiers are used for identification purpose (or) Any name of the Project, package, class, interface, Method, variable is called as Identifier.
 -->valid identifiers:-->($,_,[A-Z],[a-z],[0-9])-->but should not start with numbers.
 -->Invalid identifiers:-->(@,#,%,-,...)
+
   RULES FOR IDENTIFIERS:-
- =====================================================================
+------------------------------------------------------------------
    1)Java Identifiers can use (a-z) or (A-Z) or (0 - 9).
    2)Java Identifiers should not start with numeric values(0 -9)(Syntax error at token 1).
    3)Java Identifiers should not contain any Special Characters except "_" and  "$" , we can start identifiers with "_" or "$".
    4)Java Identifiers should not be a Java Keywords.
-=================================================================================================================================================================
+================================================================================================================================================================
 JAVA KEYWORDS:-
 ==================
 "Primitive Datatypes(8), Application level or oops(14), Access Modifiers(12), Exception handling(5), Logical Statement(11)"
@@ -353,7 +354,7 @@ For Representing floating Decimals:
 For Representing characters and true or false conditions:
   ->char
   ->Boolean
------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
 APPLICATION LEVEL (OR) OOPS KEYWORDS:-
 ---------------------------------------
  -->"package" :- package is a keyword to create package for collection of classes and interfaces.
@@ -373,14 +374,14 @@ APPLICATION LEVEL (OR) OOPS KEYWORDS:-
 -->"implements" 
 -->"extends"
 -->"assert"
-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 ACCESS MODIFIERS KEYWORDS(12):-
 --------------------------------
 -->"private" :-  private is a keyword, we cannot  use for a class but we can use inside the class.(The Scope of private is within  the class).
 -->"<default>" :- The Scope of default is within the package.
 -->"protected" :- protected is a keyword , we cannot use for a class but we can use inside the class.(The Scope of Protected is "within the package + outside of the packages of subclasses:).
 -->"public" :- public is a keyword we can user for a class and also we can use inside the class. (The Scope of public is within the project Anywhere).
------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 -->"abstract" :- abstract is a keyword 
                       --> we can use for methods for declaration but not for implementation
                       --> we can use for classes for not creating an object to our class.
@@ -389,21 +390,21 @@ ACCESS MODIFIERS KEYWORDS(12):-
                   if we use static for a method or blocks then it will loading to  the memory without creating object.
 -->"strictfp" :-  strictly follows floating point data in all the systems.
 -->"synchronized" :-synchronized is a keyword , we can go and use in multithreading to achieve synchronization.
------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 -->"final" :-  final is for class then we cannot extends that class.
                final is for method then we cannot override that method in child class.
                final is for variable then we cannot change the value.
 -->"transient":- transient is a keyword we can use it in serialization concept.
 -->"Volatile" :- volatile means keep on changing , we can use it in multithreading when the threads are sleeping still you want to make your variables to change  the values.
 -->"native"
-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 EXCEPTION HANDLING(5):-
 ------------------------
 -->try
 -->catch
 -->finally
 -->throw , throws
------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
 LOGICAL STATEMENT:-
 --------------------
 -->if
@@ -416,7 +417,7 @@ LOGICAL STATEMENT:-
 -->continue
 -->go to
 -->const
-=================================================================================================================================================================
+================================================================================================================================================================
 JAVA  DATATYPES:-
 =======================================
 -->There are Two types of Data types in java : they are "Primitive Data types " and "Non-primitive datatypes"
@@ -437,7 +438,7 @@ JAVA  DATATYPES:-
 -->boolean           ->size->1bit  -->boolean boolvar;
 -->char              ->size->16-bits-->char charvar; ( 0 to 65535) -->char data types is a single 16-bit Unicode characters.
 -->All integers can be characters(by the concept of ASCII Values) and all Characters can be a integers.
------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Non-Primitive Data types(Wrapped object data types, pre-defined object data types, user-defined object data types):-
 ====================================================================================================================
 -->String        
@@ -454,7 +455,7 @@ Non-Primitive Data types(Wrapped object data types, pre-defined object data type
        -->BigDecimal b2=new BigDecimal("467686969670707.6868686868");
 -->Student, Employee, Address,....(user-defined object datatypes)
 -->"NULL" is the Default value of any object data type.
-=================================================================================================================================================================
+================================================================================================================================================================
 JAVA TYPECASTING:-
 ====================
 Type Casting:-
@@ -499,7 +500,7 @@ There are two types of type casting they are:-
     String s="123.897";
    
     int res=Double.parseDouble(s);
-================================================================================================================================================================
+===============================================================================================================================================================
 JAVA WRAPPER CLASSES:-
 =======================
 -->Java Wrapper classes provides a way to use primitive datatype's as objects.
@@ -539,7 +540,7 @@ JAVA WRAPPER CLASSES:-
           System.out.println(c.toString());
        }
    }
-================================================================================================================================================================
+===============================================================================================================================================================
 JAVA LITERALS:-
 =================
 -->Literal is a Constant value which we are storing it into a variables.
@@ -555,7 +556,7 @@ JAVA LITERALS:-
        --String Literals
 -->Literals can be any Number  or text or other information that represents a value.
 -->We will use Literals in addition to variables in java  statements.
-=================================================================================================================================================================
+================================================================================================================================================================
 TYPES OF VARIABLES:-
 =====================
 -->DIVISION 1:-
@@ -581,15 +582,15 @@ TYPES OF VARIABLES:-
               -->Duplicates can be allowed to this variables.
               -->JVM is Not responsible for loading these local variables.
 -->Compared to static , instance and local , the highest priority will be given to local variables.
-=================================================================================================================================================================
+================================================================================================================================================================
 TYPES OF METHODS:-
 ====================
-why..?
--------
+why we need Method?
+--------------------
 The main aim of creating methods is to reuse the code any number of times in anywhere in the project.
 
-what is..?
------------
+what is..method?
+----------------
 -->Method means it's a behavior of a class.
                 or
 -->Method means Collection of logics and collection of statements.
@@ -647,18 +648,18 @@ public class TypesofMethods4 {
 	}
 
 }
-=================================================================================================================================================================
+================================================================================================================================================================
 JAVA CONSTRUCTORS:-
 =====================
 Why We need Constructors..?
------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
      -->To Initializing an object and initializing instance data but not static data  we need Constructor.
      -->Without Constructor there is no chance to create the object.
------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
 What is Constructor..?
------------------------------------------------------------------------------------------------------------------------------------------------------------------
--->Constructor is a special member function which is used to initialize objects. When Object is created constructor get invoked Automatically.
------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+-->Constructor is a special member function which is used to initialize an object. When Object is created constructor get invoked Automatically.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
 What are the Types of Constructors:-
 -----------------------------------
 1)Default constructor:-
@@ -691,7 +692,7 @@ What are the Types of Constructors:-
 5)Copy constructor:-
  ---------------------
   If we are copying one constructor in to another constructor by using Object reference variable is called as Copy constructor.
------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
 RULES FOR CONSTRUCTORS:-
 ----------------------------
 1)Class name and Constructor name must be same.
@@ -710,7 +711,7 @@ RULES FOR CONSTRUCTORS:-
 10)In java ,constructor overloading is possible.
 11)In one Constructor, we cannot call both this() and super().
 12)The scope of "default constructor" is the "scope of class".
-=================================================================================================================================================================
+================================================================================================================================================================
 JAVA ARRAYS:-
 =================
 Why wee need Arrays?
@@ -718,12 +719,13 @@ Why wee need Arrays?
        -->structuring the data in a proper way from unstructured data.
        -->It is More Readable to maintain the code.
        -->To maintain continuous memory allocation.
-----------------------------------------------------------------------------------------
+
 What is Array?
 --------------
  -->Array is an object.
  -->Array is a index based, collection of homogeneous data elements into a single unit with fixed size.
  -->Array is a fixed and mutable(i.e. we can replace the value of a array element)
+
 Array Creation:-(For Creating an array we need to follow four steps they are: Declaration, Creation, Initialization, Representation)
 =================
 1) Declaration
@@ -744,8 +746,10 @@ Array Creation:-(For Creating an array we need to follow four steps they are: De
    for(int i=0;i<n; i++){
      System.out.println(ages[i]);
    }
+
 -->The Maximum Range of Array is : Integer maximum value(2147483647).
 -->We can create and initialize an array in a single line by using "{}".
+
 //Reading the elements from console using scanner class..
 ---> for(int i=0;i<size; i++){
        A[i] = sc.nextInt();
@@ -920,7 +924,7 @@ for(int[][] n2:A){
    }
 System.out.println();
 }
-=================================================================================================================================================================
+================================================================================================================================================================
 ARRAYS CLASS:-
 ==================
   -->Arrays class is a built-in class in java that provides variuos utility methods for working with Arrays.
@@ -934,7 +938,7 @@ ARRAYS CLASS:-
        5)int[] copy=Arrays.copyOfRange(Array_name,value1,value2); //copies the specified range of Array elements to another Array.
        6)Arrays.fill(Array_name,value); //Fills specific value in to the array.
        7)Arrays.toString(Array_name)
-=================================================================================================================================================================
+================================================================================================================================================================
 JAVA LOGICAL STATEMENTS AND OPERATORS:-
 =========================================
 1)simple "if" and "else":-(Decision Making)
@@ -1040,7 +1044,7 @@ initialization;
 do{
   //block of code;
 }while(condition);
------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
 OPERATORS:-
 ===========================================================
 -->unary  operators:-(++(pre, post),--(pre, post))
@@ -1066,7 +1070,7 @@ Operators Precedence and Associativity(BODMAS):-
 If we have same precedence operators in the equation:
   then for(*,/, %) the Associativity will be Left to Right.
   then for(+,-) the Associativity will be from Right to Left.
-=================================================================================================================================================================
+================================================================================================================================================================
 JAVA ACCESS MODIFIERS/SPECIFIERS:-
 ====================================
 -->"private"   :- private is a keyword, we cannot  use for a class but we can use inside the class.(The Scope of private is within  the class).
@@ -1098,7 +1102,7 @@ JAVA ACCESS MODIFIERS/SPECIFIERS:-
 -->"transient"  :- transient is a keyword we can use it in serialization concept.(used for variables)
 -->"volatile"(used for variables)
 -->"native"(used for methods)
-================================================================================================================================================================
+===============================================================================================================================================================
 JAVA STRING HANDLING:-
 ======================
 -->String is a Non-primitive datatype or object datatype.
@@ -1220,7 +1224,7 @@ JAVA STRING METHODS:-
 
 33) "intern()" :- Returns the canonical representation of a given String.(strng)
      eg:- s.intern();  s1.intern();
-================================================================================================================================================================
+===============================================================================================================================================================
 STRING BUFFER && STRING BUILDER IN JAVA:-
 ============================================
 StringBuffer:-
@@ -1258,7 +1262,7 @@ syntax:-
 StringBuilder:-
 --------------
 -->StringBuilder is a mutable object.
-=================================================================================================================================================================
+================================================================================================================================================================
 JAVA OOPS:-
 ============
 -->OOPS stands for object oriented programming structure or system.
@@ -1278,7 +1282,7 @@ WHAT... is OOPS?
 where... we use?
 -----------------
 --> Without OOPS , we cannot even write any simple java program, even it is very simple java program we are using oops.    
------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ENCAPSULATION:-
 =======================
@@ -1303,7 +1307,7 @@ why Encapsulation..?
 -->To Achieve Security or Modularity.
 -->"let us say , we are having a database that consists of data , and how this data is transferring to the UI, means, we are having a object in java class with same name as table name and the fields of database are my java class variables, Now i need to secure my data from others accessing directly and i will provide 
 only modification by  using setter method and readability by using getters method."
------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Abstraction:- 
 ==============
@@ -1402,7 +1406,7 @@ Benefits of Abstraction:-
 --------------------------
 -->Security
 -->flexibility
-=================================================================================================================================================================
+================================================================================================================================================================
 INHERITANCE:-
 ===================
 why inheritance..?
@@ -1508,7 +1512,7 @@ Benefits(why):-
 -->Code Reusability
 -->Readability
 -->Memory efficiency
-=================================================================================================================================================================
+================================================================================================================================================================
 POLYMORPHISM:-
 ==================
 Why we need to go for polymorphism..?
@@ -1569,7 +1573,7 @@ Benefits of polymorphism:-
 -->Flexibility
 -->Loosely Coupling
 -->Readability
-================================================================================================================================================================
+===============================================================================================================================================================
 EXCEPTION HANDLING:-
 ======================
 why we need to Handle Exceptions..?
@@ -1651,7 +1655,7 @@ Note:-
 11)We cannot write any other statements between "try" and "catch" blocks.
 12)We can stop finally block by using "System.exit(0);"
 13)Nested try-catch blocks are possible in try block, catch block and finally block also.
-================================================================================================================================================================
+===============================================================================================================================================================
 FILE IO(File Handling):-
 ========================
 -->The File Io is related to java.io package.
@@ -1666,7 +1670,7 @@ FILE IO(File Handling):-
   ->6)PrintWriter
 
   ->Serialization
-=================================================================================================================================================================
+================================================================================================================================================================
 COLLECTIONS FRAME WORK OR COLLECTIONS API(Java.util):-
 =====================================================
 Frameworks:-
@@ -1754,7 +1758,7 @@ Method Summary:-
  *    c.size(); //int , it is a method to return size of the collection.
  *    c.toArray(); //Object[] , it is a method to convert Collection into Array.
  *    String y=x.toArray(new String[0]);
-----------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------
 2)List Interface:-
 -----------------
 -->List Implementation classes are below :
@@ -1790,7 +1794,7 @@ Method summary:-
 *  l.set(int index, E e); //E , It is a method to change the value at the specified index in this list.
 *  l.subList(int fromindex, int toindex);
 *  l.lastIndexOf(Object 0);
-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 ArrayList:-
 -----------
 -->ArrayList is a Implemented class of List Interface.
@@ -1821,7 +1825,7 @@ why ArrayList ...  why not Vector..?
  *Not legacy and 1.2 version.
  *Legacy and 1.o version.
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Linked List:-
 --------------
  -->LinkedList is a Implemented class of List Interface.
@@ -1883,7 +1887,7 @@ Method Summary:-
 3)s.pop(); //remove the object from Stack
 4)s.search(Objec o); //int
 5)s.empty(); //boolean , return true if the stack have no objects.
------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Set:-
 ------
  syntax:-
@@ -2050,7 +2054,7 @@ Method Summary:-
   -->TreeMap only allows Homogeneous Elements.
   -->If we pass any Heterogeneous elements to the TreeMap then we will get "ClassCastException".
 
-=================================================================================================================================================================
+================================================================================================================================================================
 COLLECTIONS IS A UILITY CLASS IN JAVA:-
 ========================================
 -->This Collections class provide some generic functionalities to work with Collection.
@@ -2065,7 +2069,7 @@ COLLECTIONS IS A UILITY CLASS IN JAVA:-
 -->"Collections.replaceAll(arr, old_value, new_value);"
 -->"Collections.binarySearch(arr,ele);"
 -->"Collections.rotate(arr,how_many_rotations);
-=================================================================================================================================================================
+================================================================================================================================================================
 JAVA CHAPTER 1 INTERVIEW QUESTIONS:-
 =====================================
 -->Why u choose java and what are the features of java?
@@ -2080,3 +2084,4 @@ JAVA CHAPTER 1 INTERVIEW QUESTIONS:-
 -->Explain About Garbage Collection how can we achieve this?
 -->Explain about main method why need to have in java?
 -->Difference between Static Blocks and instance Blocks.
+===============================================================================================================================================================
