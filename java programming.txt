@@ -1811,7 +1811,7 @@ why ArrayList ...  why not Vector..?
 -->Becuase both the Classes implements Random Access Interface(marker Interface) but ArrayList is not synchronized where as vector is synchronization.Hence
   ArrayList is best option when compared to Vector.(it is little bit of speed)
 
-   ArrayList      vs          Vector
+   ArrayList    vs      Vector
  -------------------------------------------
  * No method in ArrayList is synchronized.
  * Most of the methods in vector are synchronized.
@@ -1961,10 +1961,9 @@ Comparator:-
 -->Returns a Negative Integer(-1) if the second argument is less than second argument.
 -->Returns Zero if first arguments equals to second argument.
 
-      Comparable                                         vs                              comaprator
-    ----------------                                                                -----------------------
-*  
-
+Comparable  vs Comparator:-
+---------------------------
+* 
 
 
 Map:-
@@ -1981,6 +1980,7 @@ HashMap:-
 -->HashMap is using ".equals()" method to check the keys from map.
 -->HashMap Order is not preserved.
 -->HashMap Dominates Garbage Collector, where HashMap we used it in cache based Algorithms.
+-->HashMap allows one "null" key and any number of "null" values.
 -->LinkedHashMap follows insertion Order.
 
 IdentityHashMap:-
@@ -2054,6 +2054,13 @@ Method Summary:-
   -->TreeMap only allows Homogeneous Elements.
   -->If we pass any Heterogeneous elements to the TreeMap then we will get "ClassCastException".
 
+  HashMap  vs  HashTable  vs concurrentHashMap
+ -----------------------------------------------
+  * HashMap is not thread safe because it allows multiple threads to execute at a time.
+  * HashTable is thread safe because it allows only one thread to execute at a time.
+
+  *HashMap allows one "null" key and any number of "null" values.
+  *HahsTable does not allow any "null" key and "null" values.
 ================================================================================================================================================================
 COLLECTIONS IS A UILITY CLASS IN JAVA:-
 ========================================
