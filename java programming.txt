@@ -1956,14 +1956,14 @@ Comparator:-
 -------------
 -->Comparator is a Interface from java.util package
 -->"compare(T o1, T o2)" is a abstract method from comparator Interface which is expecting two arguments and the return type is "int".
--->compares first Object or arguments with the Second argument or Object.
+-->compares first Object or argument with the Second argument or Object.
 -->Returns a positive Integer(+1) if the first argument is greater than second argument.
 -->Returns a Negative Integer(-1) if the second argument is less than second argument.
 -->Returns Zero if first arguments equals to second argument.
 
 Comparable  vs Comparator:-
 ---------------------------
-* 
+* Com
 
 
 Map:-
@@ -2061,6 +2061,17 @@ Method Summary:-
 
   *HashMap allows one "null" key and any number of "null" values.
   *HahsTable does not allow any "null" key and "null" values.
+
+  *Peformance pov HashMap is recommended to use.
+  *Performance pov HashTable is not recommended to use.
+
+  *HashMap is fail fast.
+  *ConcurrentHashMap is fail safe.
+
+
+ Queue:-
+----------
+
 ================================================================================================================================================================
 COLLECTIONS IS A UILITY CLASS IN JAVA:-
 ========================================
