@@ -695,22 +695,25 @@ What are the Types of Constructors:-
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 RULES FOR CONSTRUCTORS:-
 ----------------------------
-1)Class name and Constructor name must be same.
-2)Constructors should not return anything not even void.
-3)Applicable modifiers for constructors as below: 
-    -->private
-    --><default>
-    -->protected, public 
-  Note: other than the above modifiers if we give any other modifiers then we will get the compile time error.
-4)"this()" and "super()" must be in the first line of any constructor.
-5)"this()" and "super()" must need to be call in constructor only but not in methods.
-6)If we didn't create any constructor for a class , java compiler will create a default constructor.
-7)If we have any constructor in our class then java compiler does not create any default constructor.
-8)If we have parameterized constructor and we need to create an object with no values then we need to go for the no args constructor.
-9)"this" and "super" keywords can used in both methods and constructors but not used in static methods.
-10)In java ,constructor overloading is possible.
-11)In one Constructor, we cannot call both this() and super().
-12)The scope of "default constructor" is the "scope of class".
+1) The class name and constructor name should be same.
+2) constructors should not return anything even void.
+3) Applicable Access Modifiers for the constructors are below:-
+      -->private
+      -->protected
+      -->default
+      -->public
+Note:other than the above modifiers if we give any other modifiers then we will get the compile time error.
+4) "this()" and "super()" methods must  be in the first line of any constructor.
+5) "this()" and "super()" methods must need to be call inside the constructor only but not in methods.
+6) If our class does not contain any constructors then the java compiler is providing a constructor and that constructor is called as default
+  constructor.
+7) If our class contains any of the constructor then the java compiler is not going to provide any default constructor.
+8) If our class contains parameterized constructor but if we want to create an Object without values then we will go for No args constructor.
+9) "this" and "super" keywords are used to invoke current class and super class Object data members and both can be used in constructors and methods but not in 
+    static methods.
+10) Constructors can be overloaded.
+11) Both "this()" and "super()" methods cannot be used at a time in a constructor.
+12) The scope of default constructor is scope of the class.
 ================================================================================================================================================================
 JAVA ARRAYS:-
 =================
