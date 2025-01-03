@@ -1963,7 +1963,20 @@ Comparator:-
 
 Comparable  vs Comparator:-
 ---------------------------
-* Com
+* Comparable Interface is used to sort the Objects with Natural Ordering.
+* Comparator Interface is used to sort the  attributes of different Objects.
+
+* Comparable Interface compares "this" object with the "specified" Object.
+* Comparattor Interface compares two different Objects provided by class.
+
+* Comparable Interface is from java.lang package.
+* Comparator Interface is from  java.util package.
+
+* Comparable Interface affect's the Original Class.
+* Comparator Interface does not affect the Original class.
+
+* Comparable Interface provides "compareTo()" method to sort the elements.
+* Comparator Interface provides "compare()" and "equals()" methods to sort the elements.
 
 
 Map:-
