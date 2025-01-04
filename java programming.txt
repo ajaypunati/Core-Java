@@ -1645,6 +1645,7 @@ Custom Exceptions or User Defined Exceptions:-
 -->Any Class that extends "RuntimeException" class then we can consider it as Unchecked Exception.
 
 Note:-
+---------------
 1)Only "try" block is not possible, we must need to provide "catch or finally" blocks.
 2)"try" block is to keep problematic code.
 3)If there is a problem in  try block then catch block will executes.
