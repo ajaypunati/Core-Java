@@ -1920,7 +1920,7 @@ SortedSet<?> s2 = new  TreeSet<>();
 -->SortedSet follows sorted order.
 -->If we pass any null value to the SortedSet or TreeSet then we will get "NullPointerException."
 -->SoretedSet is a sub Interface of Set Interface.
--->TreeSet is a implemented class of both SortedSet Interface
+-->TreeSet is a implemented class of SortedSet Interface
 -->TreeSet allows only Homogeneous data elements.
 
 Method Summary:-
