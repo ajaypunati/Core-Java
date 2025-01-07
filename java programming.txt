@@ -1673,7 +1673,9 @@ FILE IO(File Handling):-
   ->5)BufferedWriter
   ->6)PrintWriter
 
-  ->Serialization
+  Serialization:-
+--------------------
+    
 ================================================================================================================================================================
 COLLECTIONS FRAME WORK OR COLLECTIONS API(Java.util):-
 =====================================================
@@ -2115,6 +2117,16 @@ COLLECTIONS IS A UILITY CLASS IN JAVA:-
 -->"Collections.binarySearch(arr,ele);"
 -->"Collections.rotate(arr,how_many_rotations);
 ================================================================================================================================================================
+INNER CLASSES:-
+----------------
+what is Inner class?
+----------------------
+A class Inside a class is called as Inner class.
+
+There are 4 Types of Inner classes:-
+------------------------------------
+1) 
+=================================================================================================================================================================
 JAVA CHAPTER 1 INTERVIEW QUESTIONS:-
 =====================================
 -->Why u choose java and what are the features of java?
