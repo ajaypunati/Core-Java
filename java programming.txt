@@ -2123,6 +2123,7 @@ what is Inner class?
 ----------------------
 -->A class Inside a class is called as Inner class.
 -->Without Outer class there is no Inner class.
+-->The purpose of Inner classe is to complete Temporary Requirements.
 There are 4 Types of Inner classes:-
 ------------------------------------
 1) Regular or Named inner Classes
