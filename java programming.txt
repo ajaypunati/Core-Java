@@ -2121,11 +2121,14 @@ INNER CLASSES:-
 ----------------
 what is Inner class?
 ----------------------
-A class Inside a class is called as Inner class.
-
+-->A class Inside a class is called as Inner class.
+-->Without Outer class there is no Inner class.
 There are 4 Types of Inner classes:-
 ------------------------------------
-1) 
+1) Regular or Named inner Classes
+2) Method Inside Inner classes
+3) Anonymous Inner classes.
+4) Static Inner classes.
 =================================================================================================================================================================
 JAVA CHAPTER 1 INTERVIEW QUESTIONS:-
 =====================================
