@@ -2149,13 +2149,28 @@ what is Multi threading..?
 
 Multi Tasking:-
 --------------
--->Doing Multiple works at same time is called as Multi tasking.
+-->Executing the Multiple Tasks at same time is called as Multi tasking.
 -->There are two types of Multi Tasking:
-     -->Process based Multi Tasking(works based on CPU Creation)
-     -->Thread based Multi Tasking
+     1)Process based Multi Tasking:-(PBM)
+          -->Executing Multiple Tasks where each Task is a seperate Independent Programme is called as PBM.
+     2)Thread based Multi Tasking:-(TBM)
+          -->Executing Multiple Threads simultaneoulsy within the same program is called as TBM.
+          -->TBM is suitable at Programmatic Level.
 
 MAIN IMPORTANT APPLICATION AREAS OF MULTITHREADING:-
 ----------------------------------------------------
+1)To Develop MultiMedia Graphics.
+2)To Implement video Animations.
+3)To Develop Games.
+4)To Develop Server.
+5)To Develop a Server and Web Application Servers.
+
+There are Two Ways to Create Thread:-
+-------------------------------------
+1) class MyThread extends Thread{
+   }
+2) class MyThread implements Runnable{
+   }
 
 ================================================================================================================================================================
 JAVA CHAPTER 1 INTERVIEW QUESTIONS:-
