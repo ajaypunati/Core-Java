@@ -1638,6 +1638,7 @@ There are two types of Exceptions, they are:
    4)ArrayIndexOutOfBoundsException : If we give size of an array more than expected then we will get "ArrayIndexOutOfBoundsException".
    5)StringIndexOutOfBoundsException : If we try to access the index which is not available in String then we will get "StringOutOfBoundsException".
    6)InputMismatchException  : If we have declared input as Integer but we are giving String input in console then we will get "InputMissMatchException".
+   7)IllegalThreadstateException: when we are trying to recall a thread which is already started then we will get "ILLEGALSTATEEXCEPTION".
 
 Custom Exceptions or User Defined Exceptions:-
 -----------------------------------------------
@@ -2137,10 +2138,25 @@ why..?
 ---------
 -->To Reduce Response Time, we need to go for Multithreading concept.
 
-what is thread..?
+what is Thread..?
 -----------------
 -->A Light Weight Execution process is called as Thread.
 -->Thread is a pre-defined class from java.lang package.
+
+what is Multi threading..?
+----------------------------
+-->Executing Multiple Functionalities Simultaneously or parallely is the Concept of Multithreading.
+
+Multi Tasking:-
+--------------
+-->Doing Multiple works at same time is called as Multi tasking.
+-->There are two types of Multi Tasking:
+     -->Process based Multi Tasking(works based on CPU Creation)
+     -->Thread based Multi Tasking
+
+MAIN IMPORTANT APPLICATION AREAS OF MULTITHREADING:-
+----------------------------------------------------
+
 ================================================================================================================================================================
 JAVA CHAPTER 1 INTERVIEW QUESTIONS:-
 =====================================
