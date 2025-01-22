@@ -1645,8 +1645,8 @@ Custom Exceptions or User Defined Exceptions:-
 -->Any class that extends "Exception Class" then we can consider it as Checked Exception.
 -->Any Class that extends "RuntimeException" class then we can consider it as Unchecked Exception.
 
-Note:-
----------------
+RULES FOR EXCEPTION HANDLING:-
+--------------------------------
 1)Only "try" block is not possible, we must need to provide "catch or finally" blocks.
 2)"try" block is to keep problematic code.
 3)If there is a problem in  try block then catch block will executes.
