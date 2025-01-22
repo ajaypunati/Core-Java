@@ -2172,11 +2172,19 @@ There are Two Ways to Create Thread:-
 2) class MyThread implements Runnable{
    }
 
-Thread Methods:-
-----------------
+Case 1 :- Thread Scheduler
+------------------------------
+-->
+
+case 2:- Difference Between t.start() and t.run()
+----------------------------------------------------
 1) t.start() : When we call a start method a new thread will be created and begins the execution and internally JVM calls the run method by default.
    (Note: A thread class run method consist of nothing by default).
 2} t.run() : When we call run method no new thread will be created and it executes just like the normal method.
+
+extends Thread  vs  implements Runnable:-
+-------------------------------------------
+
 ================================================================================================================================================================
 JAVA CHAPTER 1 INTERVIEW QUESTIONS:-
 =====================================
