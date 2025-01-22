@@ -2174,7 +2174,8 @@ There are Two Ways to Create Thread:-
 
 Case 1 :- Thread Scheduler
 ------------------------------
--->
+-->If Multiple Threads are waiting for Exectuion then the Thread Scheduler is responsible for  the execution of those Threads.
+-->Thread Scheduler is a part of JVM and we cannot determine the Order of Thread Execution as it varies from JVM to JVM.
 
 case 2:- Difference Between t.start() and t.run()
 ----------------------------------------------------
@@ -2184,7 +2185,8 @@ case 2:- Difference Between t.start() and t.run()
 
 extends Thread  vs  implements Runnable:-
 -------------------------------------------
-
+-->When we are using "extends Thread" then we are not able to acheive a beautiful concept called Inheritance.
+-->When we are using "implements Runnable" then we can able to acheive a beautiful concept called Inheritance.
 ================================================================================================================================================================
 JAVA CHAPTER 1 INTERVIEW QUESTIONS:-
 =====================================
