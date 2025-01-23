@@ -2154,6 +2154,7 @@ Multi Tasking:-
 -->There are two types of Multi Tasking:
      1)Process based Multi Tasking:-(PBM)
           -->Executing Multiple Tasks where each Task is a seperate Independent Programme is called as PBM.
+          -->These are OS Level but not at Programmatic Level.
      2)Thread based Multi Tasking:-(TBM)
           -->Executing Multiple Threads simultaneoulsy within the same program is called as TBM.
           -->TBM is suitable at Programmatic Level.
@@ -2162,12 +2163,12 @@ MAIN IMPORTANT APPLICATION AREAS OF MULTITHREADING:-
 ----------------------------------------------------
 1)To Develop MultiMedia Graphics.
 2)To Implement video Animations.
-3)To Develop Games.
-4)To Develop Server.
-5)To Develop a Server and Web Application Servers.
+3)To Develop Video Games.
+4)To Develop a Server.
+5)To Develop  Server and Web Application Servers.
 
-There are Two Ways to Create Thread:-
--------------------------------------
+There are Two Ways to Create/define Thread:-
+-------------------------------------------
 1) class MyThread extends Thread{
    }
 2) class MyThread implements Runnable{
@@ -2184,13 +2185,21 @@ Case 2:- Difference Between t.start() and t.run()
    (Note: A thread class run method consist of nothing by default).
 2} t.run() : When we call run method no new thread will be created and it executes just like the normal method.
 
-Case 3:- Overloading the "run()" is Possible or not..?
+Case 3:- Overloading of "run()" is Possible or not..?
 -------------------------------------------------------
--->Overloading the "run()" method is possible but Thread class "start()" method will always calls the no argument "run()" method.
+-->Overloading of "run()" method is possible but Thread class "start()" method  always calls  no argument "run()" method.
 
 Case 4:- If We are not overriding the "run()" then what happens..?
 -------------------------------------------------------------------
 -->JVM Will call the Thread class "run()" method internally which is having an empty implementation and hence we don't get any output.
+
+Case 5:- Importance of Thread class "start()"
+---------------------------------------------
+-->Thread class "start()" method is resposnible for registering our Thread with the Thread Scheduler and all other Mandatory Activities.
+
+Case 6:- Overriding of "start()" method
+-----------------------------------------
+If we are Overriding the "start()" Method then it will just execute like a normal method call and No New Thread will be created.
 
 Thread Life Cycle:-
 --------------------
