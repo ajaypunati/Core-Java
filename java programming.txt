@@ -1619,8 +1619,7 @@ There are two types of Exceptions, they are:
     2)FileNotException : when we are creating Object for "FileReader class" then we are getting "FileNotFoundException".
     3)ClassNotFoundException : when we are calling "Class.forName("Oracle.jdbc.driver.OracleDriver"); then we are getting "ClassNotFoundException".
     4)SQLException : when we are calling "DriverManager.getConnection("URL","username", password"); then we will get "SQL Exception".
-    6)EmptyStackException: when we are accessing an empty stack by using "s.peek()" and "s.pop()" then we will get EmptyStackExcpetion.
-    6)InterruptedException 
+    5)InterruptedException 
    
   -->throws: throws is the keyword to satisfy the compiler when we are having checked Exceptions.
   -->throw : throw the exceptions Explicitly to the JVM whether it is predefined or user defined Exception.
@@ -1639,6 +1638,8 @@ There are two types of Exceptions, they are:
    5)StringIndexOutOfBoundsException : If we try to access the index which is not available in String then we will get "StringOutOfBoundsException".
    6)InputMismatchException  : If we have declared input as Integer but we are giving String input in console then we will get "InputMissMatchException".
    7)IllegalThreadstateException: when we are trying to recall a thread which is already started then we will get "ILLEGALSTATEEXCEPTION".
+   8)ClassCastException: When we are trying to pass Heterogeneous data elements to TreeSet or TreeMap then we ae getting "ClassCastException".
+   9)EmptyStackException: when we are accessing an empty stack by using "s.peek()" and "s.pop()" then we will get EmptyStackExcpetion.
 
 Custom Exceptions or User Defined Exceptions:-
 -----------------------------------------------
@@ -2177,11 +2178,23 @@ Case 1 :- Thread Scheduler
 -->If Multiple Threads are waiting for Exectuion then the Thread Scheduler is responsible for  the execution of those Threads.
 -->Thread Scheduler is a part of JVM and we cannot determine the Order of Thread Execution as it varies from JVM to JVM.
 
-case 2:- Difference Between t.start() and t.run()
+Case 2:- Difference Between t.start() and t.run()
 ----------------------------------------------------
 1) t.start() : When we call a start method a new thread will be created and begins the execution and internally JVM calls the run method by default.
    (Note: A thread class run method consist of nothing by default).
 2} t.run() : When we call run method no new thread will be created and it executes just like the normal method.
+
+Case 3:- Overloading the "run()" is Possible or not..?
+-------------------------------------------------------
+-->Overloading the "run()" method is possible but Thread class "start()" method will always calls the no argument "run()" method.
+
+Case 4:- If We are not overriding the "run()" then what happens..?
+-------------------------------------------------------------------
+-->JVM Will call the Thread class "run()" method internally which is having an empty implementation and hence we don't get any output.
+
+Thread Life Cycle:-
+--------------------
+(New/Born state --> (m.start() --> Ready/Runnable state) --> ("run()" --> Running state(wait(),sleep(),suspend()) --> Terminated(Dead state)
 
 extends Thread  vs  implements Runnable:-
 -------------------------------------------
