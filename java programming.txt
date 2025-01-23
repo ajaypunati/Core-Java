@@ -2196,6 +2196,14 @@ Thread Life Cycle:-
 --------------------
 (New/Born state --> (m.start() --> Ready/Runnable state) --> ("run()" --> Running state(wait(),sleep(),suspend()) --> Terminated(Dead state)
 
+Thread Priority:-
+-------------------
+-->Every Thread in java has some priority, it may be default provided by JVM or customized priority explicitly provided by the programmer.
+-->The Void range of priority is from "1 to 10" but not "0 to 10".
+-->The least Priority is "1"(Thread.MIN_PRIORITY) and the highest Prority is "10"(Thread.MAX_PRIORITY).
+-->Default Priority is "5" (Thread.NORM_PRIORITY).
+
+
 extends Thread  vs  implements Runnable:-
 -------------------------------------------
 -->When we are using "extends Thread" then we are not able to acheive a beautiful concept called Inheritance.
