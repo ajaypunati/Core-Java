@@ -2196,6 +2196,19 @@ Thread class Methods to Prevent Thread Execution:-
    2)join()  : If a Thread(t1) wants to wait until completing some(t2) other Thread then we should go for the "t2.join()" Method.
    3)sleep() : If a Thread don't want to perform any operation for a particular amount of time then we should go for the "sleep()" Method.
 
+Daemon Thread:-
+----------------
+-->The "Threads" which are executing in the Background are called as "Daemon Thread".
+-->Example: Garbage Collector.
+-->The Main Purpose of Daemon Threads is to provide support for non-daemon Threads(i.e Main Thread).
+
+Synchronization:-
+-----------------
+why..?
+-------
+-->The Main intension we are going for  synchronization is to achieve data inconsistency Problems.
+
+
 
 extends Thread  vs  implements Runnable:-
 -------------------------------------------
