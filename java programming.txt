@@ -1325,7 +1325,7 @@ There are three types of Interfaces:
     example:- Collection, List, Map, Set.
 
 2) Functional interface:-
-      -->An Interface which contains only one "Abstract Method" is called as Functional Interface.
+      -->An Interface which contains one "Abstract Method" and any number of default Methods, Private methods, static Methods is called as Functional Interface.
    example:- Comparable, comparator.
 
 3) Marker Interface:-
@@ -2209,6 +2209,9 @@ why..?
 -->The Main intension we are going for  synchronization is to achieve data inconsistency Problems.
 
 
+=================================================================================================================================================================
+JAVA 8 FEATURES:-
+------------------
 
 extends Thread  vs  implements Runnable:-
 -------------------------------------------
