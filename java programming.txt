@@ -2224,10 +2224,22 @@ JAVA 8 FEATURES:-
 -->The Main Objective of Lambda Expression is: To Bring Functional Programming into Java.
 -->what is Lambda Expression: It is an Anonymous Function in java.
 -->what is Anonymous..? -->It means nameless, without return type and without Access Modifier.
--->It is easiest Concept.
+-->It is "easiest Concept!!".
 
 Syntax for Lambda Expression:-
 ------------------------------
+ InterfaceName reference_Variable = () -> {
+    //block of code
+ };
+-->If we are having only one statement then no need to use curly braces also.
+-->If we are having Multiple statements we must need to use curly brackets and ends with semicolon.
+
+Note:- If One Interface  extends another Interface, if the first interface contains one Abstract Method then the second Interface should not contain any other
+ Abstract Methods because it already contians abstract method of first Interface then we can say both the interfaces are Fucntional interfaces.
+
+
+2)Functional Interfaces:-
+---------------------------
 
 ================================================================================================================================================================
 JAVA CHAPTER 1 INTERVIEW QUESTIONS:-
