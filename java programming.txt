@@ -2228,9 +2228,14 @@ JAVA 8 FEATURES:-
 
 Syntax for Lambda Expression:-
 ------------------------------
- InterfaceName reference_Variable = () -> {
+ ->InterfaceName reference_Variable = () -> {
     //block of code
  };
+
+ ->() -> System.out.println();
+ ->(s) -> s*s;
+ ->(x,y) -> { block of code};
+
 -->If we are having only one statement then no need to use curly braces also.
 -->If we are having Multiple statements we must need to use curly brackets and ends with semicolon.
 
