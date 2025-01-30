@@ -2251,6 +2251,17 @@ Note:- If One Interface  extends another Interface, if the first interface conta
 
 2)Functional Interfaces:-
 ---------------------------
+->Pre-Defined Functional Interfaces are available from java.util.Function package.
+->Below all are Interfaces only and each Interface contains only one Abstract Method, All single Abstract Methods of Interface are Functional Interface.
+->If we want to invoke Lambda Expressions we must need to use Functional interface only.
+->Functional Interface can contain only one abstract method and we can take any number of default methods and static Methods.
+
+                 -->Predicate<Generic Type> referenceName  -->boolean test(value); (p1.and(p2), p1.or(p2), negate()
+                 -->Function<?,?> referenceName            -->R apply(T t);
+                 -->Consumer<?>  referenceName             -->void accept(T t);
+                 -->Supplier<?>  referenceName             -->R get();
+                 -->Comparator<?> referenceName            -->int compare(Obj o1, Obj o2);
+                 -->Comparable<?> referenceName            -->int compareTo(Obj o);
 
 ===============================================================================================================================================================
 JAVA CHAPTER 1 INTERVIEW QUESTIONS:-
