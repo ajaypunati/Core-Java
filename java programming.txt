@@ -1644,23 +1644,6 @@ RULES FOR EXCEPTION HANDLING:-
 11)We cannot write any other statements between "try" and "catch" blocks.
 12)We can stop finally block by using "System.exit(0);"
 13)Nested try-catch blocks are possible in try block, catch block and finally block also.
-===============================================================================================================================================================
-FILE IO(File Handling):-
-========================
--->The File Io is related to java.io package.
--->The File IO stands for file input output Streams.
--->We are going to understand 11 Predefined classes in File IO.
-  ->1)File
-  ->2)FileReader
-  ->3)FileWriter
-
-  ->4)BufferedReader
-  ->5)BufferedWriter
-  ->6)PrintWriter
-
-  Serialization:-
---------------------
-    
 ================================================================================================================================================================
 COLLECTIONS FRAME WORK OR COLLECTIONS API(Java.util):-
 =====================================================
