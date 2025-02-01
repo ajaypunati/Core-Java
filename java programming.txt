@@ -2257,11 +2257,12 @@ Note:- If One Interface  extends another Interface, if the first interface conta
 ->Functional Interface can contain only one abstract method and we can take any number of default methods and static Methods.
 
                  -->Predicate<Generic Type> referenceName  -->boolean test(value); (p1.and(p2), p1.or(p2), negate()
-                 -->Function<?,?> referenceName            -->R apply(T t);(f1.andThen(f2), f1.compose(f2))
+                 -->Function<T,R> referenceName            -->R apply(T t);(f1.andThen(f2), f1.compose(f2))
                  -->Consumer<?>  referenceName             -->void accept(T t);
-                 -->Supplier<?>  referenceName             -->R get();
+                 -->Supplier<R>  referenceName             -->R get();
                  -->Comparator<?> referenceName            -->int compare(Obj o1, Obj o2);
                  -->Comparable<?> referenceName            -->int compareTo(Obj o);
+                 -->Runnable                               -->run() 
 
 ===============================================================================================================================================================
 JAVA CHAPTER 1 INTERVIEW QUESTIONS:-
