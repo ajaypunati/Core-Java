@@ -2019,17 +2019,7 @@ Method Summary:-
   for(String s:m.values()){
     System.out.println(s);
   }
-
-//Pushing array elements in to Map
- for(data_type i : A){
-       if(m.contains(i){
-         m.put(i, m.get(i)+1);
-        }
-        else{
-          m.put(i,1_;
-       }
- }
-         
+     
 -->Set<Map.Entry<Integer, String>> entries = m.entrySet();
    for(Map.Entry<Integer, String>> entry : entries){
      System.out.println(entry.getKey() +" : "+ entry.getValue());
