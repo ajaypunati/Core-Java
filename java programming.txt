@@ -2244,6 +2244,25 @@ Note:- If One Interface  extends another Interface, if the first interface conta
 
 3)STREAM API:-
 ----------------
+-->what is stream ..? -->The Flow of data.
+-->Stream itself is a "method" and "Interface".
+-->Stream is an Interface in the java.util.stream pckage.
+-->The Stream API in java, Introduced in java8, provides powerful and expressive way "to perfom operations on collections of data.".
+
+Key Concepts:-
+-------------
+i) Stream Creation.
+   ->We can create a Stream from Various data sources, such as collections, arrays, or I/O channels.
+
+ii)Intermediate Operations.
+    -These operations return the new stream.
+    ex:- filter(Predicate<T> p), map(Function<T,R> f), sorted(Comaparator c),distinct()
+
+iii)Terminal Operations.
+     -These Operations returns the result or side-effect and close the stream.
+     ex:-collect(Collector<? super T, A, R> collector), forEach(Consumer<? super T> action),count(),findFirst(),min(),max()
+
+
 
 
 ===============================================================================================================================================================
