@@ -2246,25 +2246,28 @@ Note:- If One Interface  extends another Interface, if the first interface conta
 ----------------
 -->what is stream ..? -->The Flow of data.
 -->Stream itself is a "method" and "Interface".
--->Stream is an Interface in the java.util.stream pckage.
+-->Stream is an Interface in the java.util.stream Package.
 -->The Stream API in java, Introduced in java8, provides powerful and expressive way "to perfom operations on collections of data.".
 
 Key Concepts:-
 -------------
-i) Stream Creation.
+i) Stream Creation:-
    ->We can create a Stream from Various data sources, such as collections, arrays, or I/O channels.
 
-ii)Intermediate Operations.
+ii)Intermediate Operations:-
     -These operations return the new stream.
-    ex:- filter(Predicate<T> p), map(Function<T,R> f), sorted(Comaparator c),distinct()
+    ex:- filter(Predicate<T> p) :- Filter elements based on given predicate,
+         map(Function<T,R> f) :- Transforms each element using given Function,
+         sorted(Comaparator c):- sorts the elements based on comparator,
+         distinct() : remove duplicates.
 
-iii)Terminal Operations.
+iii)Terminal Operations:-
      -These Operations returns the result or side-effect and close the stream.
-     ex:-collect(Collector<? super T, A, R> collector), forEach(Consumer<? super T> action),count(),findFirst(),min(),max()
-
-
-
-
+     ex:-collect(Collector<? super T, A, R> collector): converts the stream into different forms such as list or set,
+         forEach(Consumer<? super T> action) : Performs an operation for each element,
+         count() : Returns the number of elements in the stream,
+         findFirst() :- Returns the first element in the stream if present,
+         min(), max().
 ===============================================================================================================================================================
 JAVA CHAPTER 1 INTERVIEW QUESTIONS:-
 =====================================
