@@ -2237,6 +2237,15 @@ Note:- If One Interface  extends another Interface, if the first interface conta
                  -->Comparable<?> referenceName            -->int compareTo(Obj o);
                  -->Runnable                               -->run() 
 
+                 -->BiPredicate
+                 -->BiFunction
+                 -->BiConsumer
+
+
+3)STREAM API:-
+----------------
+
+
 ===============================================================================================================================================================
 JAVA CHAPTER 1 INTERVIEW QUESTIONS:-
 =====================================
