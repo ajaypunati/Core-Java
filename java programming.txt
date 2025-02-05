@@ -2256,7 +2256,8 @@ i) Stream Creation:-
 
 ii)Intermediate Operations:-
     -These operations return the new stream.
-    ex:- filter(Predicate<T> p) :- Filter elements based on given predicate,
+    ex:- stream() :- Return the flow of data.
+         filter(Predicate<T> p) :- Filter elements based on given predicate,
          map(Function<T,R> f) :- Transforms each element using given Function,
          sorted(Comaparator c):- sorts the elements based on comparator,
          distinct() : remove duplicates.
