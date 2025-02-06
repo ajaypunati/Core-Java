@@ -2268,7 +2268,9 @@ iii)Terminal Operations:-
          forEach(Consumer<? super T> action) : Performs an operation for each element,
          count() : Returns the number of elements in the stream,
          findFirst() :- Returns the first element in the stream if present,
-         min(), max().
+         min(Integer :: compare).get() : Returns the minimum element in thje stream,
+         max(Integer :: compare).get() : returns the maximum element in the stream,
+         reduce(0, Integer::sum) : reduce the elements in to a single value.(i.e sum)
 ===============================================================================================================================================================
 JAVA CHAPTER 1 INTERVIEW QUESTIONS:-
 =====================================
