@@ -1660,17 +1660,23 @@ why Collections..?
 -->To Structuring the  data in a proper way or organized way, we need to go for concept of Collections Chapter.
 -->Representing  Collection of Objects in to a single entity, that entity can be any collection framework Object.
 
-          Array                            vs                          Collections
-   ------------------                                           --------------------------
-1)Array is a fixed in size , we cannot                     1)Collections are Growable in nature at runtime.
-  change it in runtime.
-2)Arrays Can allow only homogeneous                        2)Collections can allow both homogeneous and heterogeneous 
-  data elements.                                              data elements.
-3)Arrays can allow both primitive datatypes                3)Collections can allow only object Data types to store the elements.
-  and object data types to store the elements.
-4)Memory POV Arrays are not recommended to use.            4)Memory POV Collections are recommended to use.
-5)Performance POV Arrays are recommended to use            5)Performance POV Collections are not recommended to use when compare to arrays.
-  when we know exact array size.
+         "Array"      vs        " Collections"
+   -----------------------------------------------------------
+  *Array is a fixed size we cannot change it in run time.
+  *Collections are growable in nature at runtime.
+
+  *Arrays can allow only homogeneous data elements.
+  *Collections can allow both homogeneous and heterogeneous data elements.
+
+  *Array can allow both primitive and Object data types to store the elements.
+  *Collections can allow only Wrapper Object data types to store the elements.
+
+  *Memory Pov Arrays are not recommended to use.
+  *memory pov collections are recommended to use.
+
+  *Performance pov arrays are recommende to use when  we know the exact size.
+  *performance pov collections are not recommended to use when compare to arrays.
+
 
 -->Collections framework Available from java.util package.
 -->We are going to learn "15" interfaces in Collections, they are:
