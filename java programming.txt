@@ -2262,7 +2262,7 @@ i) Stream Creation:-
 
 ii)Intermediate Operations:-
     -These operations return the new stream.
-    ex:- stream() :- Return the flow of data.
+    ex:- stream() :- Converts the list in to stream(flow of data)
          filter(Predicate<T> p) :- Filter elements based on given predicate,
          map(Function<T,R> f) :- Transforms each element using given Function,
          sorted(Comaparator c):- sorts the elements based on comparator,
@@ -2275,8 +2275,18 @@ iii)Terminal Operations:-
          count() : Returns the number of elements in the stream,
          findFirst() :- Returns the first element in the stream if present,
          min(Integer :: compare).get() : Returns the minimum element in thje stream,
-         max(Integer :: compare).get() : returns the maximum element in the stream,
-         reduce(0, Integer::sum) : reduce the elements in to a single value.(i.e sum)
+         max(Integer :: compare).get() : Returns the maximum element in the stream,
+         reduce(0, Integer::sum) : Reduce the elements in to a single value by summingup all the elements starting from 0.(i.e sum)
+
+-->To Avoid NullPointerException we are going to work with "Optional Class".
+   syntax:-
+       String s= new String[5];
+       s[4]="Ajay";
+       Optional<?> o = Optional.ofNullable(s[4]);
+
+Date API:-
+----------
+
 ===============================================================================================================================================================
 JAVA CHAPTER 1 INTERVIEW QUESTIONS:-
 =====================================
