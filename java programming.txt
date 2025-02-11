@@ -2286,6 +2286,7 @@ iii)Terminal Operations:-
 
 Date API:-
 ----------
+-->Date API is Availabale from java.util.Date;
 
 ===============================================================================================================================================================
 JAVA CHAPTER 1 INTERVIEW QUESTIONS:-
