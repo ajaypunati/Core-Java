@@ -48,6 +48,10 @@ WHY JAVA..?:-
 -->Java is popular programming language for client-server web applications.
 -->It has more demand in the current job market.
 -->it is easy to learn and simple to use.
+
+WHY CORE JAVA:-
+---------------
+-->To Develop the bussiness logics.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 HISTORY OF JAVA:-
 =================
