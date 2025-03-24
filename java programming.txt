@@ -3,8 +3,8 @@ CORE JAVA INTORDUCTION:-
 Why we need to learn JFS..?
 =============================
 -->To Develop the Applications.
--->Application means, it is a "Collection of Programs" , which can:
-    -Take the request
+-->Application means, it is a "Collection of Programs" , which can help to:
+    -Take the request from the end user.
     -Process the request
     -Send the response to the end user.
  ->There are 3 types of Applications:
