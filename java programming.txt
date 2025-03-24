@@ -12,8 +12,8 @@ Why we need to learn JFS..?
     2)Web Based Applications(Facebook, Whatsapp, SBI,HDFC,...)
     3)Mobile Applications(notepad, Facebook)
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
-Where we can use all these Concepts..?(Java, FET or UI, SQL)
-=============================================================
+Where we can use all these Concepts..?(Java, FET or UI, SQL) (MVC ARCHITECTURE)
+================================================================================
 -->In Generic, For Each and Every Application we have "4" layers:
 
  ->user -->Request   -->Response --> end user.
