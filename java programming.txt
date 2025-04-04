@@ -1301,7 +1301,7 @@ only modification by  using setter method and readability by using getters metho
 Abstraction:- 
 ==============
 -->Abstraction is the process of "Hiding the Implementation" and "showing only essential information" to the users.
--->By Using "Interface" and "abstract" keywords  we can achieve Abstraction.
+-->By Using "Interface" and "abstract" class  we can achieve Abstraction.
 -->ATM machine is one of the best example of Abstraction.
 
 Interface:-
