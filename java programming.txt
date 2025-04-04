@@ -1285,7 +1285,6 @@ ENCAPSULATION:-
 -->JAVA API is the best example of Encapsulation Mechanism.
 -->In MySQL , Normalization is the best example of Encapsulation.
 -->Each and every class in java is following encapsulated mechanism.
--->The Object in Encapsulated class is called as DTO(Data transfer object) or PLOJO(Plain old java object) or Data Model
 
 Data Hiding(To work on Encapsulation) :- This can be achieved by the following three terminologies:
       - we need to stop the access.                --> private keyword
