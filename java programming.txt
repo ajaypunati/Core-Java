@@ -1355,18 +1355,23 @@ why we need "abstract class"...?
 -->Whenever we don't want to create an object for our class then we need to go for "abstract class".
 -->if we need "100%" abstraction we need to go for "interface" but if we need "0 to 100 %"(10 or 20%) abstraction we need to go for "abstract class".
 
-              abstract class                                               interface
-         ---------------------------                              -----------------------------
-1)  Abstract class can have abstract and                         1)Interface can have only abstract methods, since java8 it can have default
-    non-abstract methods.(regular, concrete)                         methods and static methods.
-2)  Abstract class can have constructors.                        2)In Interface there no constructors.
-3)  Abstract class does not support multiple inheritance.        3)Interface supports multiple inheritance.
-4)  Abstract can have final, non-final, static and               4)Interface can only have static and final variables.
-    non-static variables.
-5) The "abstract" keyword is used to declare                     5)The "Interface" keyword is used to declare Interface.
-   abstract class.
-6) Data Members of a java abstract class are private,            6)Data Members of a java interface are public by default.
-   protected...
+
+Abstract class       vs          Interface
+---------------------------------------------
+*abstract class can contain both abstract methods and non-abstract methods.
+*Interface can contain only abstract methods, from 1.8 version we can default and static methods.
+
+*Abstract class does not support multiple inheritance.
+*interface supports multiple inheritance.
+
+*In Abstract class there are constructors.
+*In Interface there are no constructors.
+
+*"Abstract" is a keyword to define abstract class.
+*"Interface" is a keyword to define Interface types.
+
+*Data members of a java abstract class are private, protected,etc...
+*Data members of a java interface are by default public.
 
 example:-
 ----------
