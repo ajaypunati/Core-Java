@@ -1610,7 +1610,7 @@ There are two types of Exceptions, they are:
   -------------
     1)IOException  : when we are calling "creatNewFile()" then we are getting "IOException".
     2)FileNotException : when we are creating Object for "FileReader class" then we are getting "FileNotFoundException".
-    3)ClassNotFoundException : when we are calling "Class.forName("Oracle.jdbc.driver.OracleDriver"); then we are getting "ClassNotFoundException".
+    3)ClassNotFoundException : when we are calling "Class.forName("com.mysql.cj.jdbc.Driver"); then we are getting "ClassNotFoundException".
     4)SQLException : when we are calling "DriverManager.getConnection("URL","username", password"); then we will get "SQL Exception".
     5)InterruptedException : When we are tring to call "sleep()", "join()" methods in Multithreading Concept then we are getting "InterruptedException".
    
