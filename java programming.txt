@@ -1641,19 +1641,21 @@ Custom Exceptions or User Defined Exceptions:-
 
 RULES FOR EXCEPTION HANDLING:-
 --------------------------------
-1)Only "try" block is not possible, we must need to provide "catch or finally" blocks.
-2)"try" block is to keep problematic code.
-3)If there is a problem in  try block then catch block will executes.
-4)If there is a problem or not in try block the finally block will always executes.
-5)We can have Multiple catch blocks.
-6)We cannot have Multiple finally blocks.
-7)try ->catch -> finally order is important.
-8)The first catch block never be a parent Exception.
-9)Only try, only catch, only finally blocks are not possible.
-10)Catch with finally  is also not possible without try block. 
-11)We cannot write any other statements between "try" and "catch" blocks.
-12)We can stop finally block by using "System.exit(0);"
-13)Nested try-catch blocks are possible in try block, catch block and finally block also.
+Rules for Exception Handling:-
+------------------------------
+1)only try block is not possible, we should provide either catch block or finally block.
+2)try block is to kept Problematic Code.
+3)If there is a problem in try block the catch block will execute.
+4)If there is a problem or not in try block the finally block will execute always.
+5)We can allow Multiple catch blocks.
+6)Multiple finally are not allowed.
+7)Immediate Catch block should not be a parent Exception.
+8)try, catch, finally blocks order is important.
+9)only catch block with finally block is not possible without try block.
+10)We can stop execution of finally block by using System.exit(0);
+11)We cannot write any statements between try-catch blocks.
+12)Nested try-catch blocks are possible in try block, catch block and finally block.
+13)only try , only catch and only finally blocks are not possible.
 ================================================================================================================================================================
 COLLECTIONS FRAME WORK OR COLLECTIONS API(Java.util):-
 =====================================================
