@@ -2059,6 +2059,15 @@ Method Summary:-
   -->TreeMap only allows Homogeneous Elements.
   -->If we pass any Heterogeneous elements to the TreeMap then we will get "ClassCastException".
 
+Navigable Map:-
+---------------
+NavigableMap<?,?> s = new TreeMap<>();
+-->Navigable Map is an Sub Interface of SortedMap Interface.
+-->Navigable Map follows Sorted Order.
+-->TreeMap is an Implemented class of Navigable Map Interface.
+-->TreeMap Allows only Homogenepoous Data Elenents.
+-->If we any Null Values and Heterogeneous data elements then we are getting "NullPointerException" and "ClassCastException".
+
   HashMap  vs  HashTable  vs concurrentHashMap
  -----------------------------------------------
   * HashMap is not thread safe because it allows multiple threads to execute at a time.
