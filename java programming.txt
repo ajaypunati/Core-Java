@@ -1798,10 +1798,10 @@ ArrayList:-
 -->ArrayList Inital Capicty is 10. (Ic * 3/2).
 -->ArrayList class is used to retrive the data from database.
 
-why ArrayList ...  why not Vector..?
---------------------------------------
--->Becuase both the Classes implements Random Access Interface(marker Interface) but ArrayList is not synchronized where as vector is synchronization.Hence
-  ArrayList is best option when compared to Vector.(it is little bit of speed)
+why ArrayList... why not vector..?
+------------------------------------
+-->Both the classes implements RandomAccess Interface(Marker Interface) but ArrayList is Unsynchornous whereas vector is synchronous, so ArrayList a little bit fatser when compared to vector.
+
 
    ArrayList    vs      Vector
  -------------------------------------------
