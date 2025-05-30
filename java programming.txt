@@ -1824,8 +1824,11 @@ Linked List:-
  -->LinkedList is a resizeable array.
  -->LinkedList can also perfrom all the similar Operations of List Interface.
  -->LinkedList allow Duplicate elements and also hetergeneous elements.
+ -->LinkedList can allow any number of duplicate elements.
+ -->LinkedList can allow any number of null values.
  -->Insertion order is Preserved.
  -->LinkedList is unsynchronized.
+
 
  why LinkedList .. why not ArrayList..?
 --------------------------------------------
@@ -1843,11 +1846,18 @@ All the methods of List Interace and additionally we have some extra methods the
 * removeLast(); //E, Removes and returns the last element in the list.
 
 
-copyOnWriteArryList:-
--------------------------
--->copyOnWriteArrayList is a class from java.util.concurrent package.
--->copyOnWrtieArrayList can also perform all the similar operations of List interface.
--->copyOnWriteArrayList is Fail safe.
+CopyOnWriteArrayList:-
+-----------------------
+-->CopyOnWriteArrayList is available from java.util.Concurrent package.
+-->CopyOnWriteArrayList is an Implemented class of List Interface.
+-->CopyOnWriteArrayList is an Exact copy of ArrayList.
+-->CopyOnWriteArrayList can also perform all the similar operations of List Interface.
+-->CopyOnWriteArrayList can allow both homogeneous and Heterogeneous data elements.
+-->CopyOnWriteArrayList can allow any muber of null values.
+-->CopyOnWriteArrayList can allow Duplicate Elements.
+-->CopyOnWriteArrayList Insertion Order is Presereved.
+-->CopyOnWriteArrayList is an Resizeable Array.
+
 
 why copyOnWriteArrayList..  ... why not ArrayList..?
 ----------------------------------------------------
