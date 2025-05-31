@@ -1879,6 +1879,13 @@ why copyOnWriteArrayList..  ... why not ArrayList..?
 (Fail Fast -->It does not allow modification while iterating, if we do the same then we will get concurrentmodification error)
 (Fail Safe -->It allows modification of elements while Iterating.
 
+Vector:-
+----------
+-->vector is an Implemented class of List Interface.
+-->Vector is thread safe, because at a time it allows only one thread to operate on vector Object.
+-->vector is synchronous and it's methods are synchronized.
+-->Vector is legacy and java2 Version.
+
 Method Summary of vector:-
 --------------------------
 syntax:-
