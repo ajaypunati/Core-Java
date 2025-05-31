@@ -1845,6 +1845,20 @@ All the methods of List Interace and additionally we have some extra methods the
 * removeFirst(); //E, Removes and returns the First element in the list.
 * removeLast(); //E, Removes and returns the last element in the list.
 
+ ArrayList  vs LinkedList
+------------------------------------
+*ArrayList is faster to retrieve the data from database.
+*LinkedList is slower to retrieve the data from database.
+
+*In LinkedList, Insertion and deletion of elements is faster.
+*Where as In ArrayList Insertion and deletion of elements is slower.
+
+*LinkedList is internally working based on "Doublely LinkedList".
+*ArrayList is Internally Working Based on "Dynamic Array".
+
+*LinkedList is Unsynchronous, 
+*where as ArrayList is also unsynchronous.
+
 
 CopyOnWriteArrayList:-
 -----------------------
