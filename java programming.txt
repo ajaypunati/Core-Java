@@ -2240,6 +2240,10 @@ why..?
 -------
 -->The Main intension we are going for  synchronization is to achieve data inconsistency Problems.
 
+what is Synchronization..?
+-----------------------------
+
+
 extends Thread  vs  implements Runnable:-
 -------------------------------------------
 -->When we are using "extends Thread" then we are not able to acheive a beautiful concept called Inheritance.
