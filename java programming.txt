@@ -1918,19 +1918,23 @@ Set:-
   Set<?> s = new HashSet<>();
   Set<?> s1 = new LinkedHashSet<>(); //LinkedHashSet is following insertion order.
 
--->Set will not follow Insertion Order and it follow based on hashCode.
--->Set will not allow Duplicate values.
--->Set will allow null values only once.
--->Set can allow both homogeneous and heterogeneous data elements
--->Set is a Interface. -- HashSet, LinkedHashSet
--->SoretedSet is a  Sub Interface of Set Interface.(TreeSet)
--->NaviagbleSet is a sub Interface of  SortedSet.(TreeSet)
--->The Main intension for going to "Set" Interface is to remove Duplication.
--->The default initial Capacity of  Set is "16" and the load factor is (0.75).
--->The HashSet is Working internally based on "HashMap".
--->"HashSet" is working based on hashCode and "LinkedHashSet" is working based on 'linkedlist".
--->If our frequent Operation is searching then we can go for "HashSet".
--->set Interface and it's sub Interfaces can also perfrom all the similar Operations of List Interface.
+Set Interface:-
+---------------
+-->Set does not follows insertion Order and it follows based on hashCode.
+-->Set does not allow Duplicate Elements.
+-->Set allows null values only once.
+-->Set can allow both homogeneous and heterogeneous data elements to store in it.
+-->Set Interface is a sub Interface of Collection Interface.
+-->Set Implemented Classes are: HashSet, LinkedHashSet.
+-->SortedSet Interface is a Sub Interface of Set Interface.
+-->NavigableSet Interface is a Sub Interface of SortedSet Interface.
+-->TreeSet is the Implemented class of both SortedSet and NavigableSet Interfaces.
+-->The Main aim we are coming for Set is to remove Duplication.
+-->The Default Initial Capcity of Set Interface is 16 and Load Factor is 0.75.
+-->HashSet is Internally working based on HashMap and that HashMap is Internally Working based on HashTable.
+-->LinkedHashSet Follows Insertion Order.
+-->If Our Frequent Operation is Searching the we can go for  HashSet.
+
 
 SortedSet:-
 --------------
