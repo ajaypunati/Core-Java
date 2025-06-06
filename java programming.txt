@@ -1937,38 +1937,48 @@ Set Interface:-
 
 
 SortedSet:-
---------------
-SortedSet<?> s2 = new  TreeSet<>();
+------------
+syntax:-
+--------
+ SoretedSet<?> s = new TreeSet<>();
 
--->SortedSet follows sorted order.
--->If we pass any null value to the SortedSet or TreeSet then we will get "NullPointerException."
--->SoretedSet is a sub Interface of Set Interface.
--->TreeSet is a implemented class of SortedSet Interface
--->TreeSet allows only Homogeneous data elements.
+-->SortedSet Interfaace follows sorted Order.
+-->SortedSet Interface is a Sub Interface of Set Interface.
+-->TreeSet is an Implemented Class of SortedSet Interface.
+-->TreeSet allows only homogeneous data elements to store in it.
+-->If we are passing any Heterogeneous data elements to the TreeSet then we are getting "ClassCastException."
+-->If we are passing any null values to the SortedSet Interface or TreeSet Class then we are getting "NullPointerException".
 
 Method Summary:-
------------------
-* s2.first();
-* s2.last();
-* s2.tailSet(E e); //Returns elements strictly greater than or equal to the given element.
-* s2.headSet(E e);  //Returns elements strictly less than to the given element.
-* s2.subSet(E e1, E e2);
+----------------
+*s.first();
+*s.last();
+*s.tailSet(Object obj);
+*s.headSet(Object obj);
+
 
 NavigableSet:-
+--------------
+Syntax:-
+---------
+NavigableSet<?> s = new TreeSet<>();
+
+-->NavigableSet Interface also follows Sorted Order.
+-->NavigableSet Interface is a Sub Interface of SortedSet Interface.
+-->TreeSet is an Implemented class of NavigableSet Interface.
+-->TreeSet allows only homogeneous data elements to store in it.
+-->If we are passing any Heterogeneous data elements to the TreeSet then we are getting "ClassCastException."
+-->If we are passing any null values to the NavigableSet Interface or TreeSet Class then we are getting "NullPointerException".
+
+
+Method Summary:-
 ----------------
- NavigableSet s = new TreeSet<>();
+*s.higher(E e);
+*s.lower(E e);
+*s.floor(E e);
+*s.ceiling(E e);
 
--->NavigableSet also follows Sorting order.
--->NavigableSet is a sub Interface of SortedSet.
--->TreeSet is a implemented class of NavigableSet and it allows only Homogeneous Elements.
--->If we are trying to pass heterogeneous elements to TreeSet then we will get "ClassCastException".
 
-Method Summary for NavigableSet:-
-----------------------------------
-*  s.floor(E e);
-*  s.ceiling(E e);
-*  s.higher(E e);
-*  s.lower(E e);
 
 Comparable:-
 ------------
