@@ -1998,22 +1998,22 @@ Comparator:-
 -->Returns a Negative Integer(-1) if the second argument is less than second argument.
 -->Returns Zero if first arguments equals to second argument.
 
-Comparable  vs Comparator:-
----------------------------
-* Comparable Interface is used to sort the Objects with Natural Ordering.
-* Comparator Interface is used to sort the  attributes of different Objects.
+Comparable   vs Comparator
+----------------------------
+*Comparable Interface is used to sort the Objects based On Natural Ordering.
+*Comparator Interface is used to sort the Attributes of different Objects.
 
-* Comparable Interface compares "this" object with the "specified" Object.
-* Comparattor Interface compares two different Objects provided by class.
+*Comparable Interface Compares this Object with the Specified Object.
+*Comparator Interface Compares two different Objects provided by a class.
 
-* Comparable Interface is from java.lang package.
-* Comparator Interface is from  java.util package.
+*Comparable Interface is from java.lang package.
+*Comparator Interface is from java.util package.
 
-* Comparable Interface affect's the Original Class.
-* Comparator Interface does not affect the Original class.
+*Comparable Interface will effect the Original Class.
+*Comparator Interface will not effect the Original Class.
 
-* Comparable Interface provides "compareTo()" method to sort the elements.
-* Comparator Interface provides "compare()" and "equals()" methods to sort the elements.
+*Comparable Interfaces Provides "CompareTo()" method to sort the Elements.
+*Comparator Interface Provides "Compare()" && "equals()" methods to sort the Elements.
 
 
 Map:-
