@@ -1792,11 +1792,14 @@ ArrayList:-
 -->ArrayList is a Implemented class of List Interface.
 -->ArrayList is a resizeable Array.
 -->ArrayList can also perform all the similar Operations of List Interface.
--->ArrayList allows duplicate elements and also heterogeneous elements.
+-->ArrayList allows duplicate elements.
+-->ArrayList can also allow both heterogeneous and Homogeneous elements.
+-->ArrayList can allow any number of null values.
 -->Insetion order is Preserved.
 -->ArrayList is unsynchronized.
 -->ArrayList Inital Capicty is 10. (Ic * 3/2).
 -->ArrayList class is used to retrive the data from database.
+-->ArrayList is Internally Working Based on "Dynamic Array".
 
 why ArrayList... why not vector..?
 ------------------------------------
@@ -1828,6 +1831,7 @@ Linked List:-
  -->LinkedList can allow any number of null values.
  -->Insertion order is Preserved.
  -->LinkedList is unsynchronized.
+ -->LinkedList is internally working based on "Doublely LinkedList".
 
 
  why LinkedList .. why not ArrayList..?
@@ -2256,6 +2260,7 @@ why..?
 
 what is Synchronization..?
 -----------------------------
+-->Synchronization is a mechanism that control access to shared resources(like variables,Object) in mutli-threaded environments.
 
 
 extends Thread  vs  implements Runnable:-
