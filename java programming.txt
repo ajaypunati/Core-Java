@@ -2260,7 +2260,8 @@ why..?
 
 what is Synchronization..?
 -----------------------------
--->Synchronization is a mechanism that control access to shared resources(like variables,Object) in mutli-threaded environments.
+-->Synchronization is a mechanism that controls access to shared resources(like variables,Object) in mutli-threaded environments.
+-->It Prevents Race Conditions and ensures data consitency by allowing only one thread at a time to access critical section of code.
 
 
 extends Thread  vs  implements Runnable:-
