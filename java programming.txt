@@ -2398,7 +2398,7 @@ ii)Intermediate Operations:-
          map(Function<T,R> f) :- Transforms each element using given Function,
          sorted(Comaparator c):- sorts the elements based on comparator,
          distinct() : remove duplicates.
-
+ 
 iii)Terminal Operations:-
      -These Operations returns the result or side-effect and close the stream.
      ex:-collect(Collector<? super T, A, R> collector): converts the stream into different forms such as list or set,
