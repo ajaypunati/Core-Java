@@ -40,14 +40,18 @@ Definition of Java or What is Java:-
 -->java is a simple , High-level, secure, platform independent, Robust and Object oriented programming language used for developing Both Standalone and Web(internet) Applications.
 -->java is case sensitive programming language.
 Note: Not a pure object-oriented language because it supports primitive data types like int, char etc.
+        (or)
+-->A group of Technologies.
+-->Object oriented Programming Language.
+-->Platform(J2SE, J2EE and frameworks)
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
-WHY JAVA..?:-
-============
+Why java or what is the Main Objective of java:-
+=================================================
 -->Java Programming language is Invented for Developing Internet Applications by providing Platform independence(Write once run anywhere).
--->Java is one of the most popular programming language in the world.
 -->Java is popular programming language for client-server web applications.
+-->The Main Objective is to develop java based dynamic Websites.
 -->It has more demand in the current job market.
--->it is easy to learn and simple to use.
+-->It is easy to learn and simple to use.
 
 WHY CORE JAVA:-
 ---------------
@@ -2430,3 +2434,4 @@ JAVA CHAPTER 1 INTERVIEW QUESTIONS:-
 -->Explain about main method why need to have in java?
 -->Difference between Static Blocks and instance Blocks.
 ===============================================================================================================================================================
+
