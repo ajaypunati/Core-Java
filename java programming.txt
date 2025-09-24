@@ -1124,7 +1124,16 @@ JAVA ACCESS MODIFIERS/SPECIFIERS:-
 ===============================================================================================================================================================
 JAVA STRING HANDLING:-
 ======================
+-->String is an Object class from java.lang package.
+-->Representing Collection of Characters in to single unit is nothig but a String.
+-->String is a Immutable Object.(Once String Object is created we cannot change it)
+-->String is not Thread safe.
 
+Syntax:-
+---------
+String s = "String name" -->String Object using String literal(SCP)
+
+String s1 = new String(); -->String Object using "new" keyword.(heap Area)
 
 JAVA STRING METHODS:-
 ======================
@@ -1237,6 +1246,21 @@ StringBuilder:-
 -->StringBuilder is not synchronized, because its methods are not thread safe and cannot be used in multithreading environment.
 -->The Default capacity of StringBuilder is also 16.
 
+syntax:-
+--------
+ StringBuffer sb = new StringBuffer();
+ StringBuilder sb1 = new StrigBuilder();
+
+Method Summary:-
+----------------
+*append(String s);
+*insert(int offset,String s);
+*reverse();
+*delete(int strindex, int endindex);
+*replace(int strtindex, int endindex, String s);
+*capacity();
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
                         String                        StringBuilder                       StringBuffer
                       ------------                  -------------------                 ----------------------
 Mutability->           Immutable                        Mutable                              Mutable
@@ -1250,14 +1274,6 @@ Performance->          High(No-synchronization)       High(No-synchronization)  
 usage->               This is used when we            This is used when thread              This is Used when thread safety 
                       Want immutability                Safety is not required.              is required.
 
-
-syntax:-
---------
- StringBuffer sb = new StringBuffer();
-
-StringBuilder:-
---------------
--->StringBuilder is a mutable object.
 ================================================================================================================================================================
 JAVA OOPS:-
 ============
@@ -2434,4 +2450,5 @@ JAVA CHAPTER 1 INTERVIEW QUESTIONS:-
 -->Explain about main method why need to have in java?
 -->Difference between Static Blocks and instance Blocks.
 ===============================================================================================================================================================
+
 
