@@ -2449,21 +2449,27 @@ iii)Terminal Operations:-
        s[4]="Ajay";
        Optional<?> o = Optional.ofNullable(s[4]);
 ===============================================================================================================================================================
-JAVA CHAPTER 1 INTERVIEW QUESTIONS:-
-=====================================
--->Why u choose java and what are the features of java?
--->what is the difference c/C++ and java?
--->what is the difference b/w static and dynamic memory allocation?
--->difference b/w class and object?
--->what is the difference b/w source code, byte code , binary code or machine level code?
--->what is the difference static v/s Instance data members?
--->what are the different types of Class loaders?
--->what are the different memory managements in JVM?
--->what is the difference b/w interpreter and JIT?
--->Explain About Garbage Collection how can we achieve this?
--->Explain about main method why need to have in java?
--->Difference between Static Blocks and instance Blocks.
+BEFORE JAVA 25 VERSION  (VS)   AFTER JAVA 25 VERSION:-
+=======================================================
+1)Rule 1:- Before Java 25 version the main method should be in the way like:
+          "public static void main(String args[]);"
+
+           From Java 25 version we can write the main method as:
+           "void main(){sysout("hello");"
+
+2)Rule 2:- Before java 25 version, this() and super() methods must be in the first line of the constructor:
+             "public Hello(){
+                this();
+                sysout("Hello");
+              }"
+
+            From java 25 version we can write the this() and super() in any line of the constructor:
+                "public Hello(){
+                     System.out.println("hello");
+                     this();
+                 }"
 ===============================================================================================================================================================
+
 
 
 
