@@ -79,7 +79,7 @@ J2ME(java 2 Micro Edition): For Developing mobile-based applications.(Frameworks
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 JAVA COMPONENTS:-
 -------------------
-JDK:- Java Development kit(JDK) is a software development kit required to develop applications in java. When you download JDK, JRE is also downloaded with it.
+JDK:- Java Development kit(JDK) is a software development kit required to develop applications in java. When you download JDK, JRE is also downloaded with it.(DEV TOOLS+JRE)
 JRE:- Java Runtime Environment(JRE) is a software Package that provides java class libraries, JVM and other components that are needed to run java programs.
 JVM:- Java Virtual Machine(JVM) is an interpreter that converts byte code into machine level language code .
 ===============================================================================================================================================================
@@ -2469,6 +2469,7 @@ BEFORE JAVA 25 VERSION  (VS)   AFTER JAVA 25 VERSION:-
                      this();
                  }"
 ===============================================================================================================================================================
+
 
 
 
