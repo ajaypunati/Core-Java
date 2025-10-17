@@ -52,6 +52,7 @@ Why java or what is the Main Objective of java:-
 -->The Main Objective is to develop java based dynamic Websites.
 -->It has more demand in the current job market.
 -->It is easy to learn and simple to use.
+-->In java, there is AGC.
 
 WHY CORE JAVA:-
 ---------------
@@ -2469,6 +2470,7 @@ BEFORE JAVA 25 VERSION  (VS)   AFTER JAVA 25 VERSION:-
                      this();
                  }"
 ===============================================================================================================================================================
+
 
 
 
