@@ -2469,7 +2469,19 @@ BEFORE JAVA 25 VERSION  (VS)   AFTER JAVA 25 VERSION:-
                      System.out.println("hello");
                      this();
                  }"
+
+3)Rule 3:- Before java 25 version, we must need to have class for writing a java program,but from java 25 version we can a write java Program without class.
+         --> "class ClassName{
+                 public static void main(String args[])
+                  {
+                  }
+             }"
+
+        --> void main(){
+               System.out.println("Hello");
+            }          
 ===============================================================================================================================================================
+
 
 
 
