@@ -35,7 +35,21 @@ Where we can use all these Concepts..?(Java, FET or UI, SQL) (MVC ARCHITECTURE)
     4)Data Layer(SQL : MySQL or Oracle)
         ->Database, it is going to store the data and manipulate the data based of CRUD Operations.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
-Definition of Java or What is Java:-
+HISTORY OF JAVA:-
+=================
+-->Java history was started with the Green Team.
+-->The Green Team started a project to develop a language for digital devices such as Television.
+-->It works on Internet Programming.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+CREATION OF JAVA:-
+==================
+-->Java was developed by James Gosling and his team (Mike shredding, park Naughton) at "Sun Microsystems INC" in the year 1991.
+-->James Gosling is also known as Father of the java.
+-->Initially, James Gosling call it as "Green Talk" with the file extension as ".gt"
+-->Later on it is renamed as "OAK" and again it is renamed as "java" in the year 1995 , because "oak" is already a trademark by the "oak Technologies".
+-->"java is a island in Indonesia where a first coffee was produced."
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+Definition of Java (or) What is Java:-
 =====================================
 -->java is a simple , High-level, secure, platform independent, Robust and Object oriented programming language used for developing Both Standalone and Web(internet) Applications.
 -->java is case sensitive programming language.
@@ -57,20 +71,14 @@ Why java or what is the Main Objective of java:-
 WHY CORE JAVA:-
 ---------------
 -->To Develop the bussiness logics.
----------------------------------------------------------------------------------------------------------------------------------------------------------------
-HISTORY OF JAVA:-
-=================
--->Java history was started with the Green Team.
--->The Green Team started a project to develop a language for digital devices such as Television.
--->It works on Internet Programming.
----------------------------------------------------------------------------------------------------------------------------------------------------------------
-CREATION OF JAVA:-
-==================
--->Java was developed by James Gosling and his team (Mike shredding, park Naughton) at "Sun Microsystems INC" in the year 1991.
--->James Gosling is also known as Father of the java.
--->Initially, James Gosling call it as "Green Talk" with the file extension as ".gt"
--->Later on it is renamed as "OAK" and again it is renamed as "java" in the year 1995 , because "oak" is already a trademark by the "oak Technologies".
--->"java is a island in Indonesia where a first coffee was produced."
+
+WHAT IS PROGRAM:-
+-----------------
+-->A Passive set of instructions written in programming language like java that tells computer what to do.
+
+WHAT IS PROCESS:-
+-----------------
+-->A running instance of a program is nothing but a process.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 Java Divided into Three Categories:-
 -------------------------------------
@@ -2481,6 +2489,7 @@ BEFORE JAVA 25 VERSION  (VS)   AFTER JAVA 25 VERSION:-
                System.out.println("Hello");
             }          
 ===============================================================================================================================================================
+
 
 
 
